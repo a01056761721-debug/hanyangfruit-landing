@@ -64,8 +64,8 @@ export default function FloatingNav({ items }: FloatingNavProps) {
             aria-label={item.ariaLabel}
             aria-expanded={isExpanded || undefined}
             onClick={handleClick(item.id)}
-            className={`inline-flex h-9 items-center justify-center gap-1.5 overflow-hidden rounded-full bg-red-600 text-xs font-black text-white shadow-xl shadow-red-900/25 ring-2 ring-white transition-all duration-200 hover:scale-105 hover:bg-red-700 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-red-200 active:scale-95 active:bg-red-800 sm:h-11 sm:w-36 sm:gap-2 sm:px-3 sm:text-sm ${
-              isExpanded ? "w-28 px-3" : "w-9 px-0"
+            className={`inline-flex h-9 items-center justify-center overflow-hidden rounded-full bg-red-600 text-xs font-black text-white shadow-xl shadow-red-900/25 ring-2 ring-white transition-all duration-200 hover:scale-105 hover:bg-red-700 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-red-200 active:scale-95 active:bg-red-800 sm:h-11 sm:w-36 sm:gap-2 sm:px-3 sm:text-sm ${
+              isExpanded ? "w-28 gap-1.5 px-3" : "w-9 gap-0 px-0"
             } [&_svg]:h-4 [&_svg]:w-4 sm:[&_svg]:!h-5 sm:[&_svg]:!w-5`}
           >
             <span
