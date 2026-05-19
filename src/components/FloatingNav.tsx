@@ -16,8 +16,18 @@ type FloatingNavProps = {
   items: FloatingNavItem[];
 };
 
-/** 이모지/아이콘 ↔ 글 사이 간격 — 모든 버튼 동일 (4px) */
-const ICON_LABEL_GAP = "gap-1";
+/** 상품보기·주문방법·배송지역 — 이모지↔글 간격 동일 (8px) */
+const MAIN_NAV_ITEM_IDS = ["products", "order-method", "delivery-areas"] as const;
+const MAIN_NAV_ICON_LABEL_GAP = "gap-2";
+
+/** 인스타·유튜브 등 나머지 (4px) */
+const DEFAULT_ICON_LABEL_GAP = "gap-1";
+
+function iconLabelGapClass(itemId: string) {
+  return MAIN_NAV_ITEM_IDS.includes(itemId as (typeof MAIN_NAV_ITEM_IDS)[number])
+    ? MAIN_NAV_ICON_LABEL_GAP
+    : DEFAULT_ICON_LABEL_GAP;
+}
 
 /** 아이콘/이모지가 차지하는 칸 — 모든 버튼 동일 크기 */
 const ICON_SLOT_CLASS =
@@ -27,7 +37,8 @@ const ICON_SLOT_CLASS =
  * 우측 중앙에 고정되는 빠른 이동 네비.
  * - 모바일(sm 미만): 평소엔 이모지/아이콘만 보이는 원형 버튼. 한 번 탭하면 라벨이 펼쳐지고,
  *   같은 버튼을 다시 탭하면 해당 섹션으로 이동합니다.
- * - PC(sm 이상): gap-1(4px)로 아이콘+글을 붙인 뒤 버튼 안에서 가운데 정렬.
+ * - PC(sm 이상): 아이콘+글을 붙인 뒤 버튼 안에서 가운데 정렬.
+ *   상품보기/주문방법/배송지역은 이모지↔글 gap-2(8px), 나머지는 gap-1(4px).
  */
 export default function FloatingNav({ items }: FloatingNavProps) {
   const [expandedId, setExpandedId] = useState<string | null>(null);
@@ -62,6 +73,9 @@ export default function FloatingNav({ items }: FloatingNavProps) {
     >
       {items.map((item) => {
         const isExpanded = expandedId === item.id;
+        const itemGap = iconLabelGapClass(item.id);
+        const smGapClass =
+          itemGap === MAIN_NAV_ICON_LABEL_GAP ? "sm:gap-2" : "sm:gap-1";
         return (
           <Link
             key={item.id}
@@ -77,8 +91,8 @@ export default function FloatingNav({ items }: FloatingNavProps) {
           >
             <span
               className={`inline-flex shrink-0 items-center justify-center ${
-                isExpanded ? `${ICON_LABEL_GAP} w-full` : "gap-0"
-              } sm:gap-1`}
+                isExpanded ? `${itemGap} w-full` : "gap-0"
+              } ${smGapClass}`}
             >
               <span aria-hidden className={ICON_SLOT_CLASS}>
                 {item.icon}
