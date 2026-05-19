@@ -2,6 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 import DeliveryMapArrowsBackdrop from "@/components/DeliveryMapArrowsBackdrop";
 import EmpathyImageSlideshow from "@/components/EmpathyImageSlideshow";
+import FloatingNav, {
+  InstagramIcon as FloatingInstagramIcon,
+  YouTubeIcon as FloatingYouTubeIcon,
+} from "@/components/FloatingNav";
 import HeroBackgroundVideo from "@/components/HeroBackgroundVideo";
 import OrderStepsCarousel from "@/components/OrderStepsCarousel";
 import ProductShowcase from "@/components/ProductShowcase";
@@ -71,49 +75,6 @@ const GANGNAM_SEOCHO_OPEN_CHAT_URL = "https://open.kakao.com/o/gW8k0Hih";
 const YONGSAN_YEOUIDO_OPEN_CHAT_URL = "https://open.kakao.com/o/gHCAkteh";
 const INSTAGRAM_URL = "https://www.instagram.com/hanyangfruit/";
 const YOUTUBE_URL = "https://www.youtube.com/@%EA%B3%BC%EC%9D%BC%EB%89%B4%EC%8A%A4-u5j";
-
-const FLOATING_NAV_BUTTON_CLASS =
-  "inline-flex h-9 w-28 items-center justify-center gap-1.5 rounded-full bg-red-600 px-2 text-xs font-black text-white shadow-xl shadow-red-900/25 ring-2 ring-white transition hover:scale-105 hover:bg-red-700 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-red-200 active:scale-95 active:bg-red-800 sm:h-11 sm:w-36 sm:gap-2 sm:px-3 sm:text-sm";
-
-function InstagramIcon() {
-  return (
-    <svg
-      aria-hidden
-      viewBox="0 0 24 24"
-      className="h-5 w-5 shrink-0 sm:h-6 sm:w-6"
-      fill="none"
-    >
-      <rect
-        x="4"
-        y="4"
-        width="16"
-        height="16"
-        rx="4.5"
-        stroke="currentColor"
-        strokeWidth="2"
-      />
-      <circle cx="12" cy="12" r="3.6" stroke="currentColor" strokeWidth="2" />
-      <circle cx="17" cy="7" r="1.1" fill="currentColor" />
-    </svg>
-  );
-}
-
-function YouTubeIcon() {
-  return (
-    <svg
-      aria-hidden
-      viewBox="0 0 24 24"
-      className="h-6 w-6 shrink-0 sm:h-7 sm:w-7"
-      fill="none"
-    >
-      <path
-        d="M21 8.2c-.2-1.2-.9-2-2.1-2.2C17.2 5.6 12 5.6 12 5.6s-5.2 0-6.9.4C3.9 6.2 3.2 7 3 8.2 2.7 10 2.7 12 2.7 12s0 2 .3 3.8c.2 1.2.9 2 2.1 2.2 1.7.4 6.9.4 6.9.4s5.2 0 6.9-.4c1.2-.2 1.9-1 2.1-2.2.3-1.8.3-3.8.3-3.8s0-2-.3-3.8Z"
-        fill="currentColor"
-      />
-      <path d="M10.1 14.7V9.3l5 2.7-5 2.7Z" fill="#dc2626" />
-    </svg>
-  );
-}
 
 function AreaChatButton({ href }: { href: string }) {
   return (
@@ -204,52 +165,47 @@ export default function HanyangLanding() {
   return (
     <div className="relative isolate flex min-h-screen flex-col overflow-x-hidden bg-white">
       <ScrollRevealController />
-      <div className="fixed right-2.5 top-1/2 z-50 flex -translate-y-1/2 flex-col items-end gap-1.5 sm:right-5 sm:gap-2">
-        <Link
-          href="#products"
-          aria-label="상품소개 섹션으로 이동"
-          className={FLOATING_NAV_BUTTON_CLASS}
-        >
-          <span aria-hidden className="text-sm leading-none sm:text-base">🧺</span>
-          <span>상품보기</span>
-        </Link>
-        <Link
-          href="#order-method"
-          aria-label="주문방법 섹션으로 이동"
-          className={FLOATING_NAV_BUTTON_CLASS}
-        >
-          <span aria-hidden className="text-sm leading-none sm:text-base">📝</span>
-          <span>주문방법</span>
-        </Link>
-        <Link
-          href="#delivery-areas"
-          aria-label="배송지역 섹션으로 이동"
-          className={FLOATING_NAV_BUTTON_CLASS}
-        >
-          <span aria-hidden className="text-sm leading-none sm:text-base">🚚</span>
-          <span>배송지역</span>
-        </Link>
-        <Link
-          href={INSTAGRAM_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="한양과일 인스타그램으로 이동"
-          className={`${FLOATING_NAV_BUTTON_CLASS} [&_svg]:h-4 [&_svg]:w-4 sm:[&_svg]:h-5 sm:[&_svg]:w-5`}
-        >
-          <InstagramIcon />
-          <span>Instagram</span>
-        </Link>
-        <Link
-          href={YOUTUBE_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="한양과일 유튜브 채널로 이동"
-          className={`${FLOATING_NAV_BUTTON_CLASS} [&_svg]:h-4 [&_svg]:w-4 sm:[&_svg]:h-6 sm:[&_svg]:w-6`}
-        >
-          <YouTubeIcon />
-          <span>YouTube</span>
-        </Link>
-      </div>
+      <FloatingNav
+        items={[
+          {
+            id: "products",
+            href: "#products",
+            label: "상품보기",
+            ariaLabel: "상품소개 섹션으로 이동",
+            icon: "🧺",
+          },
+          {
+            id: "order-method",
+            href: "#order-method",
+            label: "주문방법",
+            ariaLabel: "주문방법 섹션으로 이동",
+            icon: "📝",
+          },
+          {
+            id: "delivery-areas",
+            href: "#delivery-areas",
+            label: "배송지역",
+            ariaLabel: "배송지역 섹션으로 이동",
+            icon: "🚚",
+          },
+          {
+            id: "instagram",
+            href: INSTAGRAM_URL,
+            label: "Instagram",
+            ariaLabel: "한양과일 인스타그램으로 이동",
+            icon: <FloatingInstagramIcon />,
+            external: true,
+          },
+          {
+            id: "youtube",
+            href: YOUTUBE_URL,
+            label: "YouTube",
+            ariaLabel: "한양과일 유튜브 채널로 이동",
+            icon: <FloatingYouTubeIcon />,
+            external: true,
+          },
+        ]}
+      />
       <div className="relative z-10 flex flex-col flex-1 bg-white">
       {/* 로고 + 히어로 — 전면 배경 영상 + 어두운 오버레이(레퍼런스형) */}
       <header className="relative isolate w-full overflow-hidden">
