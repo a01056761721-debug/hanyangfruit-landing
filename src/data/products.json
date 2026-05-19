@@ -1,0 +1,469 @@
+{
+  "$comment": "한양과일 상품 데이터. 이 파일만 수정하시면 사이트에 자동으로 반영됩니다. 자세한 사용법은 docs/CONTENT-GUIDE.md 참고.",
+  "categories": [
+    {
+      "name": "과일",
+      "description": "매일 새벽 직접 맛보고 고른 과일만 골라 소개해드려요",
+      "products": [
+        {
+          "title": "[당일선별] 한입에 톡 터지는 방울토마토",
+          "imageSrc": "/products/fruit-01.png",
+          "imageAlt": "손바닥 위 방울토마토",
+          "soldCount": "218,991",
+          "originalPrice": "29,900원",
+          "discountRate": "53%",
+          "price": "13,900원",
+          "rating": "4.8",
+          "reviewCount": "8,079"
+        },
+        {
+          "title": "[특가할인] 시원하고 달콤한 고당도 수박",
+          "imageSrc": "/products/fruit-02.png",
+          "imageAlt": "박스에 담긴 고당도 수박",
+          "soldCount": "57,585",
+          "originalPrice": "39,900원",
+          "discountRate": "45%",
+          "price": "21,900원",
+          "rating": "4.7",
+          "reviewCount": "5,894"
+        },
+        {
+          "title": "[새벽경매] 부드럽고 달콤한 프리미엄 멜론",
+          "imageSrc": "/products/fruit-03.png",
+          "imageAlt": "손에 든 프리미엄 멜론",
+          "soldCount": "42,318",
+          "originalPrice": "32,900원",
+          "discountRate": "39%",
+          "price": "19,900원",
+          "rating": "4.9",
+          "reviewCount": "3,612"
+        },
+        {
+          "title": "[직접검수] 아삭하고 신선한 특품 오이",
+          "imageSrc": "/products/fruit-04.png",
+          "imageAlt": "박스에 담긴 신선한 오이",
+          "soldCount": "35,704",
+          "originalPrice": "24,900원",
+          "discountRate": "36%",
+          "price": "15,900원",
+          "rating": "4.8",
+          "reviewCount": "2,947"
+        },
+        {
+          "title": "[산지직송] 싱싱하게 들어온 국산 양상추",
+          "imageSrc": "/products/fruit-05.png",
+          "imageAlt": "포장된 국산 양상추",
+          "soldCount": "29,438",
+          "originalPrice": "26,900원",
+          "discountRate": "33%",
+          "price": "17,900원",
+          "rating": "4.8",
+          "reviewCount": "2,118"
+        },
+        {
+          "title": "[아침입고] 노랗게 익은 성주 참외",
+          "imageSrc": "/products/fruit-06.png",
+          "imageAlt": "박스에 담긴 성주 참외",
+          "soldCount": "24,881",
+          "originalPrice": "18,900원",
+          "discountRate": "37%",
+          "price": "11,900원",
+          "rating": "4.7",
+          "reviewCount": "1,892"
+        },
+        {
+          "title": "[고당도보장] 알알이 싱싱한 청포도",
+          "imageSrc": "/products/fruit-07.png",
+          "imageAlt": "포장지 위 청포도",
+          "soldCount": "21,604",
+          "originalPrice": "31,900원",
+          "discountRate": "31%",
+          "price": "21,900원",
+          "rating": "4.8",
+          "reviewCount": "1,566"
+        },
+        {
+          "title": "[선물추천] 달콤한 프리미엄 복숭아",
+          "imageSrc": "/products/fruit-08.png",
+          "imageAlt": "손바닥 위 프리미엄 복숭아",
+          "soldCount": "17,236",
+          "originalPrice": "35,900원",
+          "discountRate": "28%",
+          "price": "25,900원",
+          "rating": "4.9",
+          "reviewCount": "1,084"
+        },
+        {
+          "title": "[오늘특가] 탱글한 국산 블루베리",
+          "imageSrc": "/products/fruit-09.png",
+          "imageAlt": "컵에 담긴 국산 블루베리",
+          "soldCount": "15,917",
+          "originalPrice": "27,900원",
+          "discountRate": "32%",
+          "price": "18,900원",
+          "rating": "4.8",
+          "reviewCount": "943"
+        },
+        {
+          "title": "[프리미엄] 상큼한 생 레몬",
+          "imageSrc": "/products/fruit-10.png",
+          "imageAlt": "손바닥 위 생 레몬",
+          "soldCount": "12,408",
+          "originalPrice": "22,900원",
+          "discountRate": "31%",
+          "price": "15,900원",
+          "rating": "4.7",
+          "reviewCount": "821"
+        }
+      ]
+    },
+    {
+      "name": "야채",
+      "description": "매일 식탁에 올라가는 신선한 야채를 꼼꼼히 골라 소개해드려요",
+      "products": [
+        {
+          "title": "[새벽입고] 아삭하고 신선한 특품 오이",
+          "imageSrc": "https://images.unsplash.com/photo-1604977042946-1eecc30f269e?auto=format&fit=crop&w=900&q=85",
+          "imageAlt": "신선한 오이",
+          "soldCount": "31,284",
+          "originalPrice": "19,900원",
+          "discountRate": "30%",
+          "price": "13,900원",
+          "rating": "4.8",
+          "reviewCount": "1,204"
+        },
+        {
+          "title": "[직접검수] 싱싱한 국산 양상추",
+          "imageSrc": "https://images.unsplash.com/photo-1556801712-76c8eb07bbc9?auto=format&fit=crop&w=900&q=85",
+          "imageAlt": "국산 양상추",
+          "soldCount": "24,716",
+          "originalPrice": "17,900원",
+          "discountRate": "28%",
+          "price": "12,900원",
+          "rating": "4.8",
+          "reviewCount": "986"
+        },
+        {
+          "title": "[오늘추천] 단단하고 달큰한 완숙 토마토",
+          "imageSrc": "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?auto=format&fit=crop&w=900&q=85",
+          "imageAlt": "완숙 토마토",
+          "soldCount": "22,109",
+          "originalPrice": "24,900원",
+          "discountRate": "32%",
+          "price": "16,900원",
+          "rating": "4.9",
+          "reviewCount": "1,148"
+        },
+        {
+          "title": "[매일검수] 향이 좋은 신선한 깻잎",
+          "imageSrc": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=900&q=85",
+          "imageAlt": "신선한 잎채소",
+          "soldCount": "18,603",
+          "originalPrice": "12,900원",
+          "discountRate": "31%",
+          "price": "8,900원",
+          "rating": "4.7",
+          "reviewCount": "754"
+        },
+        {
+          "title": "[식탁필수] 아삭한 국산 파프리카",
+          "imageSrc": "https://images.unsplash.com/photo-1563565375-f3fdfdbefa83?auto=format&fit=crop&w=900&q=85",
+          "imageAlt": "파프리카",
+          "soldCount": "15,912",
+          "originalPrice": "21,900원",
+          "discountRate": "27%",
+          "price": "15,900원",
+          "rating": "4.8",
+          "reviewCount": "623"
+        },
+        {
+          "title": "[싱싱보장] 국산 애호박",
+          "imageSrc": "https://images.unsplash.com/photo-1590165482129-1b8b27698780?auto=format&fit=crop&w=900&q=85",
+          "imageAlt": "애호박",
+          "soldCount": "12,736",
+          "originalPrice": "13,900원",
+          "discountRate": "29%",
+          "price": "9,900원",
+          "rating": "4.7",
+          "reviewCount": "508"
+        },
+        {
+          "title": "[아침입고] 향긋한 대파 한 단",
+          "imageSrc": "https://images.unsplash.com/photo-1622206151226-18ca2c9ab4a1?auto=format&fit=crop&w=900&q=85",
+          "imageAlt": "대파",
+          "soldCount": "11,584",
+          "originalPrice": "10,900원",
+          "discountRate": "28%",
+          "price": "7,900원",
+          "rating": "4.8",
+          "reviewCount": "431"
+        },
+        {
+          "title": "[당일선별] 포슬포슬 감자",
+          "imageSrc": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=900&q=85",
+          "imageAlt": "감자",
+          "soldCount": "10,293",
+          "originalPrice": "18,900원",
+          "discountRate": "26%",
+          "price": "13,900원",
+          "rating": "4.7",
+          "reviewCount": "389"
+        },
+        {
+          "title": "[요리추천] 달큰한 햇양파",
+          "imageSrc": "https://images.unsplash.com/photo-1508747703725-719777637510?auto=format&fit=crop&w=900&q=85",
+          "imageAlt": "양파",
+          "soldCount": "9,621",
+          "originalPrice": "16,900원",
+          "discountRate": "30%",
+          "price": "11,900원",
+          "rating": "4.8",
+          "reviewCount": "312"
+        },
+        {
+          "title": "[신선포장] 샐러드용 채소 꾸러미",
+          "imageSrc": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=85",
+          "imageAlt": "샐러드 채소",
+          "soldCount": "8,904",
+          "originalPrice": "25,900원",
+          "discountRate": "31%",
+          "price": "17,900원",
+          "rating": "4.8",
+          "reviewCount": "276"
+        }
+      ]
+    },
+    {
+      "name": "정육",
+      "description": "좋은 식재료 기준으로 고른 신선한 정육 상품을 소개해드려요",
+      "products": [
+        {
+          "title": "[한정입고] 신선한 한우 등심 구이용",
+          "imageSrc": "https://images.unsplash.com/photo-1603048297172-c92544798d5a?auto=format&fit=crop&w=900&q=85",
+          "imageAlt": "한우 등심",
+          "soldCount": "13,482",
+          "originalPrice": "69,900원",
+          "discountRate": "29%",
+          "price": "49,900원",
+          "rating": "4.9",
+          "reviewCount": "918"
+        },
+        {
+          "title": "[오늘추천] 부드러운 삼겹살 구이용",
+          "imageSrc": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?auto=format&fit=crop&w=900&q=85",
+          "imageAlt": "삼겹살",
+          "soldCount": "12,906",
+          "originalPrice": "32,900원",
+          "discountRate": "30%",
+          "price": "22,900원",
+          "rating": "4.8",
+          "reviewCount": "842"
+        },
+        {
+          "title": "[신선포장] 담백한 목살 스테이크용",
+          "imageSrc": "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?auto=format&fit=crop&w=900&q=85",
+          "imageAlt": "목살",
+          "soldCount": "10,755",
+          "originalPrice": "29,900원",
+          "discountRate": "27%",
+          "price": "21,900원",
+          "rating": "4.8",
+          "reviewCount": "633"
+        },
+        {
+          "title": "[국거리추천] 깊은 맛 한우 양지",
+          "imageSrc": "https://images.unsplash.com/photo-1551028150-64b9f398f678?auto=format&fit=crop&w=900&q=85",
+          "imageAlt": "한우 양지",
+          "soldCount": "8,934",
+          "originalPrice": "42,900원",
+          "discountRate": "28%",
+          "price": "30,900원",
+          "rating": "4.8",
+          "reviewCount": "512"
+        },
+        {
+          "title": "[아이반찬] 부드러운 소불고기용",
+          "imageSrc": "https://images.unsplash.com/photo-1615937657715-bc7b4b7962c1?auto=format&fit=crop&w=900&q=85",
+          "imageAlt": "소불고기용 고기",
+          "soldCount": "8,217",
+          "originalPrice": "38,900원",
+          "discountRate": "31%",
+          "price": "26,900원",
+          "rating": "4.9",
+          "reviewCount": "466"
+        },
+        {
+          "title": "[캠핑추천] 두툼한 토마호크 스테이크",
+          "imageSrc": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=85",
+          "imageAlt": "스테이크",
+          "soldCount": "7,042",
+          "originalPrice": "79,900원",
+          "discountRate": "25%",
+          "price": "59,900원",
+          "rating": "4.8",
+          "reviewCount": "358"
+        },
+        {
+          "title": "[간편조리] 닭다리살 정육",
+          "imageSrc": "https://images.unsplash.com/photo-1604503468506-a8da13d82791?auto=format&fit=crop&w=900&q=85",
+          "imageAlt": "닭고기",
+          "soldCount": "6,581",
+          "originalPrice": "18,900원",
+          "discountRate": "26%",
+          "price": "13,900원",
+          "rating": "4.7",
+          "reviewCount": "329"
+        },
+        {
+          "title": "[구이용] 담백한 항정살",
+          "imageSrc": "https://images.unsplash.com/photo-1602470520998-f4a52199a3d6?auto=format&fit=crop&w=900&q=85",
+          "imageAlt": "구이용 고기",
+          "soldCount": "5,974",
+          "originalPrice": "36,900원",
+          "discountRate": "27%",
+          "price": "26,900원",
+          "rating": "4.8",
+          "reviewCount": "284"
+        },
+        {
+          "title": "[집밥추천] 찌개용 돼지고기",
+          "imageSrc": "https://images.unsplash.com/photo-1603048588665-791ca8aea617?auto=format&fit=crop&w=900&q=85",
+          "imageAlt": "찌개용 돼지고기",
+          "soldCount": "5,418",
+          "originalPrice": "22,900원",
+          "discountRate": "31%",
+          "price": "15,900원",
+          "rating": "4.7",
+          "reviewCount": "241"
+        },
+        {
+          "title": "[프리미엄] 숙성 스테이크 세트",
+          "imageSrc": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=85",
+          "imageAlt": "숙성 스테이크",
+          "soldCount": "4,803",
+          "originalPrice": "89,900원",
+          "discountRate": "28%",
+          "price": "64,900원",
+          "rating": "4.9",
+          "reviewCount": "198"
+        }
+      ]
+    },
+    {
+      "name": "공구",
+      "description": "과일처럼 직접 먹어보고 고른 좋은 퀄리티의 공구상품 소개해드려요",
+      "products": [
+        {
+          "title": "[공구특가] 산지직송 고당도 골드키위 한 박스",
+          "imageSrc": "https://images.unsplash.com/photo-1585059895524-72359e06133a?auto=format&fit=crop&w=900&q=85",
+          "imageAlt": "반으로 자른 골드키위",
+          "soldCount": "18,402",
+          "originalPrice": "34,900원",
+          "discountRate": "43%",
+          "price": "19,900원",
+          "rating": "4.8",
+          "reviewCount": "1,284"
+        },
+        {
+          "title": "[오늘마감] 프리미엄 체리 공동구매 500g",
+          "imageSrc": "https://images.unsplash.com/photo-1528821154947-1aa3d1b74941?auto=format&fit=crop&w=900&q=85",
+          "imageAlt": "그릇에 담긴 체리",
+          "soldCount": "14,827",
+          "originalPrice": "28,900원",
+          "discountRate": "38%",
+          "price": "17,900원",
+          "rating": "4.9",
+          "reviewCount": "987"
+        },
+        {
+          "title": "[한정수량] 과일 선물세트 공구 예약",
+          "imageSrc": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?auto=format&fit=crop&w=900&q=85",
+          "imageAlt": "다양한 과일이 담긴 선물 세트",
+          "soldCount": "9,631",
+          "originalPrice": "59,900원",
+          "discountRate": "33%",
+          "price": "39,900원",
+          "rating": "4.8",
+          "reviewCount": "742"
+        },
+        {
+          "title": "[묶음공구] 매일 먹는 제철 과일 랜덤박스",
+          "imageSrc": "https://images.unsplash.com/photo-1619566636858-adf3ef46400b?auto=format&fit=crop&w=900&q=85",
+          "imageAlt": "상자에 담긴 여러 과일",
+          "soldCount": "7,214",
+          "originalPrice": "49,900원",
+          "discountRate": "40%",
+          "price": "29,900원",
+          "rating": "4.7",
+          "reviewCount": "615"
+        },
+        {
+          "title": "[공구진행] 프리미엄 애플망고 예약",
+          "imageSrc": "https://images.unsplash.com/photo-1601493700631-2b16ec4b4716?auto=format&fit=crop&w=900&q=85",
+          "imageAlt": "애플망고",
+          "soldCount": "6,902",
+          "originalPrice": "64,900원",
+          "discountRate": "35%",
+          "price": "41,900원",
+          "rating": "4.9",
+          "reviewCount": "542"
+        },
+        {
+          "title": "[단체공구] 사무실 간식 과일컵 세트",
+          "imageSrc": "https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?auto=format&fit=crop&w=900&q=85",
+          "imageAlt": "과일컵과 다양한 과일",
+          "soldCount": "5,884",
+          "originalPrice": "39,900원",
+          "discountRate": "30%",
+          "price": "27,900원",
+          "rating": "4.8",
+          "reviewCount": "488"
+        },
+        {
+          "title": "[주말공구] 가족용 과일 꾸러미",
+          "imageSrc": "https://images.unsplash.com/photo-1610832958506-aa56368172cf?auto=format&fit=crop&w=900&q=85",
+          "imageAlt": "다양한 과일 모음",
+          "soldCount": "5,127",
+          "originalPrice": "44,900원",
+          "discountRate": "33%",
+          "price": "29,900원",
+          "rating": "4.7",
+          "reviewCount": "392"
+        },
+        {
+          "title": "[예약공구] 고급 과일 답례품 패키지",
+          "imageSrc": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=900&q=85",
+          "imageAlt": "정갈하게 진열된 과일",
+          "soldCount": "4,603",
+          "originalPrice": "79,900원",
+          "discountRate": "31%",
+          "price": "54,900원",
+          "rating": "4.8",
+          "reviewCount": "351"
+        },
+        {
+          "title": "[타임공구] 알뜰 제철 과일 박스",
+          "imageSrc": "https://images.unsplash.com/photo-1615484477778-ca3b77940c25?auto=format&fit=crop&w=900&q=85",
+          "imageAlt": "박스에 담긴 과일",
+          "soldCount": "3,918",
+          "originalPrice": "36,900원",
+          "discountRate": "38%",
+          "price": "22,900원",
+          "rating": "4.7",
+          "reviewCount": "286"
+        },
+        {
+          "title": "[앵콜공구] 고객 요청 재입고 과일세트",
+          "imageSrc": "https://images.unsplash.com/photo-1519996529931-28324d5a630e?auto=format&fit=crop&w=900&q=85",
+          "imageAlt": "접시에 담긴 여러 과일",
+          "soldCount": "3,402",
+          "originalPrice": "52,900원",
+          "discountRate": "34%",
+          "price": "34,900원",
+          "rating": "4.8",
+          "reviewCount": "244"
+        }
+      ]
+    }
+  ]
+}

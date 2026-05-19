@@ -1,0 +1,8 @@
+{
+  "$comment": "사이트 전반에 사용되는 영상/사진 경로 설정. 자세한 사용법은 docs/CONTENT-GUIDE.md 참고.",
+  "media": {
+    "heroVideo": "/videos/hero-bg-v2.mp4",
+    "differenceVideo": "/videos/hanyang-difference.mp4",
+    "founderImage": "/people/hanyang-owner-v2.png"
+  }
+}
