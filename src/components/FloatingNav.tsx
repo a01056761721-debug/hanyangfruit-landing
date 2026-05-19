@@ -70,7 +70,7 @@ export default function FloatingNav({ items }: FloatingNavProps) {
           >
             <span
               aria-hidden
-              className="flex shrink-0 items-center justify-center text-sm leading-none sm:text-base"
+              className="flex h-4 w-4 shrink-0 items-center justify-center text-sm leading-none sm:h-5 sm:w-5 sm:text-base"
             >
               {item.icon}
             </span>
