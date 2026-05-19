@@ -72,6 +72,9 @@ const YONGSAN_YEOUIDO_OPEN_CHAT_URL = "https://open.kakao.com/o/gHCAkteh";
 const INSTAGRAM_URL = "https://www.instagram.com/hanyangfruit/";
 const YOUTUBE_URL = "https://www.youtube.com/@%EA%B3%BC%EC%9D%BC%EB%89%B4%EC%8A%A4-u5j";
 
+const FLOATING_NAV_BUTTON_CLASS =
+  "inline-flex h-9 w-28 items-center justify-center gap-1.5 rounded-full bg-red-600 px-2 text-xs font-black text-white shadow-xl shadow-red-900/25 ring-2 ring-white transition hover:scale-105 hover:bg-red-700 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-red-200 active:scale-95 active:bg-red-800 sm:h-11 sm:w-36 sm:gap-2 sm:px-3 sm:text-sm";
+
 function InstagramIcon() {
   return (
     <svg
@@ -205,7 +208,7 @@ export default function HanyangLanding() {
         <Link
           href="#products"
           aria-label="상품소개 섹션으로 이동"
-          className="inline-flex h-9 items-center justify-center gap-1.5 rounded-full bg-red-600 px-3 text-xs font-black text-white shadow-xl shadow-red-900/25 ring-2 ring-white transition hover:scale-105 hover:bg-red-700 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-red-200 active:scale-95 active:bg-red-800 sm:h-11 sm:gap-2 sm:px-4 sm:text-sm"
+          className={FLOATING_NAV_BUTTON_CLASS}
         >
           <span aria-hidden className="text-sm leading-none sm:text-base">🧺</span>
           <span>상품보기</span>
@@ -213,7 +216,7 @@ export default function HanyangLanding() {
         <Link
           href="#order-method"
           aria-label="주문방법 섹션으로 이동"
-          className="inline-flex h-9 items-center justify-center gap-1.5 rounded-full bg-red-600 px-3 text-xs font-black text-white shadow-xl shadow-red-900/25 ring-2 ring-white transition hover:scale-105 hover:bg-red-700 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-red-200 active:scale-95 active:bg-red-800 sm:h-11 sm:gap-2 sm:px-4 sm:text-sm"
+          className={FLOATING_NAV_BUTTON_CLASS}
         >
           <span aria-hidden className="text-sm leading-none sm:text-base">📝</span>
           <span>주문방법</span>
@@ -221,7 +224,7 @@ export default function HanyangLanding() {
         <Link
           href="#delivery-areas"
           aria-label="배송지역 섹션으로 이동"
-          className="inline-flex h-9 items-center justify-center gap-1.5 rounded-full bg-red-600 px-3 text-xs font-black text-white shadow-xl shadow-red-900/25 ring-2 ring-white transition hover:scale-105 hover:bg-red-700 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-red-200 active:scale-95 active:bg-red-800 sm:h-11 sm:gap-2 sm:px-4 sm:text-sm"
+          className={FLOATING_NAV_BUTTON_CLASS}
         >
           <span aria-hidden className="text-sm leading-none sm:text-base">🚚</span>
           <span>배송지역</span>
@@ -231,7 +234,7 @@ export default function HanyangLanding() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="한양과일 인스타그램으로 이동"
-          className="inline-flex h-9 items-center justify-center gap-1.5 rounded-full bg-red-600 px-3 text-xs font-black text-white shadow-xl shadow-red-900/25 ring-2 ring-white transition hover:scale-105 hover:bg-red-700 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-red-200 active:scale-95 active:bg-red-800 sm:h-11 sm:gap-2 sm:px-4 sm:text-sm [&_svg]:h-4 [&_svg]:w-4 sm:[&_svg]:h-5 sm:[&_svg]:w-5"
+          className={`${FLOATING_NAV_BUTTON_CLASS} [&_svg]:h-4 [&_svg]:w-4 sm:[&_svg]:h-5 sm:[&_svg]:w-5`}
         >
           <InstagramIcon />
           <span>Instagram</span>
@@ -241,7 +244,7 @@ export default function HanyangLanding() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="한양과일 유튜브 채널로 이동"
-          className="inline-flex h-9 items-center justify-center gap-1.5 rounded-full bg-red-600 px-3 text-xs font-black text-white shadow-xl shadow-red-900/25 ring-2 ring-white transition hover:scale-105 hover:bg-red-700 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-red-200 active:scale-95 active:bg-red-800 sm:h-11 sm:gap-2 sm:px-4 sm:text-sm [&_svg]:h-4 [&_svg]:w-4 sm:[&_svg]:h-6 sm:[&_svg]:w-6"
+          className={`${FLOATING_NAV_BUTTON_CLASS} [&_svg]:h-4 [&_svg]:w-4 sm:[&_svg]:h-6 sm:[&_svg]:w-6`}
         >
           <YouTubeIcon />
           <span>YouTube</span>
