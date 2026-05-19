@@ -201,13 +201,13 @@ export default function HanyangLanding() {
   return (
     <div className="relative isolate flex min-h-screen flex-col overflow-x-hidden bg-white">
       <ScrollRevealController />
-      <div className="fixed right-3 top-1/2 z-50 flex -translate-y-1/2 flex-col items-end gap-2 sm:right-5">
+      <div className="fixed right-2.5 top-1/2 z-50 flex -translate-y-1/2 flex-col items-end gap-1.5 sm:right-5 sm:gap-2">
         <Link
           href="#products"
           aria-label="상품소개 섹션으로 이동"
-          className="group/button inline-flex h-12 w-12 items-center justify-center overflow-hidden rounded-full bg-red-600 px-0 text-sm font-black text-white shadow-xl shadow-red-900/25 ring-2 ring-white transition-all duration-300 hover:w-32 hover:scale-105 hover:bg-red-700 hover:px-3 focus-visible:w-32 focus-visible:px-3 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-red-200 active:scale-95 active:bg-red-800 sm:h-14 sm:w-14 sm:hover:w-36 sm:focus-visible:w-36"
+          className="group/button inline-flex h-9 w-9 items-center justify-center overflow-hidden rounded-full bg-red-600 px-0 text-sm font-black text-white shadow-xl shadow-red-900/25 ring-2 ring-white transition-all duration-300 hover:w-32 hover:scale-105 hover:bg-red-700 hover:px-3 focus-visible:w-32 focus-visible:px-3 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-red-200 active:scale-95 active:bg-red-800 sm:h-14 sm:w-14 sm:hover:w-36 sm:focus-visible:w-36"
         >
-          <span aria-hidden className="shrink-0 text-lg sm:text-xl">🧺</span>
+          <span aria-hidden className="shrink-0 text-sm sm:text-xl">🧺</span>
           <span className="ml-0 max-w-0 overflow-hidden whitespace-nowrap opacity-0 transition-all duration-200 group-hover/button:ml-2 group-hover/button:max-w-20 group-hover/button:opacity-100 group-focus-visible/button:ml-2 group-focus-visible/button:max-w-20 group-focus-visible/button:opacity-100">
             상품보기
           </span>
@@ -215,9 +215,9 @@ export default function HanyangLanding() {
         <Link
           href="#order-method"
           aria-label="주문방법 섹션으로 이동"
-          className="group/button inline-flex h-12 w-12 items-center justify-center overflow-hidden rounded-full bg-red-600 px-0 text-sm font-black text-white shadow-xl shadow-red-900/25 ring-2 ring-white transition-all duration-300 hover:w-32 hover:scale-105 hover:bg-red-700 hover:px-3 focus-visible:w-32 focus-visible:px-3 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-red-200 active:scale-95 active:bg-red-800 sm:h-14 sm:w-14 sm:hover:w-36 sm:focus-visible:w-36"
+          className="group/button inline-flex h-9 w-9 items-center justify-center overflow-hidden rounded-full bg-red-600 px-0 text-sm font-black text-white shadow-xl shadow-red-900/25 ring-2 ring-white transition-all duration-300 hover:w-32 hover:scale-105 hover:bg-red-700 hover:px-3 focus-visible:w-32 focus-visible:px-3 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-red-200 active:scale-95 active:bg-red-800 sm:h-14 sm:w-14 sm:hover:w-36 sm:focus-visible:w-36"
         >
-          <span aria-hidden className="shrink-0 text-lg sm:text-xl">📝</span>
+          <span aria-hidden className="shrink-0 text-sm sm:text-xl">📝</span>
           <span className="ml-0 max-w-0 overflow-hidden whitespace-nowrap opacity-0 transition-all duration-200 group-hover/button:ml-2 group-hover/button:max-w-20 group-hover/button:opacity-100 group-focus-visible/button:ml-2 group-focus-visible/button:max-w-20 group-focus-visible/button:opacity-100">
             주문방법
           </span>
@@ -225,9 +225,9 @@ export default function HanyangLanding() {
         <Link
           href="#delivery-areas"
           aria-label="배송지역 섹션으로 이동"
-          className="group/button inline-flex h-12 w-12 items-center justify-center overflow-hidden rounded-full bg-red-600 px-0 text-sm font-black text-white shadow-xl shadow-red-900/25 ring-2 ring-white transition-all duration-300 hover:w-32 hover:scale-105 hover:bg-red-700 hover:px-3 focus-visible:w-32 focus-visible:px-3 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-red-200 active:scale-95 active:bg-red-800 sm:h-14 sm:w-14 sm:hover:w-36 sm:focus-visible:w-36"
+          className="group/button inline-flex h-9 w-9 items-center justify-center overflow-hidden rounded-full bg-red-600 px-0 text-sm font-black text-white shadow-xl shadow-red-900/25 ring-2 ring-white transition-all duration-300 hover:w-32 hover:scale-105 hover:bg-red-700 hover:px-3 focus-visible:w-32 focus-visible:px-3 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-red-200 active:scale-95 active:bg-red-800 sm:h-14 sm:w-14 sm:hover:w-36 sm:focus-visible:w-36"
         >
-          <span aria-hidden className="shrink-0 text-lg sm:text-xl">🚚</span>
+          <span aria-hidden className="shrink-0 text-sm sm:text-xl">🚚</span>
           <span className="ml-0 max-w-0 overflow-hidden whitespace-nowrap opacity-0 transition-all duration-200 group-hover/button:ml-2 group-hover/button:max-w-20 group-hover/button:opacity-100 group-focus-visible/button:ml-2 group-focus-visible/button:max-w-20 group-focus-visible/button:opacity-100">
             배송지역
           </span>
@@ -237,7 +237,7 @@ export default function HanyangLanding() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="한양과일 인스타그램으로 이동"
-          className="group/button inline-flex h-12 w-12 items-center justify-center overflow-hidden rounded-full bg-red-600 px-0 text-sm font-black text-white shadow-xl shadow-red-900/25 ring-2 ring-white transition-all duration-300 hover:w-32 hover:scale-105 hover:bg-red-700 hover:px-3 focus-visible:w-32 focus-visible:px-3 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-red-200 active:scale-95 active:bg-red-800 sm:h-14 sm:w-14 sm:hover:w-36 sm:focus-visible:w-36"
+          className="group/button inline-flex h-9 w-9 items-center justify-center overflow-hidden rounded-full bg-red-600 px-0 text-sm font-black text-white shadow-xl shadow-red-900/25 ring-2 ring-white transition-all duration-300 hover:w-32 hover:scale-105 hover:bg-red-700 hover:px-3 focus-visible:w-32 focus-visible:px-3 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-red-200 active:scale-95 active:bg-red-800 sm:h-14 sm:w-14 sm:hover:w-36 sm:focus-visible:w-36 [&_svg]:h-4 [&_svg]:w-4 sm:[&_svg]:h-6 sm:[&_svg]:w-6"
         >
           <InstagramIcon />
           <span className="ml-0 max-w-0 overflow-hidden whitespace-nowrap opacity-0 transition-all duration-200 group-hover/button:ml-2 group-hover/button:max-w-24 group-hover/button:opacity-100 group-focus-visible/button:ml-2 group-focus-visible/button:max-w-24 group-focus-visible/button:opacity-100">
@@ -249,7 +249,7 @@ export default function HanyangLanding() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="한양과일 유튜브 채널로 이동"
-          className="group/button inline-flex h-12 w-12 items-center justify-center overflow-hidden rounded-full bg-red-600 px-0 text-sm font-black text-white shadow-xl shadow-red-900/25 ring-2 ring-white transition-all duration-300 hover:w-32 hover:scale-105 hover:bg-red-700 hover:px-3 focus-visible:w-32 focus-visible:px-3 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-red-200 active:scale-95 active:bg-red-800 sm:h-14 sm:w-14 sm:hover:w-36 sm:focus-visible:w-36"
+          className="group/button inline-flex h-9 w-9 items-center justify-center overflow-hidden rounded-full bg-red-600 px-0 text-sm font-black text-white shadow-xl shadow-red-900/25 ring-2 ring-white transition-all duration-300 hover:w-32 hover:scale-105 hover:bg-red-700 hover:px-3 focus-visible:w-32 focus-visible:px-3 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-red-200 active:scale-95 active:bg-red-800 sm:h-14 sm:w-14 sm:hover:w-36 sm:focus-visible:w-36 [&_svg]:h-4 [&_svg]:w-4 sm:[&_svg]:h-7 sm:[&_svg]:w-7"
         >
           <YouTubeIcon />
           <span className="ml-0 max-w-0 overflow-hidden whitespace-nowrap opacity-0 transition-all duration-200 group-hover/button:ml-2 group-hover/button:max-w-24 group-hover/button:opacity-100 group-focus-visible/button:ml-2 group-focus-visible/button:max-w-24 group-focus-visible/button:opacity-100">

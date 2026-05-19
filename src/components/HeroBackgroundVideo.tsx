@@ -11,19 +11,27 @@ type HeroBackgroundVideoProps = {
 
 /**
  * 히어로 섹션 전체를 덮는 무음 루프 배경 영상(포스터 폴백).
+ * iOS Safari 등 모바일에서도 안정적으로 자동재생되도록 명시적으로 muted/play를 호출합니다.
  */
 export default function HeroBackgroundVideo({ posterSrc, posterAlt }: HeroBackgroundVideoProps) {
   const ref = useRef<HTMLVideoElement>(null);
-  const [mounted, setMounted] = useState(false);
   const [videoOk, setVideoOk] = useState(true);
 
   useEffect(() => {
-    setMounted(true);
-  }, []);
-
-  useEffect(() => {
     const el = ref.current;
-    if (!mounted || !el || !videoOk) return;
+    if (!el || !videoOk) return;
+
+    el.muted = true;
+    el.setAttribute("muted", "");
+    el.setAttribute("playsinline", "");
+    el.setAttribute("webkit-playsinline", "");
+
+    const tryPlay = () => {
+      const playPromise = el.play();
+      if (playPromise && typeof playPromise.catch === "function") {
+        playPromise.catch(() => {});
+      }
+    };
 
     const respectMotion = () => {
       const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -32,14 +40,29 @@ export default function HeroBackgroundVideo({ posterSrc, posterAlt }: HeroBackgr
         el.removeAttribute("autoplay");
         return;
       }
-      el.play().catch(() => {});
+      tryPlay();
     };
 
     respectMotion();
+
+    const handleVisibility = () => {
+      if (!document.hidden) tryPlay();
+    };
+    const handleUserGesture = () => tryPlay();
+
+    document.addEventListener("visibilitychange", handleVisibility);
+    document.addEventListener("touchstart", handleUserGesture, { once: true, passive: true });
+    document.addEventListener("click", handleUserGesture, { once: true });
+
     const mq = window.matchMedia("(prefers-reduced-motion: reduce)");
     mq.addEventListener("change", respectMotion);
-    return () => mq.removeEventListener("change", respectMotion);
-  }, [mounted, videoOk]);
+    return () => {
+      mq.removeEventListener("change", respectMotion);
+      document.removeEventListener("visibilitychange", handleVisibility);
+      document.removeEventListener("touchstart", handleUserGesture);
+      document.removeEventListener("click", handleUserGesture);
+    };
+  }, [videoOk]);
 
   return (
     <div className="pointer-events-none absolute inset-0 z-0 overflow-hidden">
@@ -53,7 +76,7 @@ export default function HeroBackgroundVideo({ posterSrc, posterAlt }: HeroBackgr
           priority
         />
       ) : null}
-      {mounted && videoOk ? (
+      {videoOk ? (
         <video
           ref={ref}
           className="absolute inset-0 z-[1] h-full w-full object-cover object-center"
@@ -61,7 +84,9 @@ export default function HeroBackgroundVideo({ posterSrc, posterAlt }: HeroBackgr
           muted
           loop
           playsInline
-          preload="metadata"
+          controls={false}
+          disablePictureInPicture
+          preload="auto"
           aria-hidden
           onError={() => setVideoOk(false)}
         >
