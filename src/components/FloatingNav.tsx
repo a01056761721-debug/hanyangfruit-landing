@@ -20,7 +20,8 @@ type FloatingNavProps = {
  * 우측 중앙에 고정되는 빠른 이동 네비.
  * - 모바일(sm 미만): 평소엔 이모지/아이콘만 보이는 원형 버튼. 한 번 탭하면 라벨이 펼쳐지고,
  *   같은 버튼을 다시 탭하면 해당 섹션으로 이동합니다.
- * - PC(sm 이상): 라벨이 항상 노출된 고정 너비의 알약 버튼.
+ * - PC(sm 이상): 라벨이 항상 노출된 고정 너비 버튼. 아이콘+텍스트 묶음은 가운데,
+ *   내부는 고정 폭 슬롯으로 아이콘 시작 위치를 모든 버튼에서 동일하게 맞춥니다.
  */
 export default function FloatingNav({ items }: FloatingNavProps) {
   const [expandedId, setExpandedId] = useState<string | null>(null);
@@ -64,24 +65,30 @@ export default function FloatingNav({ items }: FloatingNavProps) {
             aria-label={item.ariaLabel}
             aria-expanded={isExpanded || undefined}
             onClick={handleClick(item.id)}
-            className={`inline-flex h-9 items-center overflow-hidden rounded-full bg-red-600 text-xs font-black text-white shadow-xl shadow-red-900/25 ring-2 ring-white transition-all duration-200 hover:scale-105 hover:bg-red-700 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-red-200 active:scale-95 active:bg-red-800 sm:h-11 sm:w-36 sm:justify-start sm:gap-2 sm:px-3 sm:text-sm ${
+            className={`inline-flex h-9 items-center overflow-hidden rounded-full bg-red-600 text-xs font-black text-white shadow-xl shadow-red-900/25 ring-2 ring-white transition-all duration-200 hover:scale-105 hover:bg-red-700 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-red-200 active:scale-95 active:bg-red-800 sm:h-11 sm:w-36 sm:justify-center sm:px-0 sm:text-sm ${
               isExpanded
-                ? "w-28 justify-start gap-1.5 px-3"
-                : "w-9 justify-center gap-0 px-0"
+                ? "w-28 justify-start px-3"
+                : "w-9 justify-center px-0"
             } [&_svg]:h-4 [&_svg]:w-4 sm:[&_svg]:!h-5 sm:[&_svg]:!w-5`}
           >
             <span
-              aria-hidden
-              className="flex h-4 w-4 shrink-0 items-center justify-center text-sm leading-none sm:h-5 sm:w-5 sm:text-base"
+              className={`inline-flex items-center ${
+                isExpanded ? "gap-1.5" : "gap-0"
+              } sm:w-[8.75rem] sm:justify-start sm:gap-2`}
             >
-              {item.icon}
-            </span>
-            <span
-              className={`overflow-hidden whitespace-nowrap transition-all duration-200 ${
-                isExpanded ? "max-w-[80px] opacity-100" : "max-w-0 opacity-0"
-              } sm:max-w-none sm:opacity-100`}
-            >
-              {item.label}
+              <span
+                aria-hidden
+                className="flex h-4 w-5 shrink-0 items-center justify-center text-sm leading-none sm:h-5 sm:w-5 sm:text-base"
+              >
+                {item.icon}
+              </span>
+              <span
+                className={`overflow-hidden whitespace-nowrap text-left transition-all duration-200 ${
+                  isExpanded ? "max-w-[80px] opacity-100" : "max-w-0 opacity-0"
+                } sm:max-w-none sm:flex-1 sm:opacity-100`}
+              >
+                {item.label}
+              </span>
             </span>
           </Link>
         );
