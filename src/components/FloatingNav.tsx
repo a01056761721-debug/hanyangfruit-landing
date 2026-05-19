@@ -16,16 +16,21 @@ type FloatingNavProps = {
   items: FloatingNavItem[];
 };
 
-/** 상품보기·주문방법·배송지역 — 이모지↔글 간격 동일 (16px) */
-const MAIN_NAV_ITEM_IDS = ["products", "order-method", "delivery-areas"] as const;
-const MAIN_NAV_ICON_LABEL_GAP = "gap-4";
+/** 상품보기·주문방법·배송지역·유튜브 — 아이콘↔글 간격 동일 (20px) */
+const WIDE_GAP_ITEM_IDS = [
+  "products",
+  "order-method",
+  "delivery-areas",
+  "youtube",
+] as const;
+const WIDE_ICON_LABEL_GAP = "gap-5";
 
-/** 인스타·유튜브 등 나머지 (4px) */
+/** 인스타그램 등 (4px) */
 const DEFAULT_ICON_LABEL_GAP = "gap-1";
 
 function iconLabelGapClass(itemId: string) {
-  return MAIN_NAV_ITEM_IDS.includes(itemId as (typeof MAIN_NAV_ITEM_IDS)[number])
-    ? MAIN_NAV_ICON_LABEL_GAP
+  return WIDE_GAP_ITEM_IDS.includes(itemId as (typeof WIDE_GAP_ITEM_IDS)[number])
+    ? WIDE_ICON_LABEL_GAP
     : DEFAULT_ICON_LABEL_GAP;
 }
 
@@ -38,7 +43,7 @@ const ICON_SLOT_CLASS =
  * - 모바일(sm 미만): 평소엔 이모지/아이콘만 보이는 원형 버튼. 한 번 탭하면 라벨이 펼쳐지고,
  *   같은 버튼을 다시 탭하면 해당 섹션으로 이동합니다.
  * - PC(sm 이상): 아이콘+글을 붙인 뒤 버튼 안에서 가운데 정렬.
- *   상품보기/주문방법/배송지역은 이모지↔글 gap-4(16px), 나머지는 gap-1(4px).
+ *   상품보기/주문방법/배송지역/유튜브는 gap-5(20px), 인스타그램은 gap-1(4px).
  */
 export default function FloatingNav({ items }: FloatingNavProps) {
   const [expandedId, setExpandedId] = useState<string | null>(null);
@@ -75,7 +80,7 @@ export default function FloatingNav({ items }: FloatingNavProps) {
         const isExpanded = expandedId === item.id;
         const itemGap = iconLabelGapClass(item.id);
         const smGapClass =
-          itemGap === MAIN_NAV_ICON_LABEL_GAP ? "sm:gap-4" : "sm:gap-1";
+          itemGap === WIDE_ICON_LABEL_GAP ? "sm:gap-5" : "sm:gap-1";
         return (
           <Link
             key={item.id}
