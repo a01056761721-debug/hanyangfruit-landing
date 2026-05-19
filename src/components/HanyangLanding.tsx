@@ -247,7 +247,10 @@ export default function HanyangLanding() {
                   복불복 과일에 지치셨다면 한양과일로 정착하세요.
                 </p>
                 <p className="mx-auto mt-1.5 max-w-full text-pretty text-sm font-normal leading-snug text-white/90 sm:max-w-[min(100%,40rem)] sm:mt-2 sm:text-base lg:mx-0">
-                  당일 검수부터 직접 배송까지. 한양과일이 매일의 과일을 책임집니다.
+                  당일 검수부터 직접 배송까지.<br className="sm:hidden" />
+                  {" "}한양과일이<br className="sm:hidden" />
+                  {" "}매일의 과일을<br className="sm:hidden" />
+                  {" "}책임집니다.
                 </p>
 
                 {/* 히어로 칩: 칸 비율·크기 고정 유지 — `ul` max-w·`li` 높이 변경 시 네 칸 비율 함께 조정 */}
