@@ -19,11 +19,18 @@ type FloatingNavProps = {
 /** 이모지/아이콘 ↔ 글 사이 간격 — 모든 버튼 동일 (4px) */
 const ICON_LABEL_GAP = "gap-1";
 
+/** PC: 가장 긴 라벨(Instagram) 기준 고정 폭 — 버튼 가운데에 두어도 아이콘 세로줄이 어긋나지 않음 */
+const PC_INNER_ROW_CLASS = "sm:w-[8.5rem] sm:justify-start";
+
+/** 아이콘/이모지가 차지하는 칸 — 모든 버튼 동일 크기 */
+const ICON_SLOT_CLASS =
+  "flex h-4 w-4 shrink-0 items-center justify-center sm:h-5 sm:w-5 [&_svg]:h-full [&_svg]:w-full";
+
 /**
  * 우측 중앙에 고정되는 빠른 이동 네비.
  * - 모바일(sm 미만): 평소엔 이모지/아이콘만 보이는 원형 버튼. 한 번 탭하면 라벨이 펼쳐지고,
  *   같은 버튼을 다시 탭하면 해당 섹션으로 이동합니다.
- * - PC(sm 이상): 아이콘+글을 좁은 간격으로 붙인 뒤 버튼 안에서 가운데 정렬.
+ * - PC(sm 이상): gap-1(4px)로 아이콘+글을 붙이고, 동일 폭 줄을 버튼 안 가운데에 둠.
  */
 export default function FloatingNav({ items }: FloatingNavProps) {
   const [expandedId, setExpandedId] = useState<string | null>(null);
@@ -72,14 +79,11 @@ export default function FloatingNav({ items }: FloatingNavProps) {
             } [&_svg]:h-4 [&_svg]:w-4 sm:[&_svg]:!h-5 sm:[&_svg]:!w-5`}
           >
             <span
-              className={`inline-flex shrink-0 items-center justify-center ${
-                isExpanded ? ICON_LABEL_GAP : "gap-0"
-              } sm:gap-1`}
+              className={`inline-flex shrink-0 items-center justify-start ${
+                isExpanded ? `${ICON_LABEL_GAP} w-full` : "gap-0"
+              } sm:gap-1 ${PC_INNER_ROW_CLASS}`}
             >
-              <span
-                aria-hidden
-                className="flex shrink-0 items-center justify-center text-sm leading-none sm:text-base"
-              >
+              <span aria-hidden className={ICON_SLOT_CLASS}>
                 {item.icon}
               </span>
               <span
