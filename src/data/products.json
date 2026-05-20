@@ -20,57 +20,71 @@
           "price": "7,500원"
         },
         {
+          "title": "[새벽경매] 천도복숭아(1팩)",
+          "price": "8,500원",
+          "imageAlt": "천도복숭아",
+          "soldCount": "5,892",
+          "imageSrc": "/products/fruit-03.jpg"
+        },
+        {
+          "title": "[새벽경매] 데라웨어 포도(1팩)",
+          "price": "5,000원",
+          "imageAlt": "데라웨어 포도",
+          "soldCount": "5,418",
+          "imageSrc": "/products/fruit-04.jpg"
+        },
+        {
           "title": "[새벽경매] 성주 꿀 참외(5개)",
-          "imageSrc": "/products/fruit-03.jpg",
+          "imageSrc": "/products/fruit-05.jpg",
           "imageAlt": "손바닥 위 성주 꿀 참외",
           "soldCount": "5,764",
           "price": "7,500원"
         },
         {
           "title": "[새벽경매] 고당도 방울토마토(1팩)",
-          "imageSrc": "/products/fruit-04.jpg",
+          "imageSrc": "/products/fruit-06.jpg",
           "imageAlt": "통에 담긴 방울토마토",
           "soldCount": "5,291",
           "price": "6,000원"
         },
         {
           "title": "[새벽경매] JTC 태국망고(3개)",
-          "imageSrc": "/products/fruit-05.jpg",
+          "imageSrc": "/products/fruit-07.jpg",
           "imageAlt": "박스에 담긴 JTC 태국 망고",
           "soldCount": "4,856",
           "price": "10,000원"
         },
         {
           "title": "[새벽경매] 홈런메론",
-          "imageSrc": "/products/fruit-06.jpg",
+          "imageSrc": "/products/fruit-08.jpg",
           "imageAlt": "손에 든 홈런 메론",
           "soldCount": "4,392",
           "price": "9,000원"
         },
         {
           "title": "[새벽경매] 국산 블루베리(1팩)",
-          "imageSrc": "/products/fruit-07.jpg",
+          "imageSrc": "/products/fruit-09.jpg",
           "imageAlt": "통에 담긴 국산 블루베리",
           "soldCount": "3,918",
           "price": "3,500원"
         },
         {
           "title": "[새벽경매] 고당도 귤(1팩)",
-          "imageSrc": "/products/fruit-08.jpg",
+          "imageSrc": "/products/fruit-10.jpg",
           "imageAlt": "통에 담긴 고당도 귤",
           "soldCount": "3,445",
           "price": "7,500원"
         },
         {
           "title": "[새벽경매] 애플 청포도(1kg)",
-          "imageSrc": "/products/fruit-09.jpg",
+          "imageSrc": "/products/fruit-11.jpg",
           "imageAlt": "박스에 담긴 애플 청포도",
           "soldCount": "2,976",
           "price": "12,500원"
         },
         {
           "title": "[새벽경매] 산딸기(1팩)",
-          "imageSrc": "/products/fruit-10.jpg",
+          "imageSrc": "/products/fruit-12.jpg",
           "imageAlt": "통에 담긴 산딸기",
           "soldCount": "2,184",
           "price": "14,500원"
