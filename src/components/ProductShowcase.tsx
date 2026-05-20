@@ -9,7 +9,7 @@ const PRODUCTS_PER_PAGE = 4;
 const PRODUCT_INQUIRY_URL =
   "https://accounts.kakao.com/login/?continue=https%3A%2F%2Fpf.kakao.com%2F_xkxadfn%2Fchat#login";
 const PRODUCT_STOCK_NOTICE =
-  "실시간으로 재고가 달라져 재고가 없을 수도 있습니다. 문의 주시면 답변 해드리겠습니다.";
+  "당일상품이라 가격과 재고가 다를 수 있습니다. 문의 주시면 성실히 답변 해드리겠습니다.";
 
 type Product = {
   title: string;
