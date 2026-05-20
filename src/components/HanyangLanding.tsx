@@ -142,23 +142,32 @@ function HeroFeatureChipsAndCta({
   listClassName,
   ctaWrapClassName,
   ctaClassName,
+  compact = false,
 }: {
   listClassName: string;
   ctaWrapClassName: string;
   ctaClassName?: string;
+  compact?: boolean;
 }) {
+  const chipClass = compact
+    ? "flex h-[2.65rem] w-full min-w-0 shrink-0 flex-row items-center justify-center gap-0.5 rounded-md border border-white/25 bg-white/10 px-1 py-0 text-[10px] font-bold leading-tight text-white shadow-sm backdrop-blur-sm"
+    : "flex h-[3.8rem] w-full min-w-0 shrink-0 flex-row items-center justify-center gap-1 rounded-lg border border-white/25 bg-white/10 px-1.5 py-0 text-[13px] font-bold leading-snug text-white shadow-sm backdrop-blur-sm sm:h-[4.25rem] sm:gap-1.5 sm:px-2 sm:text-base";
+
   return (
     <>
       <ul className={listClassName}>
         {HERO_FEATURE_CHIPS.map((item) => (
-          <li
-            key={item.text}
-            className="flex h-[3.8rem] w-full min-w-0 shrink-0 flex-row items-center justify-center gap-1 rounded-lg border border-white/25 bg-white/10 px-1.5 py-0 text-[13px] font-bold leading-snug text-white shadow-sm backdrop-blur-sm sm:h-[4.25rem] sm:gap-1.5 sm:px-2 sm:text-base"
-          >
+          <li key={item.text} className={chipClass}>
             <span
-              className={`shrink-0 text-lg leading-none sm:text-xl ${
-                item.icon === "💎" ? "inline-block -translate-y-[0.1em]" : ""
-              }`}
+              className={
+                compact
+                  ? `shrink-0 text-sm leading-none ${
+                      item.icon === "💎" ? "inline-block -translate-y-[0.08em]" : ""
+                    }`
+                  : `shrink-0 text-lg leading-none sm:text-xl ${
+                      item.icon === "💎" ? "inline-block -translate-y-[0.1em]" : ""
+                    }`
+              }
             >
               {item.icon}
             </span>
@@ -274,7 +283,8 @@ export default function HanyangLanding() {
               </div>
             </div>
 
-            <SectionShell className="flex flex-1 flex-col justify-center !px-0 py-6 pb-4 max-sm:pb-44 sm:!px-0 sm:py-12 sm:pb-0 lg:!px-0.5 lg:py-16">
+            <div className="flex min-h-0 flex-1 flex-col max-sm:justify-between sm:contents">
+            <SectionShell className="flex min-h-0 flex-1 flex-col justify-center !px-0 py-6 pb-4 sm:!px-0 sm:py-12 sm:pb-0 lg:!px-0.5 lg:py-16">
               <div className="mx-auto w-full max-w-full text-center lg:mx-0 lg:text-left">
                 <h1 className="font-black tracking-tight text-white">
                   <span className="block text-[clamp(1.1rem,3.2vw,2.1rem)] leading-[1.2] sm:text-[clamp(1.35rem,2.9vw,2.3rem)] lg:text-[clamp(1.7rem,2.75vw,2.55rem)] lg:leading-[1.16]">
@@ -305,12 +315,15 @@ export default function HanyangLanding() {
               </div>
             </SectionShell>
 
-            {/* 모바일: 영상 위 하단부만 배치 */}
-            <div className="absolute inset-x-0 bottom-0 z-20 px-4 pb-4 sm:hidden">
+            {/* 모바일: 영상 하단 (flex로 본문과 분리) */}
+            <div className="relative z-20 shrink-0 px-3 pb-3 pt-1 sm:hidden">
               <HeroFeatureChipsAndCta
-                listClassName="mx-auto grid w-full max-w-[21rem] grid-cols-2 gap-x-1.5 gap-y-1.5"
-                ctaWrapClassName="mt-6 flex justify-center"
+                compact
+                listClassName="mx-auto grid w-full max-w-[16.5rem] grid-cols-2 gap-x-1 gap-y-1"
+                ctaWrapClassName="mt-3 flex justify-center"
+                ctaClassName="!px-4 !py-2 !text-xs shadow-md"
               />
+            </div>
             </div>
           </div>
         </div>
