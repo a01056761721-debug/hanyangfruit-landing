@@ -158,14 +158,14 @@
       "description": "좋은 식재료 기준으로 고른 신선한 정육 상품을 소개해드려요",
       "products": [
         {
-          "title": "[새벽경매] 부드러운 목살(600g)",
+          "title": "[100%암퇘지] 부드러운 목살(600g)",
           "imageSrc": "/products/meat-01.jpg",
           "imageAlt": "트레이에 담긴 목살",
           "soldCount": "5,080",
           "price": "17,500원"
         },
         {
-          "title": "[새벽경매] 제주 오겹살(600g)",
+          "title": "[100%암퇘지] 제주 오겹살(600g)",
           "imageSrc": "/products/meat-02.jpg",
           "imageAlt": "트레이에 담긴 제주 오겹살",
           "hoverImageSrc": "/products/meat-02-hover.jpg",
@@ -174,21 +174,21 @@
           "price": "18,500원"
         },
         {
-          "title": "[새벽경매] 1++ 한우 육회(300g)",
+          "title": "[1++한우] 냉장 육회(300g)",
           "imageSrc": "/products/meat-03.jpg",
           "imageAlt": "한우 육회",
           "soldCount": "1,686",
           "price": "15,500원"
         },
         {
-          "title": "[새벽경매] \"생\"차돌박이 사시미(300g)",
+          "title": "[1++한우] \"생\"차돌박이 사시미(300g)",
           "imageSrc": "/products/meat-04.jpg",
           "imageAlt": "차돌박이 사시미",
           "soldCount": "1,197",
           "price": "23,900원"
         },
         {
-          "title": "[새벽경매] 1++ 한우 등심(500g)",
+          "title": "[1++ 한우] 등심(500g)",
           "imageSrc": "/products/meat-05.jpg",
           "imageAlt": "1++ 한우 등심",
           "soldCount": "4,795",
@@ -197,21 +197,21 @@
           "price": "55,000원"
         },
         {
-          "title": "[새벽경매] 1++ 한우 국거리(300g)",
+          "title": "[1++ 한우] 국거리(300g)",
           "imageSrc": "/products/meat-06.jpg",
           "imageAlt": "1++ 한우 국거리",
           "soldCount": "5,466",
           "price": "15,000원"
         },
         {
-          "title": "[새벽경매] 한우육포(60g)",
+          "title": "[100% 한우] 육포(60g)",
           "imageSrc": "/products/meat-07.jpg",
           "imageAlt": "한우 육포",
           "soldCount": "1,630",
           "price": "5,500원"
         },
         {
-          "title": "[새벽경매] 한우매운육포(70g)",
+          "title": "[100% 한우] 매운육포(70g)",
           "imageSrc": "/products/meat-08.jpg",
           "imageAlt": "한우 매운 육포",
           "soldCount": "1,257",
