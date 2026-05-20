@@ -138,7 +138,7 @@ export default function ProductShowcase() {
                   />
                 </div>
                 <div className="mt-2 rounded bg-red-600 px-2 py-2 text-center text-[0.72rem] font-black text-white sm:text-sm">
-                  🛍️ <span className="text-white">{product.soldCount}</span>개 구매중
+                  누적판매 <span className="text-white">{product.soldCount}</span>개
                 </div>
                 <h3 className="mt-2 line-clamp-2 min-h-[2.8rem] text-[0.82rem] font-bold leading-snug text-slate-800 sm:text-base">
                   {product.title}
