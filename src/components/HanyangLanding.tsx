@@ -138,6 +138,43 @@ const HERO_FEATURE_CHIPS = [
   { icon: "🔁", text: "문제 시 100% 처리" },
 ] as const;
 
+function HeroFeatureChipsAndCta({
+  listClassName,
+  ctaWrapClassName,
+  ctaClassName,
+}: {
+  listClassName: string;
+  ctaWrapClassName: string;
+  ctaClassName?: string;
+}) {
+  return (
+    <>
+      <ul className={listClassName}>
+        {HERO_FEATURE_CHIPS.map((item) => (
+          <li
+            key={item.text}
+            className="flex h-[3.8rem] w-full min-w-0 shrink-0 flex-row items-center justify-center gap-1 rounded-lg border border-white/25 bg-white/10 px-1.5 py-0 text-[13px] font-bold leading-snug text-white shadow-sm backdrop-blur-sm sm:h-[4.25rem] sm:gap-1.5 sm:px-2 sm:text-base"
+          >
+            <span
+              className={`shrink-0 text-lg leading-none sm:text-xl ${
+                item.icon === "💎" ? "inline-block -translate-y-[0.1em]" : ""
+              }`}
+            >
+              {item.icon}
+            </span>
+            <span className="min-w-0 max-w-full grow-0 break-keep text-center leading-tight">
+              {item.text}
+            </span>
+          </li>
+        ))}
+      </ul>
+      <div className={ctaWrapClassName}>
+        <CtaButton className={ctaClassName}>배송 문의하기</CtaButton>
+      </div>
+    </>
+  );
+}
+
 const ORDER_FRUIT_DECOR: readonly FruitDecorItem[] = [
   { emoji: "🍎", left: "2%", top: "20%", size: "text-xl", rotate: "-rotate-12", opacity: "opacity-70" },
   { emoji: "🍊", right: "3%", top: "30%", size: "text-xl", rotate: "rotate-12", opacity: "opacity-70" },
@@ -216,14 +253,14 @@ export default function HanyangLanding() {
       <div className="relative z-10 flex flex-col flex-1 bg-white">
       {/* 로고 + 히어로 — 전면 배경 영상 + 어두운 오버레이(레퍼런스형) */}
       <header className="relative isolate w-full overflow-hidden">
-        <div className="relative min-h-[min(88svh,760px)] sm:min-h-[min(115svh,920px)]">
+        <div className="relative min-h-[min(52svh,440px)] sm:min-h-[min(115svh,920px)]">
           <HeroBackgroundVideo posterSrc={heroImage} posterAlt="신선한 과일" />
           <div
             aria-hidden
             className="absolute inset-0 z-[1] bg-gradient-to-b from-black/80 via-black/55 to-black/72"
           />
 
-          <div className="relative z-10 flex min-h-[min(88svh,760px)] flex-col sm:min-h-[min(115svh,920px)]">
+          <div className="relative z-10 flex min-h-[min(52svh,440px)] flex-col sm:min-h-[min(115svh,920px)]">
             <div className="relative z-20 flex w-full justify-center border-b border-slate-200/90 bg-white px-0 py-0 sm:px-0.5 sm:py-0">
               <div className="flex h-[5.25rem] w-full max-w-6xl items-center justify-center sm:h-36 md:h-40 lg:h-44">
                 <Image
@@ -237,8 +274,8 @@ export default function HanyangLanding() {
               </div>
             </div>
 
-            <SectionShell className="flex flex-1 flex-col justify-start !px-0 py-5 pb-3 sm:justify-center sm:!px-0 sm:py-12 sm:pb-0 lg:!px-0.5 lg:py-16">
-              <div className="mx-auto flex w-full max-w-full flex-1 flex-col text-center sm:block sm:flex-none lg:mx-0 lg:text-left">
+            <SectionShell className="flex flex-1 flex-col justify-center !px-0 py-6 pb-4 max-sm:pb-44 sm:!px-0 sm:py-12 sm:pb-0 lg:!px-0.5 lg:py-16">
+              <div className="mx-auto w-full max-w-full text-center lg:mx-0 lg:text-left">
                 <h1 className="font-black tracking-tight text-white">
                   <span className="block text-[clamp(1.1rem,3.2vw,2.1rem)] leading-[1.2] sm:text-[clamp(1.35rem,2.9vw,2.3rem)] lg:text-[clamp(1.7rem,2.75vw,2.55rem)] lg:leading-[1.16]">
                     <span className="block text-balance text-center md:whitespace-nowrap lg:text-left">
@@ -250,39 +287,31 @@ export default function HanyangLanding() {
                     </span>
                   </span>
                 </h1>
-                <p className="mx-auto mt-5 max-w-full text-pretty text-sm font-normal leading-snug text-white sm:mt-9 sm:max-w-[min(100%,40rem)] sm:text-base lg:mx-0">
+                <p className="mx-auto mt-7 max-w-full text-pretty text-sm font-normal leading-snug text-white sm:mt-9 sm:max-w-[min(100%,40rem)] sm:text-base lg:mx-0">
                   복불복 과일에 지치셨다면 한양과일로 정착하세요.
                 </p>
                 <p className="mx-auto mt-1.5 max-w-full text-pretty text-sm font-normal leading-snug text-white/90 sm:max-w-[min(100%,40rem)] sm:mt-2 sm:text-base lg:mx-0">
                   당일 검수부터 직접 배송까지. 한양과일이 매일의 과일을 책임집니다.
                 </p>
 
-                {/* 영상 위 칩 + 버튼 (모바일: 영상 하단부 / PC: 기존 위치) */}
-                <div className="mt-auto w-full pt-5 sm:mt-9 sm:pt-0">
-                <ul className="mx-auto grid w-full max-w-[21rem] grid-cols-2 gap-x-1.5 gap-y-1.5 sm:max-w-[26rem] sm:gap-x-2 sm:gap-y-2 lg:mx-0">
-                  {HERO_FEATURE_CHIPS.map((item) => (
-                    <li
-                      key={item.text}
-                      className="flex h-[3.8rem] w-full min-w-0 shrink-0 flex-row items-center justify-center gap-1 rounded-lg border border-white/25 bg-white/10 px-1.5 py-0 text-[13px] font-bold leading-snug text-white shadow-sm backdrop-blur-sm sm:h-[4.25rem] sm:gap-1.5 sm:px-2 sm:text-base"
-                    >
-                      <span
-                        className={`shrink-0 text-lg leading-none sm:text-xl ${
-                          item.icon === "💎" ? "inline-block -translate-y-[0.1em]" : ""
-                        }`}
-                      >
-                        {item.icon}
-                      </span>
-                      <span className="min-w-0 max-w-full grow-0 break-keep text-center leading-tight">{item.text}</span>
-                    </li>
-                  ))}
-                </ul>
-
-                <div className="mt-6 flex justify-center sm:mt-12 lg:justify-start">
-                  <CtaButton className="sm:px-8 sm:py-4 sm:text-lg">배송 문의하기</CtaButton>
-                </div>
+                {/* PC(sm 이상): 텍스트 아래 기존 위치 */}
+                <div className="hidden sm:block">
+                  <HeroFeatureChipsAndCta
+                    listClassName="mx-auto mt-7 grid w-full max-w-[21rem] grid-cols-2 gap-x-1.5 gap-y-1.5 sm:mt-9 sm:max-w-[26rem] sm:gap-x-2 sm:gap-y-2 lg:mx-0"
+                    ctaWrapClassName="mt-10 flex justify-center sm:mt-12 lg:justify-start"
+                    ctaClassName="sm:px-8 sm:py-4 sm:text-lg"
+                  />
                 </div>
               </div>
             </SectionShell>
+
+            {/* 모바일: 영상 위 하단부만 배치 */}
+            <div className="absolute inset-x-0 bottom-0 z-20 px-4 pb-4 sm:hidden">
+              <HeroFeatureChipsAndCta
+                listClassName="mx-auto grid w-full max-w-[21rem] grid-cols-2 gap-x-1.5 gap-y-1.5"
+                ctaWrapClassName="mt-6 flex justify-center"
+              />
+            </div>
           </div>
         </div>
       </header>
