@@ -110,7 +110,7 @@
           "imageSrc": "/products/veg-02.jpg"
         },
         {
-           "title": "[새벽경매] 완숙토마토(1kg)",
+          "title": "[새벽경매] 완숙토마토(1kg)",
           "imageAlt": "손에 든 완숙토마토",
           "soldCount": "3,133",
           "price": "3,500원",
@@ -224,7 +224,7 @@
       "description": "과일처럼 직접 먹어보고 고른 좋은 퀄리티의 공구상품 소개해드려요",
       "products": [
         {
-          "title": "[새벽경매] 자연산 순살볼락(400g)",
+          "title": "[한정수량] 자연산 순살볼락(400g)",
           "imageSrc": "/products/group-01.png",
           "imageAlt": "자연산 순살 볼락 패키지",
           "hoverImageSrc": "/products/group-01-hover.png",
@@ -233,7 +233,7 @@
           "price": "5,500원"
         },
         {
-          "title": "[새벽경매] 돼지갈비(800g x 2팩)",
+          "title": "[한정수량] 돼지갈비(800g x 2팩)",
           "imageSrc": "/products/group-02.png",
           "imageAlt": "돼지갈비 패키지",
           "hoverImageSrc": "/products/group-02-hover.png",
@@ -242,7 +242,7 @@
           "price": "16,000원"
         },
         {
-          "title": "[새벽경매] LA갈비(800g)",
+          "title": "[한정수량] LA갈비(800g)",
           "imageSrc": "/products/group-03.png",
           "imageAlt": "LA갈비 패키지",
           "hoverImageSrc": "/products/group-03-hover.png",
@@ -253,7 +253,7 @@
           "price": "16,500원"
         },
         {
-          "title": "[새벽경매] 치즈 블랙타이거 새우(5미)",
+          "title": "[한정수량] 치즈 블랙타이거 새우(5미)",
           "imageSrc": "/products/group-04.png",
           "imageAlt": "치즈 블랙타이거 새우 패키지",
           "hoverImageSrc": "/products/group-04-hover.png",
@@ -262,7 +262,7 @@
           "price": "7,000원"
         },
         {
-          "title": "[새벽경매] 명품 수제꼬치(파닭4p/순살닭4p/염통4p)",
+          "title": "[한정수량] 명품 수제꼬치(파닭4p/순살닭4p/염통4p)",
           "imageSrc": "/products/group-05.png",
           "imageAlt": "명품 수제꼬치 패키지",
           "hoverImageSrc": "/products/group-05-hover.png",
@@ -271,7 +271,7 @@
           "price": "13,500원"
         },
         {
-          "title": "[새벽경매] 매콤 우렁이보리장(500g)",
+          "title": "[한정수량] 매콤 우렁이보리장(500g)",
           "imageSrc": "/products/group-06.png",
           "imageAlt": "매콤 우렁이보리장",
           "hoverImageSrc": "/products/group-06-hover.png",
@@ -282,7 +282,7 @@
           "price": "8,500원"
         },
         {
-          "title": "[새벽경매] 통 보리장(500g)",
+          "title": "[한정수량] 통 보리장(500g)",
           "imageSrc": "/products/group-07.png",
           "imageAlt": "통 보리장",
           "hoverImageSrc": "/products/group-07-hover.png",
@@ -293,7 +293,7 @@
           "price": "6,500원"
         },
         {
-          "title": "[새벽경매] 양념 연어장(300g)",
+          "title": "[한정수량] 양념 연어장(300g)",
           "imageSrc": "/products/group-08.png",
           "imageAlt": "양념 연어장",
           "hoverImageSrc": "/products/group-08-hover.png",
