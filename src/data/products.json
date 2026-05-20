@@ -137,74 +137,46 @@
       "description": "좋은 식재료 기준으로 고른 신선한 정육 상품을 소개해드려요",
       "products": [
         {
-          "title": "[새벽경매] 신선한 한우 등심 구이용",
-          "imageSrc": "https://images.unsplash.com/photo-1603048297172-c92544798d5a?auto=format&fit=crop&w=900&q=85",
-          "imageAlt": "한우 등심",
+          "title": "[새벽경매] 부드러운 목살(600g)",
+          "imageSrc": "/products/meat-01.jpg",
+          "imageAlt": "트레이에 담긴 목살",
           "soldCount": "13,482",
-          "price": "49,900원"
+          "price": "17,500원"
         },
         {
-          "title": "[새벽경매] 부드러운 삼겹살 구이용",
-          "imageSrc": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?auto=format&fit=crop&w=900&q=85",
-          "imageAlt": "삼겹살",
+          "title": "[새벽경매] 제주 오겹살(600g)",
+          "imageSrc": "/products/meat-02.jpg",
+          "imageAlt": "트레이에 담긴 제주 오겹살",
           "soldCount": "12,906",
-          "price": "22,900원"
+          "price": "18,500원"
         },
         {
-          "title": "[새벽경매] 담백한 목살 스테이크용",
-          "imageSrc": "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?auto=format&fit=crop&w=900&q=85",
-          "imageAlt": "목살",
+          "title": "[새벽경매] 1++ 한우 육회(300g)",
+          "imageSrc": "/products/meat-03.jpg",
+          "imageAlt": "한우 육회",
           "soldCount": "10,755",
-          "price": "21,900원"
+          "price": "15,500원"
         },
         {
-          "title": "[새벽경매] 깊은 맛 한우 양지",
-          "imageSrc": "https://images.unsplash.com/photo-1551028150-64b9f398f678?auto=format&fit=crop&w=900&q=85",
-          "imageAlt": "한우 양지",
+          "title": "[새벽경매] 1++ 한우 국거리(300g)",
+          "imageSrc": "/products/meat-04.jpg",
+          "imageAlt": "1++ 한우 국거리",
           "soldCount": "8,934",
-          "price": "30,900원"
+          "price": "15,000원"
         },
         {
-          "title": "[새벽경매] 부드러운 소불고기용",
-          "imageSrc": "https://images.unsplash.com/photo-1615937657715-bc7b4b7962c1?auto=format&fit=crop&w=900&q=85",
-          "imageAlt": "소불고기용 고기",
+          "title": "[새벽경매] 한우육포(60g)",
+          "imageSrc": "/products/meat-05.jpg",
+          "imageAlt": "한우 육포",
           "soldCount": "8,217",
-          "price": "26,900원"
+          "price": "5,500원"
         },
         {
-          "title": "[새벽경매] 두툼한 토마호크 스테이크",
-          "imageSrc": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=85",
-          "imageAlt": "스테이크",
+          "title": "[새벽경매] 한우매운육포(70g)",
+          "imageSrc": "/products/meat-06.jpg",
+          "imageAlt": "한우 매운 육포",
           "soldCount": "7,042",
-          "price": "59,900원"
-        },
-        {
-          "title": "[새벽경매] 닭다리살 정육",
-          "imageSrc": "https://images.unsplash.com/photo-1604503468506-a8da13d82791?auto=format&fit=crop&w=900&q=85",
-          "imageAlt": "닭고기",
-          "soldCount": "6,581",
-          "price": "13,900원"
-        },
-        {
-          "title": "[새벽경매] 담백한 항정살",
-          "imageSrc": "https://images.unsplash.com/photo-1602470520998-f4a52199a3d6?auto=format&fit=crop&w=900&q=85",
-          "imageAlt": "구이용 고기",
-          "soldCount": "5,974",
-          "price": "26,900원"
-        },
-        {
-          "title": "[새벽경매] 찌개용 돼지고기",
-          "imageSrc": "https://images.unsplash.com/photo-1603048588665-791ca8aea617?auto=format&fit=crop&w=900&q=85",
-          "imageAlt": "찌개용 돼지고기",
-          "soldCount": "5,418",
-          "price": "15,900원"
-        },
-        {
-          "title": "[새벽경매] 숙성 스테이크 세트",
-          "imageSrc": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=85",
-          "imageAlt": "숙성 스테이크",
-          "soldCount": "4,803",
-          "price": "64,900원"
+          "price": "5,900원"
         }
       ]
     },
