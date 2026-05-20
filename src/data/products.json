@@ -1,5 +1,5 @@
 {
-  "$comment": "한양과일 상품 데이터. originalPrice·discountRate·rating·reviewCount는 선택(있을 때만 화면에 표시). 자세한 사용법은 docs/CONTENT-GUIDE.md 참고.",
+  "$comment": "한양과일 상품 데이터. hoverImageSrc(선택)=마우스 올렸을 때 상세 사진. 없으면 「상세 이미지 준비중...」 표시. originalPrice·discountRate·rating·reviewCount도 선택. docs/CONTENT-GUIDE.md 참고.",
   "categories": [
     {
       "name": "과일",

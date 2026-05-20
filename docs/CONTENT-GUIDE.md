@@ -84,7 +84,9 @@
 | `title`          | 상품 이름                                       | `"[당일선별] 방울토마토"` |
 | `imageSrc`       | 상품 사진 경로 (또는 외부 이미지 URL)            | `"/products/fruit-01.png"` |
 | `imageAlt`       | 사진을 못 봤을 때 보일 설명 (검색엔진용)         | `"손바닥 위 방울토마토"`    |
-| `soldCount`      | 구매한 사람 수 (`개 구매중` 옆에 표시됨)        | `"218,991"`                 |
+| `hoverImageSrc`  | **(선택)** 마우스 올렸을 때 보여줄 상세 사진 (단면·조리 후 등) | `"/products/fruit-01-hover.jpg"` |
+| `hoverImageAlt`  | **(선택)** 상세 사진 설명                         | `"수박 단면"`               |
+| `soldCount`      | 누적판매 개수 표시                               | `"6,842"`                   |
 | `originalPrice`  | 원래 가격                                       | `"29,900원"`                |
 | `discountRate`   | 할인율                                          | `"53%"`                     |
 | `price`          | 판매가                                          | `"13,900원"`                |
@@ -98,6 +100,13 @@
 1. 추가하고 싶은 카테고리의 `products` 배열에 새 상품 정보(중괄호 `{}` 한 덩어리)를 추가합니다.
 2. 콤마(`,`)로 항목들 사이를 구분해야 합니다. **마지막 항목 뒤에는 콤마가 없어야 합니다.**
 3. 상품 사진 파일을 `public/products/` 폴더에 넣고 그 파일명을 `imageSrc`에 적으세요.
+4. **(선택)** 단면·조리 후 사진 등은 같은 폴더에 올린 뒤 `hoverImageSrc`에 경로를 적으세요. 없으면 사이트에 「상세 이미지 준비중...」이 표시됩니다.
+
+```json
+"imageSrc": "/products/fruit-01.jpg",
+"hoverImageSrc": "/products/fruit-01-hover.jpg",
+"hoverImageAlt": "수박 단면"
+```
 
 ### 상품 수정하기
 

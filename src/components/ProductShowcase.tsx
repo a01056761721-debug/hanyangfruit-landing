@@ -15,6 +15,9 @@ type Product = {
   title: string;
   imageSrc: string;
   imageAlt: string;
+  /** 마우스 올렸을 때 보여줄 상세 사진 (단면·조리 후 등). 없으면 「상세 이미지 준비중...」 */
+  hoverImageSrc?: string;
+  hoverImageAlt?: string;
   soldCount: string;
   price: string;
   originalPrice?: string;
@@ -44,6 +47,53 @@ const SAFE_CATEGORIES: Category[] =
 
 function formatRank(index: number) {
   return String(index + 1).padStart(2, "0");
+}
+
+const PRODUCT_IMAGE_SIZES = "(max-width: 640px) 50vw, (max-width: 1024px) 50vw, 25vw";
+
+function ProductCardImage({
+  imageSrc,
+  imageAlt,
+  hoverImageSrc,
+  hoverImageAlt,
+}: {
+  imageSrc: string;
+  imageAlt: string;
+  hoverImageSrc?: string;
+  hoverImageAlt?: string;
+}) {
+  const hoverSrc = hoverImageSrc?.trim();
+  const hasHoverImage = Boolean(hoverSrc);
+
+  return (
+    <div className="group relative aspect-[1.03/1] overflow-hidden rounded-lg bg-slate-100 shadow-sm">
+      <Image
+        src={imageSrc}
+        alt={imageAlt}
+        fill
+        className="object-cover transition duration-500 [@media(hover:hover)]:group-hover:scale-[1.02]"
+        sizes={PRODUCT_IMAGE_SIZES}
+      />
+      <div
+        className="pointer-events-none absolute inset-0 z-10 flex items-center justify-center bg-black/60 opacity-0 transition-opacity duration-300 [@media(hover:hover)]:group-hover:opacity-100"
+        aria-hidden={!hasHoverImage}
+      >
+        {hasHoverImage ? (
+          <Image
+            src={hoverSrc!}
+            alt={hoverImageAlt?.trim() || `${imageAlt} 상세`}
+            fill
+            className="object-cover"
+            sizes={PRODUCT_IMAGE_SIZES}
+          />
+        ) : (
+          <p className="px-3 text-center text-sm font-black leading-snug text-white sm:text-base">
+            상세 이미지 준비중...
+          </p>
+        )}
+      </div>
+    </div>
+  );
 }
 
 export default function ProductShowcase() {
@@ -128,15 +178,12 @@ export default function ProductShowcase() {
                 <p className="mb-2 text-base font-black text-red-600 sm:text-lg">
                   {formatRank(absoluteIndex)}
                 </p>
-                <div className="relative aspect-[1.03/1] overflow-hidden rounded-lg bg-slate-100 shadow-sm">
-                  <Image
-                    src={product.imageSrc}
-                    alt={product.imageAlt}
-                    fill
-                    className="object-cover transition duration-500 hover:scale-105"
-                    sizes="(max-width: 640px) 50vw, (max-width: 1024px) 50vw, 25vw"
-                  />
-                </div>
+                <ProductCardImage
+                  imageSrc={product.imageSrc}
+                  imageAlt={product.imageAlt}
+                  hoverImageSrc={product.hoverImageSrc}
+                  hoverImageAlt={product.hoverImageAlt}
+                />
                 <div className="mt-2 rounded bg-red-600 px-2 py-2 text-center text-[0.72rem] font-black text-white sm:text-sm">
                   누적판매 <span className="text-white">{product.soldCount}</span>개
                 </div>
