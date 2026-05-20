@@ -82,52 +82,52 @@
       "description": "매일 식탁에 올라가는 신선한 야채를 꼼꼼히 골라 소개해드려요",
       "products": [
         {
-          "title": "[새벽경매] 아삭하고 신선한 특품 오이",
-          "imageAlt": "박스에 담긴 신선한 오이",
+          "title": "[새벽경매] 명품 백오이(5개)",
+          "imageAlt": "박스에 담긴 명품 백오이",
           "soldCount": "31,284",
-          "price": "13,900원",
+          "price": "1,500원",
           "imageSrc": "/products/veg-01.jpg"
         },
         {
-          "title": "[새벽경매] 싱싱한 풋고추(1팩)",
-          "imageAlt": "통에 담긴 풋고추",
+          "title": "[새벽경매] 햇 아삭이고추(특)",
+          "imageAlt": "통에 담긴 햇 아삭이고추",
           "soldCount": "24,716",
-          "price": "8,900원",
+          "price": "1,500원",
           "imageSrc": "/products/veg-02.jpg"
         },
         {
-          "title": "[새벽경매] 신선한 브로콜리",
-          "imageAlt": "손에 든 브로콜리",
+          "title": "[새벽경매] 제주 브로콜리",
+          "imageAlt": "손에 든 제주 브로콜리",
           "soldCount": "22,109",
-          "price": "9,900원",
+          "price": "2,000원",
           "imageSrc": "/products/veg-03.jpg"
         },
         {
-          "title": "[새벽경매] 싱싱한 국산 양상추",
-          "imageAlt": "포장된 국산 양상추",
+          "title": "[새벽경매] 양상추(특)",
+          "imageAlt": "포장된 양상추",
           "soldCount": "18,603",
-          "price": "12,900원",
+          "price": "2,500원",
           "imageSrc": "/products/veg-04.jpg"
         },
         {
           "title": "[새벽경매] 미니 파프리카(1팩)",
           "imageAlt": "통에 담긴 미니 파프리카",
           "soldCount": "15,912",
-          "price": "15,900원",
+          "price": "3,000원",
           "imageSrc": "/products/veg-05.jpg"
         },
         {
-          "title": "[새벽경매] 포슬포슬 감자",
-          "imageAlt": "손에 든 감자",
+          "title": "[새벽경매] 햇감자(1kg)",
+          "imageAlt": "손에 든 햇감자",
           "soldCount": "12,736",
-          "price": "13,900원",
+          "price": "3,300원",
           "imageSrc": "/products/veg-06.jpg"
         },
         {
-          "title": "[새벽경매] 달큰한 햇양파",
-          "imageAlt": "망에 담긴 양파",
+          "title": "[새벽경매] 조생 햇양파(1망)",
+          "imageAlt": "망에 담긴 조생 햇양파",
           "soldCount": "11,584",
-          "price": "11,900원",
+          "price": "2,400원",
           "imageSrc": "/products/veg-07.jpg"
         }
       ]
