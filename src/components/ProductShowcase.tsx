@@ -14,11 +14,11 @@ type Product = {
   imageSrc: string;
   imageAlt: string;
   soldCount: string;
-  originalPrice: string;
-  discountRate: string;
   price: string;
-  rating: string;
-  reviewCount: string;
+  originalPrice?: string;
+  discountRate?: string;
+  rating?: string;
+  reviewCount?: string;
 };
 
 type Category = {
@@ -138,20 +138,26 @@ export default function ProductShowcase() {
                 <h3 className="mt-2 line-clamp-2 min-h-[2.8rem] text-[0.82rem] font-bold leading-snug text-slate-800 sm:text-base">
                   {product.title}
                 </h3>
-                <p className="mt-1 text-sm font-medium text-slate-300 line-through sm:text-base">
-                  {product.originalPrice}
-                </p>
-                <div className="mt-0.5 flex flex-wrap items-baseline gap-x-1">
-                  <span className="text-base font-black text-red-500 sm:text-lg">
-                    {product.discountRate}
-                  </span>
+                {product.originalPrice ? (
+                  <p className="mt-1 text-sm font-medium text-slate-300 line-through sm:text-base">
+                    {product.originalPrice}
+                  </p>
+                ) : null}
+                <div className="mt-1 flex flex-wrap items-baseline gap-x-1">
+                  {product.discountRate ? (
+                    <span className="text-base font-black text-red-500 sm:text-lg">
+                      {product.discountRate}
+                    </span>
+                  ) : null}
                   <span className="text-lg font-black text-slate-950 sm:text-xl">
                     {product.price}
                   </span>
                 </div>
-                <p className="mt-1 text-xs font-extrabold text-slate-600 sm:text-sm">
-                  <span className="text-orange-400">★</span> {product.rating} ({product.reviewCount})
-                </p>
+                {product.rating && product.reviewCount ? (
+                  <p className="mt-1 text-xs font-extrabold text-slate-600 sm:text-sm">
+                    <span className="text-orange-400">★</span> {product.rating} ({product.reviewCount})
+                  </p>
+                ) : null}
               </article>
             );
           })}
