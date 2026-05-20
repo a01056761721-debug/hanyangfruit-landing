@@ -9,10 +9,37 @@ const notoSansKr = Noto_Sans_KR({
   display: "swap",
 });
 
+const siteUrl = "https://www.hanyangfruit.com";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: "한양과일 | 백화점급 이상의 품질, 거품 없는 가격",
   description:
     "복불복 과일에 지치셨다면 한양과일로 정착하세요. 당일 검수부터 직접 배송까지.",
+  openGraph: {
+    type: "website",
+    locale: "ko_KR",
+    url: siteUrl,
+    siteName: "한양과일",
+    title: "한양과일 | 백화점급 이상의 품질, 거품 없는 가격",
+    description:
+      "복불복 과일에 지치셨다면 한양과일로 정착하세요. 당일 검수부터 직접 배송까지.",
+    images: [
+      {
+        url: "/og-share.png",
+        width: 1021,
+        height: 1024,
+        alt: "한양과일",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "한양과일 | 백화점급 이상의 품질, 거품 없는 가격",
+    description:
+      "복불복 과일에 지치셨다면 한양과일로 정착하세요. 당일 검수부터 직접 배송까지.",
+    images: ["/og-share.png"],
+  },
 };
 
 export default function RootLayout({
