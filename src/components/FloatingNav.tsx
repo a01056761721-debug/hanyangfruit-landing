@@ -24,10 +24,13 @@ const WIDE_GAP_ITEM_IDS = [
   "youtube",
 ] as const;
 
-function expandedIconLabelGapClass(itemId: string) {
-  return WIDE_GAP_ITEM_IDS.includes(itemId as (typeof WIDE_GAP_ITEM_IDS)[number])
-    ? "gap-1 sm:gap-5"
-    : "gap-1";
+function iconLabelGapClass(itemId: string, isExpanded: boolean) {
+  const isWide = WIDE_GAP_ITEM_IDS.includes(itemId as (typeof WIDE_GAP_ITEM_IDS)[number]);
+  if (isWide) {
+    // 모바일 펼침: gap-1 / PC(sm+): 항상 gap-5
+    return isExpanded ? "w-full gap-1 sm:gap-5" : "gap-0 sm:gap-5";
+  }
+  return isExpanded ? "w-full gap-1" : "gap-0 sm:gap-1";
 }
 
 /** 아이콘/이모지가 차지하는 칸 — 모든 버튼 동일 크기 */
@@ -74,7 +77,7 @@ export default function FloatingNav({ items }: FloatingNavProps) {
     >
       {items.map((item) => {
         const isExpanded = expandedId === item.id;
-        const expandedGap = expandedIconLabelGapClass(item.id);
+        const gapClass = iconLabelGapClass(item.id, isExpanded);
         return (
           <Link
             key={item.id}
@@ -89,9 +92,7 @@ export default function FloatingNav({ items }: FloatingNavProps) {
             } [&_svg]:h-4 [&_svg]:w-4 sm:[&_svg]:!h-5 sm:[&_svg]:!w-5`}
           >
             <span
-              className={`inline-flex shrink-0 items-center justify-center ${
-                isExpanded ? `${expandedGap} w-full` : "gap-0"
-              }`}
+              className={`inline-flex shrink-0 items-center justify-center ${gapClass}`}
             >
               <span aria-hidden className={ICON_SLOT_CLASS}>
                 {item.icon}
