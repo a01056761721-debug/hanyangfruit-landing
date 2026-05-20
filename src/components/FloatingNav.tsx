@@ -16,22 +16,18 @@ type FloatingNavProps = {
   items: FloatingNavItem[];
 };
 
-/** 상품보기·주문방법·배송지역·유튜브 — 아이콘↔글 간격 동일 (20px) */
+/** 상품보기·주문방법·배송지역·유튜브 — 모바일 펼침 시 간격 축소, PC는 20px */
 const WIDE_GAP_ITEM_IDS = [
   "products",
   "order-method",
   "delivery-areas",
   "youtube",
 ] as const;
-const WIDE_ICON_LABEL_GAP = "gap-5";
 
-/** 인스타그램 등 (4px) */
-const DEFAULT_ICON_LABEL_GAP = "gap-1";
-
-function iconLabelGapClass(itemId: string) {
+function expandedIconLabelGapClass(itemId: string) {
   return WIDE_GAP_ITEM_IDS.includes(itemId as (typeof WIDE_GAP_ITEM_IDS)[number])
-    ? WIDE_ICON_LABEL_GAP
-    : DEFAULT_ICON_LABEL_GAP;
+    ? "gap-1 sm:gap-5"
+    : "gap-1";
 }
 
 /** 아이콘/이모지가 차지하는 칸 — 모든 버튼 동일 크기 */
@@ -43,7 +39,7 @@ const ICON_SLOT_CLASS =
  * - 모바일(sm 미만): 평소엔 이모지/아이콘만 보이는 원형 버튼. 한 번 탭하면 라벨이 펼쳐지고,
  *   같은 버튼을 다시 탭하면 해당 섹션으로 이동합니다.
  * - PC(sm 이상): 아이콘+글을 붙인 뒤 버튼 안에서 가운데 정렬.
- *   상품보기/주문방법/배송지역/유튜브는 gap-5(20px), 인스타그램은 gap-1(4px).
+ *   상품보기/주문방법/배송지역/유튜브는 모바일 gap-1, PC gap-5. 인스타그램은 gap-1.
  */
 export default function FloatingNav({ items }: FloatingNavProps) {
   const [expandedId, setExpandedId] = useState<string | null>(null);
@@ -78,9 +74,7 @@ export default function FloatingNav({ items }: FloatingNavProps) {
     >
       {items.map((item) => {
         const isExpanded = expandedId === item.id;
-        const itemGap = iconLabelGapClass(item.id);
-        const smGapClass =
-          itemGap === WIDE_ICON_LABEL_GAP ? "sm:gap-5" : "sm:gap-1";
+        const expandedGap = expandedIconLabelGapClass(item.id);
         return (
           <Link
             key={item.id}
@@ -96,8 +90,8 @@ export default function FloatingNav({ items }: FloatingNavProps) {
           >
             <span
               className={`inline-flex shrink-0 items-center justify-center ${
-                isExpanded ? `${itemGap} w-full` : "gap-0"
-              } ${smGapClass}`}
+                isExpanded ? `${expandedGap} w-full` : "gap-0"
+              }`}
             >
               <span aria-hidden className={ICON_SLOT_CLASS}>
                 {item.icon}
