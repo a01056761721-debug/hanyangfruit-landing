@@ -6,70 +6,70 @@
       "description": "매일 새벽 직접 맛보고 고른 과일만 골라 소개해드려요",
       "products": [
         {
-          "title": "13브릭스 우곡수박",
+          "title": "[새벽경매] 13브릭스 우곡수박",
           "imageSrc": "/products/fruit-01.jpg",
           "imageAlt": "박스에 담긴 우곡 수박",
           "soldCount": "218,991",
           "price": "28,000원"
         },
         {
-          "title": "명품 백자멜론",
+          "title": "[새벽경매] 명품 백자멜론",
           "imageSrc": "/products/fruit-02.jpg",
           "imageAlt": "손에 든 백자 멜론",
           "soldCount": "57,585",
           "price": "7,500원"
         },
         {
-          "title": "성주 꿀 참외(5개)",
+          "title": "[새벽경매] 성주 꿀 참외(5개)",
           "imageSrc": "/products/fruit-03.jpg",
           "imageAlt": "손바닥 위 성주 꿀 참외",
           "soldCount": "42,318",
           "price": "7,500원"
         },
         {
-          "title": "고당도 방울토마토(1팩)",
+          "title": "[새벽경매] 고당도 방울토마토(1팩)",
           "imageSrc": "/products/fruit-04.jpg",
           "imageAlt": "통에 담긴 방울토마토",
           "soldCount": "35,704",
           "price": "6,000원"
         },
         {
-          "title": "JTC 태국망고(3개)",
+          "title": "[새벽경매] JTC 태국망고(3개)",
           "imageSrc": "/products/fruit-05.jpg",
           "imageAlt": "박스에 담긴 JTC 태국 망고",
           "soldCount": "29,438",
           "price": "10,000원"
         },
         {
-          "title": "홈런메론",
+          "title": "[새벽경매] 홈런메론",
           "imageSrc": "/products/fruit-06.jpg",
           "imageAlt": "손에 든 홈런 메론",
           "soldCount": "24,881",
           "price": "9,000원"
         },
         {
-          "title": "국산 블루베리(1팩)",
+          "title": "[새벽경매] 국산 블루베리(1팩)",
           "imageSrc": "/products/fruit-07.jpg",
           "imageAlt": "통에 담긴 국산 블루베리",
           "soldCount": "21,604",
           "price": "3,500원"
         },
         {
-          "title": "고당도 귤(1팩)",
+          "title": "[새벽경매] 고당도 귤(1팩)",
           "imageSrc": "/products/fruit-08.jpg",
           "imageAlt": "통에 담긴 고당도 귤",
           "soldCount": "17,236",
           "price": "7,500원"
         },
         {
-          "title": "애플 청포도(1kg)",
+          "title": "[새벽경매] 애플 청포도(1kg)",
           "imageSrc": "/products/fruit-09.jpg",
           "imageAlt": "박스에 담긴 애플 청포도",
           "soldCount": "15,917",
           "price": "12,500원"
         },
         {
-          "title": "산딸기(1팩)",
+          "title": "[새벽경매] 산딸기(1팩)",
           "imageSrc": "/products/fruit-10.jpg",
           "imageAlt": "통에 담긴 산딸기",
           "soldCount": "12,408",
@@ -82,70 +82,70 @@
       "description": "매일 식탁에 올라가는 신선한 야채를 꼼꼼히 골라 소개해드려요",
       "products": [
         {
-          "title": "[새벽입고] 아삭하고 신선한 특품 오이",
+          "title": "[새벽경매] 아삭하고 신선한 특품 오이",
           "imageSrc": "https://images.unsplash.com/photo-1604977042946-1eecc30f269e?auto=format&fit=crop&w=900&q=85",
           "imageAlt": "신선한 오이",
           "soldCount": "31,284",
           "price": "13,900원"
         },
         {
-          "title": "[직접검수] 싱싱한 국산 양상추",
+          "title": "[새벽경매] 싱싱한 국산 양상추",
           "imageSrc": "https://images.unsplash.com/photo-1556801712-76c8eb07bbc9?auto=format&fit=crop&w=900&q=85",
           "imageAlt": "국산 양상추",
           "soldCount": "24,716",
           "price": "12,900원"
         },
         {
-          "title": "[오늘추천] 단단하고 달큰한 완숙 토마토",
+          "title": "[새벽경매] 단단하고 달큰한 완숙 토마토",
           "imageSrc": "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?auto=format&fit=crop&w=900&q=85",
           "imageAlt": "완숙 토마토",
           "soldCount": "22,109",
           "price": "16,900원"
         },
         {
-          "title": "[매일검수] 향이 좋은 신선한 깻잎",
+          "title": "[새벽경매] 향이 좋은 신선한 깻잎",
           "imageSrc": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=900&q=85",
           "imageAlt": "신선한 잎채소",
           "soldCount": "18,603",
           "price": "8,900원"
         },
         {
-          "title": "[식탁필수] 아삭한 국산 파프리카",
+          "title": "[새벽경매] 아삭한 국산 파프리카",
           "imageSrc": "https://images.unsplash.com/photo-1563565375-f3fdfdbefa83?auto=format&fit=crop&w=900&q=85",
           "imageAlt": "파프리카",
           "soldCount": "15,912",
           "price": "15,900원"
         },
         {
-          "title": "[싱싱보장] 국산 애호박",
+          "title": "[새벽경매] 국산 애호박",
           "imageSrc": "https://images.unsplash.com/photo-1590165482129-1b8b27698780?auto=format&fit=crop&w=900&q=85",
           "imageAlt": "애호박",
           "soldCount": "12,736",
           "price": "9,900원"
         },
         {
-          "title": "[아침입고] 향긋한 대파 한 단",
+          "title": "[새벽경매] 향긋한 대파 한 단",
           "imageSrc": "https://images.unsplash.com/photo-1622206151226-18ca2c9ab4a1?auto=format&fit=crop&w=900&q=85",
           "imageAlt": "대파",
           "soldCount": "11,584",
           "price": "7,900원"
         },
         {
-          "title": "[당일선별] 포슬포슬 감자",
+          "title": "[새벽경매] 포슬포슬 감자",
           "imageSrc": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=900&q=85",
           "imageAlt": "감자",
           "soldCount": "10,293",
           "price": "13,900원"
         },
         {
-          "title": "[요리추천] 달큰한 햇양파",
+          "title": "[새벽경매] 달큰한 햇양파",
           "imageSrc": "https://images.unsplash.com/photo-1508747703725-719777637510?auto=format&fit=crop&w=900&q=85",
           "imageAlt": "양파",
           "soldCount": "9,621",
           "price": "11,900원"
         },
         {
-          "title": "[신선포장] 샐러드용 채소 꾸러미",
+          "title": "[새벽경매] 샐러드용 채소 꾸러미",
           "imageSrc": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=85",
           "imageAlt": "샐러드 채소",
           "soldCount": "8,904",
@@ -158,70 +158,70 @@
       "description": "좋은 식재료 기준으로 고른 신선한 정육 상품을 소개해드려요",
       "products": [
         {
-          "title": "[한정입고] 신선한 한우 등심 구이용",
+          "title": "[새벽경매] 신선한 한우 등심 구이용",
           "imageSrc": "https://images.unsplash.com/photo-1603048297172-c92544798d5a?auto=format&fit=crop&w=900&q=85",
           "imageAlt": "한우 등심",
           "soldCount": "13,482",
           "price": "49,900원"
         },
         {
-          "title": "[오늘추천] 부드러운 삼겹살 구이용",
+          "title": "[새벽경매] 부드러운 삼겹살 구이용",
           "imageSrc": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?auto=format&fit=crop&w=900&q=85",
           "imageAlt": "삼겹살",
           "soldCount": "12,906",
           "price": "22,900원"
         },
         {
-          "title": "[신선포장] 담백한 목살 스테이크용",
+          "title": "[새벽경매] 담백한 목살 스테이크용",
           "imageSrc": "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?auto=format&fit=crop&w=900&q=85",
           "imageAlt": "목살",
           "soldCount": "10,755",
           "price": "21,900원"
         },
         {
-          "title": "[국거리추천] 깊은 맛 한우 양지",
+          "title": "[새벽경매] 깊은 맛 한우 양지",
           "imageSrc": "https://images.unsplash.com/photo-1551028150-64b9f398f678?auto=format&fit=crop&w=900&q=85",
           "imageAlt": "한우 양지",
           "soldCount": "8,934",
           "price": "30,900원"
         },
         {
-          "title": "[아이반찬] 부드러운 소불고기용",
+          "title": "[새벽경매] 부드러운 소불고기용",
           "imageSrc": "https://images.unsplash.com/photo-1615937657715-bc7b4b7962c1?auto=format&fit=crop&w=900&q=85",
           "imageAlt": "소불고기용 고기",
           "soldCount": "8,217",
           "price": "26,900원"
         },
         {
-          "title": "[캠핑추천] 두툼한 토마호크 스테이크",
+          "title": "[새벽경매] 두툼한 토마호크 스테이크",
           "imageSrc": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=85",
           "imageAlt": "스테이크",
           "soldCount": "7,042",
           "price": "59,900원"
         },
         {
-          "title": "[간편조리] 닭다리살 정육",
+          "title": "[새벽경매] 닭다리살 정육",
           "imageSrc": "https://images.unsplash.com/photo-1604503468506-a8da13d82791?auto=format&fit=crop&w=900&q=85",
           "imageAlt": "닭고기",
           "soldCount": "6,581",
           "price": "13,900원"
         },
         {
-          "title": "[구이용] 담백한 항정살",
+          "title": "[새벽경매] 담백한 항정살",
           "imageSrc": "https://images.unsplash.com/photo-1602470520998-f4a52199a3d6?auto=format&fit=crop&w=900&q=85",
           "imageAlt": "구이용 고기",
           "soldCount": "5,974",
           "price": "26,900원"
         },
         {
-          "title": "[집밥추천] 찌개용 돼지고기",
+          "title": "[새벽경매] 찌개용 돼지고기",
           "imageSrc": "https://images.unsplash.com/photo-1603048588665-791ca8aea617?auto=format&fit=crop&w=900&q=85",
           "imageAlt": "찌개용 돼지고기",
           "soldCount": "5,418",
           "price": "15,900원"
         },
         {
-          "title": "[프리미엄] 숙성 스테이크 세트",
+          "title": "[새벽경매] 숙성 스테이크 세트",
           "imageSrc": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=85",
           "imageAlt": "숙성 스테이크",
           "soldCount": "4,803",
@@ -234,70 +234,70 @@
       "description": "과일처럼 직접 먹어보고 고른 좋은 퀄리티의 공구상품 소개해드려요",
       "products": [
         {
-          "title": "[공구특가] 산지직송 고당도 골드키위 한 박스",
+          "title": "[새벽경매] 산지직송 고당도 골드키위 한 박스",
           "imageSrc": "https://images.unsplash.com/photo-1585059895524-72359e06133a?auto=format&fit=crop&w=900&q=85",
           "imageAlt": "반으로 자른 골드키위",
           "soldCount": "18,402",
           "price": "19,900원"
         },
         {
-          "title": "[오늘마감] 프리미엄 체리 공동구매 500g",
+          "title": "[새벽경매] 프리미엄 체리 공동구매 500g",
           "imageSrc": "https://images.unsplash.com/photo-1528821154947-1aa3d1b74941?auto=format&fit=crop&w=900&q=85",
           "imageAlt": "그릇에 담긴 체리",
           "soldCount": "14,827",
           "price": "17,900원"
         },
         {
-          "title": "[한정수량] 과일 선물세트 공구 예약",
+          "title": "[새벽경매] 과일 선물세트 공구 예약",
           "imageSrc": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?auto=format&fit=crop&w=900&q=85",
           "imageAlt": "다양한 과일이 담긴 선물 세트",
           "soldCount": "9,631",
           "price": "39,900원"
         },
         {
-          "title": "[묶음공구] 매일 먹는 제철 과일 랜덤박스",
+          "title": "[새벽경매] 매일 먹는 제철 과일 랜덤박스",
           "imageSrc": "https://images.unsplash.com/photo-1619566636858-adf3ef46400b?auto=format&fit=crop&w=900&q=85",
           "imageAlt": "상자에 담긴 여러 과일",
           "soldCount": "7,214",
           "price": "29,900원"
         },
         {
-          "title": "[공구진행] 프리미엄 애플망고 예약",
+          "title": "[새벽경매] 프리미엄 애플망고 예약",
           "imageSrc": "https://images.unsplash.com/photo-1601493700631-2b16ec4b4716?auto=format&fit=crop&w=900&q=85",
           "imageAlt": "애플망고",
           "soldCount": "6,902",
           "price": "41,900원"
         },
         {
-          "title": "[단체공구] 사무실 간식 과일컵 세트",
+          "title": "[새벽경매] 사무실 간식 과일컵 세트",
           "imageSrc": "https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?auto=format&fit=crop&w=900&q=85",
           "imageAlt": "과일컵과 다양한 과일",
           "soldCount": "5,884",
           "price": "27,900원"
         },
         {
-          "title": "[주말공구] 가족용 과일 꾸러미",
+          "title": "[새벽경매] 가족용 과일 꾸러미",
           "imageSrc": "https://images.unsplash.com/photo-1610832958506-aa56368172cf?auto=format&fit=crop&w=900&q=85",
           "imageAlt": "다양한 과일 모음",
           "soldCount": "5,127",
           "price": "29,900원"
         },
         {
-          "title": "[예약공구] 고급 과일 답례품 패키지",
+          "title": "[새벽경매] 고급 과일 답례품 패키지",
           "imageSrc": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=900&q=85",
           "imageAlt": "정갈하게 진열된 과일",
           "soldCount": "4,603",
           "price": "54,900원"
         },
         {
-          "title": "[타임공구] 알뜰 제철 과일 박스",
+          "title": "[새벽경매] 알뜰 제철 과일 박스",
           "imageSrc": "https://images.unsplash.com/photo-1615484477778-ca3b77940c25?auto=format&fit=crop&w=900&q=85",
           "imageAlt": "박스에 담긴 과일",
           "soldCount": "3,918",
           "price": "22,900원"
         },
         {
-          "title": "[앵콜공구] 고객 요청 재입고 과일세트",
+          "title": "[새벽경매] 고객 요청 재입고 과일세트",
           "imageSrc": "https://images.unsplash.com/photo-1519996529931-28324d5a630e?auto=format&fit=crop&w=900&q=85",
           "imageAlt": "접시에 담긴 여러 과일",
           "soldCount": "3,402",
