@@ -83,73 +83,52 @@
       "products": [
         {
           "title": "[새벽경매] 아삭하고 신선한 특품 오이",
-          "imageSrc": "https://images.unsplash.com/photo-1604977042946-1eecc30f269e?auto=format&fit=crop&w=900&q=85",
-          "imageAlt": "신선한 오이",
+          "imageAlt": "박스에 담긴 신선한 오이",
           "soldCount": "31,284",
-          "price": "13,900원"
+          "price": "13,900원",
+          "imageSrc": "/products/veg-01.jpg"
+        },
+        {
+          "title": "[새벽경매] 싱싱한 풋고추(1팩)",
+          "imageAlt": "통에 담긴 풋고추",
+          "soldCount": "24,716",
+          "price": "8,900원",
+          "imageSrc": "/products/veg-02.jpg"
+        },
+        {
+          "title": "[새벽경매] 신선한 브로콜리",
+          "imageAlt": "손에 든 브로콜리",
+          "soldCount": "22,109",
+          "price": "9,900원",
+          "imageSrc": "/products/veg-03.jpg"
         },
         {
           "title": "[새벽경매] 싱싱한 국산 양상추",
-          "imageSrc": "https://images.unsplash.com/photo-1556801712-76c8eb07bbc9?auto=format&fit=crop&w=900&q=85",
-          "imageAlt": "국산 양상추",
-          "soldCount": "24,716",
-          "price": "12,900원"
-        },
-        {
-          "title": "[새벽경매] 단단하고 달큰한 완숙 토마토",
-          "imageSrc": "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?auto=format&fit=crop&w=900&q=85",
-          "imageAlt": "완숙 토마토",
-          "soldCount": "22,109",
-          "price": "16,900원"
-        },
-        {
-          "title": "[새벽경매] 향이 좋은 신선한 깻잎",
-          "imageSrc": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=900&q=85",
-          "imageAlt": "신선한 잎채소",
+          "imageAlt": "포장된 국산 양상추",
           "soldCount": "18,603",
-          "price": "8,900원"
+          "price": "12,900원",
+          "imageSrc": "/products/veg-04.jpg"
         },
         {
-          "title": "[새벽경매] 아삭한 국산 파프리카",
-          "imageSrc": "https://images.unsplash.com/photo-1563565375-f3fdfdbefa83?auto=format&fit=crop&w=900&q=85",
-          "imageAlt": "파프리카",
+          "title": "[새벽경매] 미니 파프리카(1팩)",
+          "imageAlt": "통에 담긴 미니 파프리카",
           "soldCount": "15,912",
-          "price": "15,900원"
-        },
-        {
-          "title": "[새벽경매] 국산 애호박",
-          "imageSrc": "https://images.unsplash.com/photo-1590165482129-1b8b27698780?auto=format&fit=crop&w=900&q=85",
-          "imageAlt": "애호박",
-          "soldCount": "12,736",
-          "price": "9,900원"
-        },
-        {
-          "title": "[새벽경매] 향긋한 대파 한 단",
-          "imageSrc": "https://images.unsplash.com/photo-1622206151226-18ca2c9ab4a1?auto=format&fit=crop&w=900&q=85",
-          "imageAlt": "대파",
-          "soldCount": "11,584",
-          "price": "7,900원"
+          "price": "15,900원",
+          "imageSrc": "/products/veg-05.jpg"
         },
         {
           "title": "[새벽경매] 포슬포슬 감자",
-          "imageSrc": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=900&q=85",
-          "imageAlt": "감자",
-          "soldCount": "10,293",
-          "price": "13,900원"
+          "imageAlt": "손에 든 감자",
+          "soldCount": "12,736",
+          "price": "13,900원",
+          "imageSrc": "/products/veg-06.jpg"
         },
         {
           "title": "[새벽경매] 달큰한 햇양파",
-          "imageSrc": "https://images.unsplash.com/photo-1508747703725-719777637510?auto=format&fit=crop&w=900&q=85",
-          "imageAlt": "양파",
-          "soldCount": "9,621",
-          "price": "11,900원"
-        },
-        {
-          "title": "[새벽경매] 샐러드용 채소 꾸러미",
-          "imageSrc": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=85",
-          "imageAlt": "샐러드 채소",
-          "soldCount": "8,904",
-          "price": "17,900원"
+          "imageAlt": "망에 담긴 양파",
+          "soldCount": "11,584",
+          "price": "11,900원",
+          "imageSrc": "/products/veg-07.jpg"
         }
       ]
     },
