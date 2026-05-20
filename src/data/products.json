@@ -158,22 +158,38 @@
           "price": "15,500원"
         },
         {
-          "title": "[새벽경매] 1++ 한우 국거리(300g)",
+          "title": "[새벽경매] \"생\"차돌박이 사시미(300g)",
           "imageSrc": "/products/meat-04.jpg",
+          "imageAlt": "차돌박이 사시미",
+          "soldCount": "9,218",
+          "price": "23,900원"
+        },
+        {
+          "title": "[새벽경매] 1++ 한우 등심(500g)",
+          "imageSrc": "/products/meat-05.jpg",
+          "imageAlt": "1++ 한우 등심",
+          "soldCount": "8,562",
+          "originalPrice": "90,000원",
+          "discountRate": "38%",
+          "price": "55,000원"
+        },
+        {
+          "title": "[새벽경매] 1++ 한우 국거리(300g)",
+          "imageSrc": "/products/meat-06.jpg",
           "imageAlt": "1++ 한우 국거리",
           "soldCount": "8,934",
           "price": "15,000원"
         },
         {
           "title": "[새벽경매] 한우육포(60g)",
-          "imageSrc": "/products/meat-05.jpg",
+          "imageSrc": "/products/meat-07.jpg",
           "imageAlt": "한우 육포",
           "soldCount": "8,217",
           "price": "5,500원"
         },
         {
           "title": "[새벽경매] 한우매운육포(70g)",
-          "imageSrc": "/products/meat-06.jpg",
+          "imageSrc": "/products/meat-08.jpg",
           "imageAlt": "한우 매운 육포",
           "soldCount": "7,042",
           "price": "5,900원"
