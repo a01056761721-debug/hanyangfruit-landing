@@ -13,6 +13,10 @@ const siteUrl = "https://www.hanyangfruit.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
+  icons: {
+    icon: [{ url: "/icon.png", type: "image/png" }],
+    apple: [{ url: "/apple-icon.png", type: "image/png" }],
+  },
   title: "한양과일 | 백화점급 이상의 품질, 거품 없는 가격",
   description:
     "복불복 과일에 지치셨다면 한양과일로 정착하세요. 당일 검수부터 직접 배송까지.",
