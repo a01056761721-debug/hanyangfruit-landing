@@ -455,7 +455,7 @@ export default function HanyangLanding() {
               n: "03",
               bg: "bg-amber-100",
               title: "직접 배송",
-              body: "검수한 상품을 직접 배송하며 마지막까지 상태를 신경 씁니다",
+              body: "검수한 상품을 택배 배송하며 마지막까지 상태를 신경 씁니다",
               emoji: "🚚",
             },
             {
