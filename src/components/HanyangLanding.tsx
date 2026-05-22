@@ -423,7 +423,11 @@ export default function HanyangLanding() {
             <div className="mt-4 max-w-3xl space-y-3 text-sm leading-relaxed text-white/95 sm:mt-5 sm:space-y-3.5 sm:text-base lg:mt-6 [&_p]:break-keep">
               <p className="text-pretty">좋은 과일은 직접 보고 먹어봐야 안다고 생각합니다.</p>
               <p className="text-pretty">
-                눈으로 상태를 확인하고 직접 먹어보고 고른 과일만 판매하는 것. 그게 한양과일이 가장 중요하게 생각하는 기준입니다.
+                눈으로 상태를 확인하고 직접 먹어보고 고른 과일만 판매하는 것.
+                <br />
+                <span className="inline-block whitespace-nowrap">
+                  그게 한양과일이 가장 중요하게 생각하는 기준입니다.
+                </span>
               </p>
             </div>
           </div>
