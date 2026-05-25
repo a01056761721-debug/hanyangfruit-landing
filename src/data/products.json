@@ -92,6 +92,8 @@
           "title": "[새벽경매] 산딸기(1팩)",
           "imageSrc": "/products/fruit-12.jpg",
           "imageAlt": "통에 담긴 산딸기",
+          "hoverImageSrc": "/products/fruit-12-hover.jpg",
+          "hoverImageAlt": "손에 올린 산딸기",
           "soldCount": "6,279",
           "price": "14,500원"
         }
