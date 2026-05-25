@@ -108,6 +108,8 @@
         {
           "title": "[새벽경매] 명품 백오이(5개)",
           "imageAlt": "박스에 담긴 명품 백오이",
+           "hoverImageSrc": "/products/veg-01-hover.jpg",
+          "hoverImageAlt": "손에 든 오이",
           "soldCount": "2,526",
           "price": "1,500원",
           "imageSrc": "/products/veg-01.jpg"
@@ -159,10 +161,39 @@
         {
           "title": "[새벽경매] 조생 햇양파(1망)",
           "imageAlt": "망에 담긴 조생 햇양파",
+           "hoverImageSrc": "/products/veg-07-hover.jpg",
+          "hoverImageAlt": "손에 든 양파",
           "soldCount": "2,547",
           "price": "2,400원",
           "imageSrc": "/products/veg-07.jpg"
-        }
+        },
+         {
+          "title": "[새벽경매] 깐마늘(200g)",
+          "imageAlt": "깐마늘",
+           "hoverImageSrc": "/products/veg-09-hover.jpg",
+          "hoverImageAlt": "손에 든 깐마늘",
+          "soldCount": "2,337",
+          "price": "2,300원",
+          "imageSrc": "/products/veg-09.jpg"
+        },
+         {
+          "title": "[새벽경매] 제주 흙당근 (1kg)",
+          "imageAlt": "제주 흙당근",
+           "hoverImageSrc": "/products/veg-10-hover.jpg",
+          "hoverImageAlt": "제주 흙당근",
+          "soldCount": "5,667",
+          "price": "2,200원",
+          "imageSrc": "/products/veg-10.jpg"
+       },
+         {
+          "title": "[새벽경매] 가지 (2개)",
+          "imageAlt": "가지",
+           "hoverImageSrc": "/products/veg-11-hover.jpg",
+          "hoverImageAlt": "가지",
+          "soldCount": "1,456",
+          "price": "1,500원",
+          "imageSrc": "/products/veg-11.jpg"
+         }  
       ]
     },
     {
