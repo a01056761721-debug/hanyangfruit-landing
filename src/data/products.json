@@ -230,6 +230,15 @@
       "description": "과일처럼 직접 먹어보고 고른 좋은 퀄리티의 공구상품 소개해드려요",
       "products": [
         {
+          "title": "[한정수량] 난각번호2번 유정란(특란30구)",
+          "imageSrc": "/products/group-1.jpg",
+          "imageAlt": "유정란 1판",
+          "hoverImageSrc": "/products/group-1-hover.jpg",
+          "hoverImageAlt": "유정란",
+          "soldCount": "1,235",
+          "price": "12,900원"
+        },
+        {
           "title": "[한정수량] 자연산 순살볼락(400g)",
           "imageSrc": "/products/group-01.png",
           "imageAlt": "자연산 순살 볼락 패키지",
