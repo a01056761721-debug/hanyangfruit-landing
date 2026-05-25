@@ -69,6 +69,8 @@
           "title": "[새벽경매] 국산 블루베리(1팩)",
           "imageSrc": "/products/fruit-09.jpg",
           "imageAlt": "통에 담긴 국산 블루베리",
+          "hoverImageSrc": "/products/fruit-09-hover.jpg",
+          "hoverImageAlt": "손에 올린 블루베리",
           "soldCount": "3,345",
           "price": "3,500원"
         },
