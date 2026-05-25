@@ -37,6 +37,8 @@
           "title": "[새벽경매] 성주 꿀 참외(5개)",
           "imageSrc": "/products/fruit-05.jpg",
           "imageAlt": "손바닥 위 성주 꿀 참외",
+          "hoverImageSrc": "/products/fruit-05-hover",
+          "hoverImageAlt": "참외 단면",
           "soldCount": "5,285",
           "price": "7,500원"
         },
@@ -58,6 +60,8 @@
           "title": "[새벽경매] 홈런메론",
           "imageSrc": "/products/fruit-08.jpg",
           "imageAlt": "손에 든 홈런 메론",
+          "hoverImageSrc": "/products/fruit-08-hover",
+          "hoverImageAlt": "홈런 메론 단면",
           "soldCount": "4,063",
           "price": "9,000원"
         },
