@@ -76,6 +76,8 @@
           "title": "[새벽경매] 고당도 귤(1팩)",
           "imageSrc": "/products/fruit-10.jpg",
           "imageAlt": "통에 담긴 고당도 귤",
+           "hoverImageSrc": "/products/fruit-010-hover.jpg",
+          "hoverImageAlt": "고당도 귤 단면",
           "soldCount": "5,840",
           "price": "7,500원"
         },
