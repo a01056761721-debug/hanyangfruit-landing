@@ -139,6 +139,8 @@
         {
           "title": "[새벽경매] 미니 파프리카(1팩)",
           "imageAlt": "통에 담긴 미니 파프리카",
+          "hoverImageSrc": "/products/veg-06-hover.jpg",
+          "hoverImageAlt": "파프리카 단면",
           "soldCount": "6,830",
           "price": "3,000원",
           "imageSrc": "/products/veg-05.jpg"
