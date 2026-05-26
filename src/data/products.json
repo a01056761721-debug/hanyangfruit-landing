@@ -98,6 +98,15 @@
           "hoverImageAlt": "손에 올린 산딸기",
           "soldCount": "6,279",
           "price": "14,500원"
+          },
+        {
+          "title": "[새벽경매] 케이멜론(1통)",
+          "imageSrc": "/products/fruit-13.jpg",
+          "imageAlt": "통에 담긴 케이메론",
+          "hoverImageSrc": "/products/fruit-13-hover.jpg",
+          "hoverImageAlt": "손에 올린 메론",
+          "soldCount": "2,279",
+          "price": "14,500원"
         }
       ]
     },
