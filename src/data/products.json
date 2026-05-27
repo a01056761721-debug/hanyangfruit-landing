@@ -123,6 +123,15 @@
           "imageAlt": "애플망고 손",
           "soldCount": "3,112",
           "price": "14,000원"
+            },
+         {
+          "title": "[새벽경매] 고당도 바나나(1손)",
+          "imageSrc": "/products/fruit-17.jpg",
+          "imageAlt": "바나나 손",
+           "hoverImageSrc": "/products/fruit-17-hover.jpg",
+          "hoverImageAlt": "손에 올린바나나",
+          "soldCount": "5,434",
+          "price": "3,500원"
         }
       ]
     },
