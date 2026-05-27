@@ -213,6 +213,8 @@
           "title": "[100%암퇘지] 부드러운 목살(600g)",
           "imageSrc": "/products/meat-01.jpg",
           "imageAlt": "트레이에 담긴 목살",
+          "hoverImageSrc": "/products/meat-01-hover.jpg",
+          "hoverImageAlt": "구운 목살",
           "soldCount": "5,080",
           "price": "17,500원"
         },
