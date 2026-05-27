@@ -13,11 +13,13 @@
           "price": "28,000원"
         },
         {
-          "title": "[새벽경매] 명품 백자멜론",
-          "imageSrc": "/products/fruit-02.jpg",
-          "imageAlt": "손에 든 백자 멜론",
+          "title": "[새벽경매] 고당도 사과(4개)",
+          "imageSrc": "/products/fruit-14.jpg",
+          "imageAlt": "손에 든 사과",
+          "hoverImageSrc": "/products/fruit-14-hover.jpg",
+          "hoverImageAlt": "당도계 사과",
           "soldCount": "6,200",
-          "price": "7,500원"
+          "price": "15,000원"
         },
         {
           "title": "[새벽경매] 천도복숭아(1팩)",
@@ -107,6 +109,20 @@
           "hoverImageAlt": "손에 올린 메론",
           "soldCount": "2,279",
           "price": "14,500원"
+          },
+        {
+          "title": "[새벽경매] 망고스틴(1망)",
+          "imageSrc": "/products/fruit-15.jpg",
+          "imageAlt": "망고스틴 손",
+          "soldCount": "2,271",
+          "price": "7,000원"
+           },
+         {
+          "title": "[새벽경매] 넘버원 대만 애플망고(3개)",
+          "imageSrc": "/products/fruit-16.jpg",
+          "imageAlt": "애플망고 손",
+          "soldCount": "3,112",
+          "price": "14,000원"
         }
       ]
     },
