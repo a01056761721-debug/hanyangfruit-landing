@@ -22,8 +22,8 @@
           "price": "15,000원"
         },
         {
-          "title": "[새벽경매] 천도복숭아(1팩)",
-          "price": "8,500원",
+          "title": "[새벽경매] 천도복숭아(1kg)",
+          "price": "4,500원",
           "imageAlt": "천도복숭아",
           "soldCount": "5,269",
           "imageSrc": "/products/fruit-03.jpg"
@@ -132,6 +132,29 @@
           "hoverImageAlt": "손에 올린바나나",
           "soldCount": "5,434",
           "price": "3,500원"
+           },
+         {
+          "title": "[새벽경매] 워싱턴 체리(500g)",
+          "imageSrc": "/products/fruit-18.jpg",
+            "hoverImageSrc": "/products/fruit-18-hover.jpg",
+          "hoverImageAlt": "손에 올린체리",
+          "imageAlt": "체리",
+          "soldCount": "2,544",
+          "price": "14,000원"
+           },
+         {
+          "title": "[새벽경매] 대극천 복숭아(500g)",
+          "imageSrc": "/products/fruit-19.jpg",
+          "imageAlt": "대극천 팩",
+          "soldCount": "1,503",
+          "price": "20,000원"
+            },
+         {
+          "title": "[새벽경매] 초당옥수수(5개)",
+          "imageSrc": "/products/fruit-20.jpg",
+          "imageAlt": "초당옥수수",
+          "soldCount": "3,213",
+          "price": "9,500원"
         }
       ]
     },
