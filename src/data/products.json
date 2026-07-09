@@ -354,64 +354,99 @@
       "description": "좋은 식재료 기준으로 고른 신선한 정육 상품을 소개해드려요",
       "products": [
         {
-          "title": "[100%암퇘지] 부드러운 목살(600g)",
+          "title": "[100%암퇘지] 시그니처 목살(600g)",
           "imageSrc": "/products/meat-01.jpg",
-          "imageAlt": "트레이에 담긴 목살",
-          "soldCount": "5,080",
-          "price": "17,500원"
+          "imageAlt": "시그니처 목살",
+          "soldCount": "6,983",
+          "price": "18,500원",
+          "hoverImageSrc": "/products/meat-01-hover.jpg",
+          "hoverImageAlt": "시그니처 목살 상세"
         },
         {
           "title": "[100%암퇘지] 제주 오겹살(600g)",
           "imageSrc": "/products/meat-02.jpg",
-          "imageAlt": "트레이에 담긴 제주 오겹살",
+          "imageAlt": "제주 오겹살",
+          "soldCount": "6,344",
+          "price": "17,500원",
           "hoverImageSrc": "/products/meat-02-hover.jpg",
-          "hoverImageAlt": "구운 제주 오겹살",
-          "soldCount": "6,718",
+          "hoverImageAlt": "제주 오겹살 상세"
+        },
+        {
+          "title": "[제주 흑돼지] 전지 수육용(500g)",
+          "imageSrc": "/products/meat-03.jpg",
+          "imageAlt": "제주 흑돼지 전지 수육용",
+          "soldCount": "5,605",
+          "price": "13,500원"
+        },
+        {
+          "title": "[제주 흑돼지] 목살(400g)",
+          "imageSrc": "/products/meat-04.jpg",
+          "imageAlt": "제주 흑돼지 목살",
+          "soldCount": "6,600",
           "price": "18,500원"
         },
         {
-          "title": "[1++한우] 냉장 육회(300g)",
-          "imageSrc": "/products/meat-03.jpg",
-          "imageAlt": "한우 육회",
-          "soldCount": "1,686",
-          "price": "15,500원"
-        },
-        {
-          "title": "[1++한우] \"생\"차돌박이 사시미(300g)",
-          "imageSrc": "/products/meat-04.jpg",
-          "imageAlt": "차돌박이 사시미",
-          "soldCount": "1,197",
-          "price": "23,900원"
-        },
-        {
-          "title": "[1++ 한우] 등심(500g)",
+          "title": "[1++한우] 한우육회(300g)",
           "imageSrc": "/products/meat-05.jpg",
-          "imageAlt": "1++ 한우 등심",
-          "soldCount": "4,795",
-          "originalPrice": "90,000원",
-          "discountRate": "38%",
-          "price": "55,000원"
+          "imageAlt": "한우육회",
+          "soldCount": "3,910",
+          "price": "19,000원",
+          "hoverImageSrc": "/products/meat-05-hover.jpg",
+          "hoverImageAlt": "한우육회 상세"
         },
         {
-          "title": "[1++ 한우] 국거리(300g)",
+          "title": "[1++한우] 등심(500g)",
           "imageSrc": "/products/meat-06.jpg",
-          "imageAlt": "1++ 한우 국거리",
-          "soldCount": "5,466",
-          "price": "15,000원"
+          "imageAlt": "1++한우 등심",
+          "soldCount": "2,990",
+          "price": "52,000원",
+          "hoverImageSrc": "/products/meat-06-hover.jpg",
+          "hoverImageAlt": "1++한우 등심 상세"
         },
         {
-          "title": "[100% 한우] 육포(60g)",
+          "title": "[1++한우] 안심(500g)",
           "imageSrc": "/products/meat-07.jpg",
-          "imageAlt": "한우 육포",
-          "soldCount": "1,630",
-          "price": "5,500원"
+          "imageAlt": "1++한우 안심",
+          "soldCount": "5,590",
+          "price": "72,000원",
+          "hoverImageSrc": "/products/meat-07-hover.jpg",
+          "hoverImageAlt": "1++한우 안심 상세"
         },
         {
-          "title": "[100% 한우] 매운육포(70g)",
+          "title": "[1++한우] 국거리(300g)",
           "imageSrc": "/products/meat-08.jpg",
-          "imageAlt": "한우 매운 육포",
-          "soldCount": "1,257",
-          "price": "5,900원"
+          "imageAlt": "1++한우 국거리",
+          "soldCount": "4,858",
+          "price": "17,500원",
+          "hoverImageSrc": "/products/meat-08-hover.jpg",
+          "hoverImageAlt": "1++한우 국거리 상세"
+        },
+        {
+          "title": "한우 소곱창(500g)",
+          "imageSrc": "/products/meat-09.jpg",
+          "imageAlt": "한우 소곱창",
+          "soldCount": "2,886",
+          "price": "26,000원",
+          "hoverImageSrc": "/products/meat-09-hover.jpg",
+          "hoverImageAlt": "한우 소곱창 상세"
+        },
+        {
+          "title": "국산 등갈비(1KG)",
+          "imageSrc": "/products/meat-10.jpg",
+          "imageAlt": "국산 등갈비",
+          "soldCount": "7,226",
+          "price": "22,000원",
+          "hoverImageSrc": "/products/meat-10-hover.jpg",
+          "hoverImageAlt": "국산 등갈비 상세"
+        },
+        {
+          "title": "미국산 Choice 블랙앵거스 생LA갈비(1KG)",
+          "imageSrc": "/products/meat-11.jpg",
+          "imageAlt": "미국산 블랙앵거스 생LA갈비",
+          "soldCount": "3,637",
+          "price": "34,000원",
+          "hoverImageSrc": "/products/meat-11-hover.jpg",
+          "hoverImageAlt": "미국산 블랙앵거스 생LA갈비 상세"
         }
       ]
     },
