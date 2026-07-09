@@ -33,7 +33,7 @@ type Category = {
 };
 
 const CATEGORIES: Category[] = (productsData.categories ?? []).filter(
-  (c: Category) => c && Array.isArray(c.products) && c.products.length > 0,
+  (c: Category) => c && Array.isArray(c.products),
 );
 
 const FALLBACK_CATEGORY: Category = {
@@ -167,6 +167,16 @@ export default function ProductShowcase() {
           })}
         </div>
 
+        {products.length === 0 ? (
+          <div className="rounded-2xl border border-dashed border-slate-200 bg-slate-50 px-6 py-16 text-center">
+            <p className="text-lg font-black text-slate-700 sm:text-xl">
+              상품 준비 중입니다
+            </p>
+            <p className="mt-2 text-sm font-bold text-slate-500 sm:text-base">
+              곧 새로운 선물세트로 찾아뵙겠습니다.
+            </p>
+          </div>
+        ) : (
         <div className="grid grid-cols-2 gap-x-3 gap-y-7 sm:gap-x-4 lg:grid-cols-4 lg:gap-x-5">
           {visibleProducts.map((product, indexInPage) => {
             const absoluteIndex = safePage * PRODUCTS_PER_PAGE + indexInPage;
@@ -214,7 +224,9 @@ export default function ProductShowcase() {
             );
           })}
         </div>
+        )}
 
+        {products.length > 0 ? (
         <div className="mt-9 flex items-center justify-center gap-3">
           <button
             type="button"
@@ -247,6 +259,7 @@ export default function ProductShowcase() {
             다음 &gt;
           </button>
         </div>
+        ) : null}
 
         <div className="mt-9 flex justify-center lg:hidden">
           <Link
