@@ -455,84 +455,144 @@
       "description": "과일처럼 직접 먹어보고 고른 좋은 퀄리티의 공구상품 소개해드려요",
       "products": [
         {
-          "title": "[한정수량] 자연산 순살볼락(400g)",
-          "imageSrc": "/products/group-01.png",
-          "imageAlt": "자연산 순살 볼락 패키지",
-          "hoverImageSrc": "/products/group-01-hover.png",
-          "hoverImageAlt": "볼락 구이",
-          "soldCount": "4,926",
-          "price": "5,500원"
-        },
-        {
-          "title": "[한정수량] 돼지갈비(800g x 2팩)",
-          "imageSrc": "/products/group-02.png",
-          "imageAlt": "돼지갈비 패키지",
-          "hoverImageSrc": "/products/group-02-hover.png",
-          "hoverImageAlt": "구운 돼지갈비",
-          "soldCount": "5,995",
+          "title": "[한정수량] 육창고 목살갈비(700g)(2팩)",
+          "imageSrc": "/products/group-01.jpg",
+          "imageAlt": "육창고 목살갈비",
+          "soldCount": "6,354",
           "price": "16,000원"
         },
         {
-          "title": "[한정수량] LA갈비(800g)",
-          "imageSrc": "/products/group-03.png",
-          "imageAlt": "LA갈비 패키지",
-          "hoverImageSrc": "/products/group-03-hover.png",
-          "hoverImageAlt": "구운 LA갈비",
-          "soldCount": "2,245",
-          "originalPrice": "18,900원",
-          "discountRate": "12%",
+          "title": "[한정수량] 육창고 LA양념갈비(800g)",
+          "imageSrc": "/products/group-02.jpg",
+          "imageAlt": "육창고 LA양념갈비",
+          "soldCount": "3,098",
           "price": "16,500원"
         },
         {
-          "title": "[한정수량] 치즈 블랙타이거 새우(5미)",
-          "imageSrc": "/products/group-04.png",
-          "imageAlt": "치즈 블랙타이거 새우 패키지",
-          "hoverImageSrc": "/products/group-04-hover.png",
-          "hoverImageAlt": "치즈 새우 구이",
-          "soldCount": "4,592",
-          "price": "7,000원"
+          "title": "[한정수량] 전주한옥 삼계탕(1kg)",
+          "imageSrc": "/products/group-03.jpg",
+          "imageAlt": "전주한옥 삼계탕",
+          "soldCount": "6,295",
+          "price": "9,000원",
+          "hoverImageSrc": "/products/group-03-hover.jpg",
+          "hoverImageAlt": "전주한옥 삼계탕 상세"
         },
         {
-          "title": "[한정수량] 명품 수제꼬치(파닭4p/순살닭4p/염통4p)",
-          "imageSrc": "/products/group-05.png",
-          "imageAlt": "명품 수제꼬치 패키지",
-          "hoverImageSrc": "/products/group-05-hover.png",
-          "hoverImageAlt": "구운 수제꼬치",
-          "soldCount": "1,681",
-          "price": "13,500원"
+          "title": "[한정수량] 장단콩 1등급 100% 손두부(600g)",
+          "imageSrc": "/products/group-04.jpg",
+          "imageAlt": "장단콩 손두부",
+          "soldCount": "4,076",
+          "price": "4,500원"
         },
         {
-          "title": "[한정수량] 매콤 우렁이보리장(500g)",
-          "imageSrc": "/products/group-06.png",
-          "imageAlt": "매콤 우렁이보리장",
-          "hoverImageSrc": "/products/group-06-hover.png",
-          "hoverImageAlt": "우렁이보리장",
-          "soldCount": "1,146",
-          "originalPrice": "14,000원",
-          "discountRate": "39%",
+          "title": "[한정수량] 국산 서리태 콩국물(900ml)",
+          "imageSrc": "/products/group-05.jpg",
+          "imageAlt": "국산 서리태 콩국물",
+          "soldCount": "6,199",
+          "price": "9,900원"
+        },
+        {
+          "title": "[한정수량] 국산 백태 콩국물(900ml)",
+          "imageSrc": "/products/group-06.jpg",
+          "imageAlt": "국산 백태 콩국물",
+          "soldCount": "3,505",
+          "price": "7,500원",
+          "hoverImageSrc": "/products/group-06-hover.jpg",
+          "hoverImageAlt": "국산 백태 콩국물 상세"
+        },
+        {
+          "title": "[한정수량] 진도 전복 톳 미역국(1팩)",
+          "imageSrc": "/products/group-07.jpg",
+          "imageAlt": "진도 전복 톳 미역국",
+          "soldCount": "5,573",
+          "price": "3,000원",
+          "hoverImageSrc": "/products/group-07-hover.jpg",
+          "hoverImageAlt": "진도 전복 톳 미역국 상세"
+        },
+        {
+          "title": "[한정수량] 진도 찹쌀 전복죽(1팩)",
+          "imageSrc": "/products/group-08.jpg",
+          "imageAlt": "진도 찹쌀 전복죽",
+          "soldCount": "5,577",
+          "price": "3,000원"
+        },
+        {
+          "title": "[한정수량] 청정 알래스카 자연산 순살볼락(400g)",
+          "imageSrc": "/products/group-09.jpg",
+          "imageAlt": "자연산 순살볼락",
+          "soldCount": "4,846",
+          "price": "5,500원"
+        },
+        {
+          "title": "[한정수량] 소금숙성 연어회(300g)",
+          "imageSrc": "/products/group-10.jpg",
+          "imageAlt": "소금숙성 연어회",
+          "soldCount": "2,571",
+          "price": "16,900원"
+        },
+        {
+          "title": "[한정수량] 직화 무뼈닭발(300g)",
+          "imageSrc": "/products/group-11.jpg",
+          "imageAlt": "직화 무뼈닭발",
+          "soldCount": "3,825",
           "price": "8,500원"
         },
         {
-          "title": "[한정수량] 통 보리장(500g)",
-          "imageSrc": "/products/group-07.png",
-          "imageAlt": "통 보리장",
-          "hoverImageSrc": "/products/group-07-hover.png",
-          "hoverImageAlt": "보리장",
-          "soldCount": "6,806",
-          "originalPrice": "9,900원",
-          "discountRate": "34%",
-          "price": "6,500원"
+          "title": "[한정수량] 애담정 간장연어장(300g)",
+          "imageSrc": "/products/group-12.jpg",
+          "imageAlt": "애담정 간장연어장",
+          "soldCount": "5,612",
+          "price": "12,500원"
         },
         {
-          "title": "[한정수량] 양념 연어장(300g)",
-          "imageSrc": "/products/group-08.png",
-          "imageAlt": "양념 연어장",
-          "hoverImageSrc": "/products/group-08-hover.png",
-          "hoverImageAlt": "양념 연어장",
-          "soldCount": "1,563",
-          "originalPrice": "15,000원",
-          "discountRate": "40%",
-          "price": "9,000원"
+          "title": "[한정수량] 참송이 장아찌(250g)",
+          "imageSrc": "/products/group-13.jpg",
+          "imageAlt": "참송이 장아찌",
+          "soldCount": "5,078",
+          "price": "7,900원",
+          "hoverImageSrc": "/products/group-13-hover.jpg",
+          "hoverImageAlt": "참송이 장아찌 상세"
+        },
+        {
+          "title": "[한정수량] 오대복 모듬꼬치(12p)",
+          "imageSrc": "/products/group-14.jpg",
+          "imageAlt": "오대복 모듬꼬치",
+          "soldCount": "3,907",
+          "price": "14,500원"
+        },
+        {
+          "title": "[한정수량] 오대복 순살꼬치(10p)",
+          "imageSrc": "/products/group-15.jpg",
+          "imageAlt": "오대복 순살꼬치",
+          "soldCount": "6,992",
+          "price": "14,500원"
+        },
+        {
+          "title": "[한정수량] 프리미엄 풍천장어(1kg)",
+          "imageSrc": "/products/group-16.jpg",
+          "imageAlt": "프리미엄 풍천장어",
+          "soldCount": "2,975",
+          "price": "32,000원",
+          "hoverImageSrc": "/products/group-16-hover.jpg",
+          "hoverImageAlt": "프리미엄 풍천장어 상세"
+        },
+        {
+          "title": "[한정수량] 오리지널 통보리장(500g)",
+          "imageSrc": "/products/group-17.jpg",
+          "imageAlt": "오리지널 통보리장",
+          "soldCount": "4,515",
+          "price": "6,500원",
+          "hoverImageSrc": "/products/group-17-hover.jpg",
+          "hoverImageAlt": "오리지널 통보리장 상세"
+        },
+        {
+          "title": "[한정수량] 난각번호2번 유정란(30구)",
+          "imageSrc": "/products/group-18.jpg",
+          "imageAlt": "난각번호2번 유정란",
+          "soldCount": "2,873",
+          "price": "12,900원",
+          "hoverImageSrc": "/products/group-18-hover.jpg",
+          "hoverImageAlt": "난각번호2번 유정란 상세"
         }
       ]
     }
