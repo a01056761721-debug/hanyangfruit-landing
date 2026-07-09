@@ -6,155 +6,191 @@
       "description": "매일 새벽 직접 맛보고 고른 과일만 골라 소개해드려요",
       "products": [
         {
-          "title": "[새벽경매] 13브릭스 우곡수박",
+          "title": "[새벽경매] 1등화주 수박(10kg내외)",
           "imageSrc": "/products/fruit-01.jpg",
-          "imageAlt": "박스에 담긴 우곡 수박",
-          "soldCount": "4,971",
-          "price": "28,000원"
+          "imageAlt": "1등화주 수박",
+          "soldCount": "3,966",
+          "price": "38,000원",
+          "hoverImageSrc": "/products/fruit-01-hover.jpg",
+          "hoverImageAlt": "1등화주 수박 상세"
         },
         {
-          "title": "[새벽경매] 고당도 사과(4개)",
-          "imageSrc": "/products/fruit-14.jpg",
-          "imageAlt": "손에 든 사과",
-          "hoverImageSrc": "/products/fruit-14-hover.jpg",
-          "hoverImageAlt": "당도계 사과",
-          "soldCount": "6,200",
-          "price": "15,000원"
+          "title": "[새벽경매] 1등화주 햇사레 그린황도 말랑이(5수)",
+          "imageSrc": "/products/fruit-02.jpg",
+          "imageAlt": "햇사레 그린황도 말랑이",
+          "soldCount": "5,052",
+          "price": "18,000원",
+          "hoverImageSrc": "/products/fruit-02-hover.jpg",
+          "hoverImageAlt": "햇사레 그린황도 말랑이 상세"
         },
         {
-          "title": "[새벽경매] 천도복숭아(1kg)",
-          "price": "4,500원",
-          "imageAlt": "천도복숭아",
-          "soldCount": "5,269",
-          "imageSrc": "/products/fruit-03.jpg"
+          "title": "[새벽경매] 고당도 햇사레 그린황도 말랑이(7수)",
+          "imageSrc": "/products/fruit-03.jpg",
+          "imageAlt": "고당도 햇사레 그린황도 말랑이",
+          "soldCount": "2,818",
+          "price": "12,000원",
+          "hoverImageSrc": "/products/fruit-03-hover.jpg",
+          "hoverImageAlt": "고당도 햇사레 그린황도 말랑이 상세"
         },
         {
-          "title": "[새벽경매] 데라웨어 포도(1팩)",
+          "title": "[새벽경매] 옐로우드림 복숭아(1kg)",
+          "imageSrc": "/products/fruit-04.jpg",
+          "imageAlt": "옐로우드림 복숭아",
+          "soldCount": "2,785",
           "price": "5,000원",
-          "imageAlt": "데라웨어 포도",
-          "soldCount": "5,610",
-          "imageSrc": "/products/fruit-04.jpg"
+          "hoverImageSrc": "/products/fruit-04-hover.jpg",
+          "hoverImageAlt": "옐로우드림 복숭아 상세"
         },
         {
-          "title": "[새벽경매] 성주 꿀 참외(5개)",
+          "title": "[새벽경매] 프리미엄 대극천(1.5kg내외)",
           "imageSrc": "/products/fruit-05.jpg",
-          "imageAlt": "손바닥 위 성주 꿀 참외",
+          "imageAlt": "프리미엄 대극천",
+          "soldCount": "5,866",
+          "price": "19,000원",
           "hoverImageSrc": "/products/fruit-05-hover.jpg",
-          "hoverImageAlt": "참외 단면",
-          "soldCount": "5,285",
-          "price": "7,500원"
+          "hoverImageAlt": "프리미엄 대극천 상세"
         },
         {
-          "title": "[새벽경매] 고당도 방울토마토(1팩)",
+          "title": "[새벽경매] 호기도 딱딱이 복숭아(2kg내외)",
           "imageSrc": "/products/fruit-06.jpg",
-          "imageAlt": "통에 담긴 방울토마토",
-          "soldCount": "6,703",
-          "price": "6,000원"
+          "imageAlt": "호기도 딱딱이 복숭아",
+          "soldCount": "6,222",
+          "price": "18,000원",
+          "hoverImageSrc": "/products/fruit-06-hover.jpg",
+          "hoverImageAlt": "호기도 딱딱이 복숭아 상세"
         },
         {
-          "title": "[새벽경매] JTC 태국망고(3개)",
+          "title": "[새벽경매] 고당도 자두(1kg)",
           "imageSrc": "/products/fruit-07.jpg",
-          "imageAlt": "박스에 담긴 JTC 태국 망고",
-          "soldCount": "6,041",
-          "price": "10,000원"
+          "imageAlt": "고당도 자두",
+          "soldCount": "3,648",
+          "price": "8,500원",
+          "hoverImageSrc": "/products/fruit-07-hover.jpg",
+          "hoverImageAlt": "고당도 자두 상세"
         },
         {
-          "title": "[새벽경매] 홈런메론",
+          "title": "[새벽경매] 고당도 멜론(1통)",
           "imageSrc": "/products/fruit-08.jpg",
-          "imageAlt": "손에 든 홈런 메론",
+          "imageAlt": "고당도 멜론",
+          "soldCount": "3,515",
+          "price": "9,900원",
           "hoverImageSrc": "/products/fruit-08-hover.jpg",
-          "hoverImageAlt": "홈런 메론 단면",
-          "soldCount": "4,063",
-          "price": "9,000원"
+          "hoverImageAlt": "고당도 멜론 상세"
+        },
+        {
+          "title": "[새벽경매] 캠벨포도(특특)(9-10수) 1박스",
+          "imageSrc": "/products/fruit-09.jpg",
+          "imageAlt": "캠벨포도 1박스",
+          "soldCount": "7,322",
+          "price": "35,000원",
+          "hoverImageSrc": "/products/fruit-09-hover.jpg",
+          "hoverImageAlt": "캠벨포도 1박스 상세"
+        },
+        {
+          "title": "[새벽경매] BK거봉(1송이)",
+          "imageSrc": "/products/fruit-10.jpg",
+          "imageAlt": "BK거봉",
+          "soldCount": "5,139",
+          "price": "11,000원",
+          "hoverImageSrc": "/products/fruit-10-hover.jpg",
+          "hoverImageAlt": "BK거봉 상세"
+        },
+        {
+          "title": "[새벽경매] 고당도 거봉(특특)",
+          "imageSrc": "/products/fruit-11.jpg",
+          "imageAlt": "고당도 거봉",
+          "soldCount": "7,413",
+          "price": "25,000원",
+          "hoverImageSrc": "/products/fruit-11-hover.jpg",
+          "hoverImageAlt": "고당도 거봉 상세"
+        },
+        {
+          "title": "[새벽경매] 고당도 사과(3개)",
+          "imageSrc": "/products/fruit-12.jpg",
+          "imageAlt": "고당도 사과",
+          "soldCount": "6,477",
+          "price": "13,500원",
+          "hoverImageSrc": "/products/fruit-12-hover.jpg",
+          "hoverImageAlt": "고당도 사과 상세"
+        },
+        {
+          "title": "[새벽경매] 방울토마토(1팩)",
+          "imageSrc": "/products/fruit-13.jpg",
+          "imageAlt": "방울토마토",
+          "soldCount": "5,115",
+          "price": "3,000원",
+          "hoverImageSrc": "/products/fruit-13-hover.jpg",
+          "hoverImageAlt": "방울토마토 상세"
+        },
+        {
+          "title": "[새벽경매] 완숙토마토(1kg내외)",
+          "imageSrc": "/products/fruit-14.jpg",
+          "imageAlt": "완숙토마토",
+          "soldCount": "5,095",
+          "price": "3,500원",
+          "hoverImageSrc": "/products/fruit-14-hover.jpg",
+          "hoverImageAlt": "완숙토마토 상세"
         },
         {
           "title": "[새벽경매] 국산 블루베리(1팩)",
-          "imageSrc": "/products/fruit-09.jpg",
-          "imageAlt": "통에 담긴 국산 블루베리",
-          "hoverImageSrc": "/products/fruit-09-hover.jpg",
-          "hoverImageAlt": "손에 올린 블루베리",
-          "soldCount": "3,345",
-          "price": "3,500원"
-        },
-        {
-          "title": "[새벽경매] 고당도 귤(1팩)",
-          "imageSrc": "/products/fruit-10.jpg",
-          "imageAlt": "통에 담긴 고당도 귤",
-           "hoverImageSrc": "/products/fruit-10-hover.jpg",
-          "hoverImageAlt": "고당도 귤 단면",
-          "soldCount": "5,840",
-          "price": "7,500원"
-        },
-        {
-          "title": "[새벽경매] 애플 청포도(1kg)",
-          "imageSrc": "/products/fruit-11.jpg",
-          "imageAlt": "박스에 담긴 애플 청포도",
-          "soldCount": "6,540",
-          "price": "12,500원"
-        },
-        {
-          "title": "[새벽경매] 산딸기(1팩)",
-          "imageSrc": "/products/fruit-12.jpg",
-          "imageAlt": "통에 담긴 산딸기",
-          "hoverImageSrc": "/products/fruit-12-hover.jpg",
-          "hoverImageAlt": "손에 올린 산딸기",
-          "soldCount": "6,279",
-          "price": "14,500원"
-          },
-        {
-          "title": "[새벽경매] 케이멜론(1통)",
-          "imageSrc": "/products/fruit-13.jpg",
-          "imageAlt": "통에 담긴 케이메론",
-          "hoverImageSrc": "/products/fruit-13-hover.jpg",
-          "hoverImageAlt": "손에 올린 메론",
-          "soldCount": "2,279",
-          "price": "14,500원"
-          },
-        {
-          "title": "[새벽경매] 망고스틴(1망)",
           "imageSrc": "/products/fruit-15.jpg",
-          "imageAlt": "망고스틴 손",
-          "soldCount": "2,271",
-          "price": "7,000원"
-           },
-         {
-          "title": "[새벽경매] 넘버원 대만 애플망고(3개)",
+          "imageAlt": "국산 블루베리",
+          "soldCount": "2,606",
+          "price": "4,500원",
+          "hoverImageSrc": "/products/fruit-15-hover.jpg",
+          "hoverImageAlt": "국산 블루베리 상세"
+        },
+        {
+          "title": "[새벽경매] 고당도 참외(5개)",
           "imageSrc": "/products/fruit-16.jpg",
-          "imageAlt": "애플망고 손",
-          "soldCount": "3,112",
-          "price": "14,000원"
-            },
-         {
-          "title": "[새벽경매] 고당도 바나나(1손)",
+          "imageAlt": "고당도 참외",
+          "soldCount": "3,224",
+          "price": "4,900원",
+          "hoverImageSrc": "/products/fruit-16-hover.jpg",
+          "hoverImageAlt": "고당도 참외 상세"
+        },
+        {
+          "title": "[새벽경매] 아삭 신고 배(3개)",
           "imageSrc": "/products/fruit-17.jpg",
-          "imageAlt": "바나나 손",
-           "hoverImageSrc": "/products/fruit-17-hover.jpg",
-          "hoverImageAlt": "손에 올린바나나",
-          "soldCount": "5,434",
-          "price": "3,500원"
-           },
-         {
-          "title": "[새벽경매] 워싱턴 체리(500g)",
+          "imageAlt": "아삭 신고 배",
+          "soldCount": "7,484",
+          "price": "6,900원",
+          "hoverImageSrc": "/products/fruit-17-hover.jpg",
+          "hoverImageAlt": "아삭 신고 배 상세"
+        },
+        {
+          "title": "[새벽경매] 스테밀트 체리(300g)",
           "imageSrc": "/products/fruit-18.jpg",
-            "hoverImageSrc": "/products/fruit-18-hover.jpg",
-          "hoverImageAlt": "손에 올린체리",
-          "imageAlt": "체리",
-          "soldCount": "2,544",
-          "price": "14,000원"
-           },
-         {
-          "title": "[새벽경매] 대극천 복숭아(7수)",
+          "imageAlt": "스테밀트 체리",
+          "soldCount": "6,185",
+          "price": "6,000원",
+          "hoverImageSrc": "/products/fruit-18-hover.jpg",
+          "hoverImageAlt": "스테밀트 체리 상세"
+        },
+        {
+          "title": "[새벽경매] 제스프리 골드키위(5개)",
           "imageSrc": "/products/fruit-19.jpg",
-          "imageAlt": "대극천 팩",
-          "soldCount": "1,503",
-          "price": "20,000원"
-            },
-         {
-          "title": "[새벽경매] 초당옥수수(5개)",
+          "imageAlt": "제스프리 골드키위",
+          "soldCount": "4,128",
+          "price": "5,900원",
+          "hoverImageSrc": "/products/fruit-19-hover.jpg",
+          "hoverImageAlt": "제스프리 골드키위 상세"
+        },
+        {
+          "title": "[새벽경매] 고당도 바나나(1손)",
           "imageSrc": "/products/fruit-20.jpg",
-          "imageAlt": "초당옥수수",
-          "soldCount": "3,213",
-          "price": "9,500원"
+          "imageAlt": "고당도 바나나",
+          "soldCount": "7,178",
+          "price": "3,000원",
+          "hoverImageSrc": "/products/fruit-20-hover.jpg",
+          "hoverImageAlt": "고당도 바나나 상세"
+        },
+        {
+          "title": "[새벽경매] 아보카도(1개)",
+          "imageSrc": "/products/fruit-21.jpg",
+          "imageAlt": "아보카도",
+          "soldCount": "5,429",
+          "price": "1,500원"
         }
       ]
     },
@@ -165,8 +201,6 @@
         {
           "title": "[새벽경매] 명품 백오이(5개)",
           "imageAlt": "박스에 담긴 명품 백오이",
-           "hoverImageSrc": "/products/veg-01-hover.jpg",
-          "hoverImageAlt": "손에 든 오이",
           "soldCount": "2,526",
           "price": "1,500원",
           "imageSrc": "/products/veg-01.jpg"
@@ -202,8 +236,6 @@
         {
           "title": "[새벽경매] 미니 파프리카(1팩)",
           "imageAlt": "통에 담긴 미니 파프리카",
-          "hoverImageSrc": "/products/veg-06-hover.jpg",
-          "hoverImageAlt": "파프리카 단면",
           "soldCount": "6,830",
           "price": "3,000원",
           "imageSrc": "/products/veg-05.jpg"
@@ -218,39 +250,10 @@
         {
           "title": "[새벽경매] 조생 햇양파(1망)",
           "imageAlt": "망에 담긴 조생 햇양파",
-           "hoverImageSrc": "/products/veg-07-hover.jpg",
-          "hoverImageAlt": "손에 든 양파",
           "soldCount": "2,547",
           "price": "2,400원",
           "imageSrc": "/products/veg-07.jpg"
-        },
-         {
-          "title": "[새벽경매] 깐마늘(200g)",
-          "imageAlt": "깐마늘",
-           "hoverImageSrc": "/products/veg-09-hover.jpg",
-          "hoverImageAlt": "손에 든 깐마늘",
-          "soldCount": "2,337",
-          "price": "2,300원",
-          "imageSrc": "/products/veg-09.jpg"
-        },
-         {
-          "title": "[새벽경매] 제주 흙당근 (1kg)",
-          "imageAlt": "제주 흙당근",
-           "hoverImageSrc": "/products/veg-10-hover.jpg",
-          "hoverImageAlt": "제주 흙당근",
-          "soldCount": "5,667",
-          "price": "2,200원",
-          "imageSrc": "/products/veg-10.jpg"
-       },
-         {
-          "title": "[새벽경매] 가지 (2개)",
-          "imageAlt": "가지",
-           "hoverImageSrc": "/products/veg-11-hover.jpg",
-          "hoverImageAlt": "가지",
-          "soldCount": "1,456",
-          "price": "1,500원",
-          "imageSrc": "/products/veg-11.jpg"
-         }  
+        }
       ]
     },
     {
@@ -261,8 +264,6 @@
           "title": "[100%암퇘지] 부드러운 목살(600g)",
           "imageSrc": "/products/meat-01.jpg",
           "imageAlt": "트레이에 담긴 목살",
-          "hoverImageSrc": "/products/meat-01-hover.jpg",
-          "hoverImageAlt": "구운 목살",
           "soldCount": "5,080",
           "price": "17,500원"
         },
@@ -325,15 +326,6 @@
       "name": "공구",
       "description": "과일처럼 직접 먹어보고 고른 좋은 퀄리티의 공구상품 소개해드려요",
       "products": [
-        {
-          "title": "[한정수량] 난각번호2번 유정란(특란30구)",
-          "imageSrc": "/products/group-1.jpg",
-          "imageAlt": "유정란 1판",
-          "hoverImageSrc": "/products/group-1-hover.jpg",
-          "hoverImageAlt": "유정란",
-          "soldCount": "1,235",
-          "price": "12,900원"
-        },
         {
           "title": "[한정수량] 자연산 순살볼락(400g)",
           "imageSrc": "/products/group-01.png",
