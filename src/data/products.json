@@ -199,60 +199,153 @@
       "description": "매일 식탁에 올라가는 신선한 야채를 꼼꼼히 골라 소개해드려요",
       "products": [
         {
-          "title": "[새벽경매] 명품 백오이(5개)",
-          "imageAlt": "박스에 담긴 명품 백오이",
-          "soldCount": "2,526",
-          "price": "1,500원",
-          "imageSrc": "/products/veg-01.jpg"
+          "title": "[새벽경매] 강원도 찰 옥수수(특)(5개)",
+          "imageSrc": "/products/veg-01.jpg",
+          "imageAlt": "강원도 찰 옥수수",
+          "soldCount": "7,042",
+          "price": "4,900원",
+          "hoverImageSrc": "/products/veg-01-hover.jpg",
+          "hoverImageAlt": "강원도 찰 옥수수 상세"
         },
         {
-          "title": "[새벽경매] 햇 아삭이고추(특)",
-          "imageAlt": "통에 담긴 햇 아삭이고추",
-          "soldCount": "3,166",
-          "price": "1,500원",
-          "imageSrc": "/products/veg-02.jpg"
+          "title": "[새벽경매] 초당옥수수(5개)",
+          "imageSrc": "/products/veg-02.jpg",
+          "imageAlt": "초당옥수수",
+          "soldCount": "6,851",
+          "price": "6,900원",
+          "hoverImageSrc": "/products/veg-02-hover.jpg",
+          "hoverImageAlt": "초당옥수수 상세"
         },
         {
-          "title": "[새벽경매] 완숙토마토(1kg)",
-          "imageAlt": "손에 든 완숙토마토",
-          "soldCount": "3,133",
-          "price": "3,500원",
-          "imageSrc": "/products/veg-08.jpg"
+          "title": "[새벽경매] 베니지민 꿀 고구마(1kg)",
+          "imageSrc": "/products/veg-03.jpg",
+          "imageAlt": "베니지민 꿀 고구마",
+          "soldCount": "5,863",
+          "price": "4,500원",
+          "hoverImageSrc": "/products/veg-03-hover.jpg",
+          "hoverImageAlt": "베니지민 꿀 고구마 상세"
         },
         {
-          "title": "[새벽경매] 제주 브로콜리",
-          "imageAlt": "손에 든 제주 브로콜리",
-          "soldCount": "1,942",
-          "price": "2,000원",
-          "imageSrc": "/products/veg-03.jpg"
-        },
-        {
-          "title": "[새벽경매] 양상추(특)",
-          "imageAlt": "포장된 양상추",
-          "soldCount": "2,238",
+          "title": "[새벽경매] 수미 감자(특)(1kg)",
+          "imageSrc": "/products/veg-04.jpg",
+          "imageAlt": "수미 감자",
+          "soldCount": "3,180",
           "price": "2,500원",
-          "imageSrc": "/products/veg-04.jpg"
+          "hoverImageSrc": "/products/veg-04-hover.jpg",
+          "hoverImageAlt": "수미 감자 상세"
         },
         {
-          "title": "[새벽경매] 미니 파프리카(1팩)",
-          "imageAlt": "통에 담긴 미니 파프리카",
-          "soldCount": "6,830",
+          "title": "[새벽경매] 하우스 흙당근(1kg내외)",
+          "imageSrc": "/products/veg-05.jpg",
+          "imageAlt": "하우스 흙당근",
+          "soldCount": "3,405",
+          "price": "2,500원",
+          "hoverImageSrc": "/products/veg-05-hover.jpg",
+          "hoverImageAlt": "하우스 흙당근 상세"
+        },
+        {
+          "title": "[새벽경매] 미니 밤 단호박(1통)",
+          "imageSrc": "/products/veg-06.jpg",
+          "imageAlt": "미니 밤 단호박",
+          "soldCount": "4,632",
+          "price": "1,800원",
+          "hoverImageSrc": "/products/veg-06-hover.jpg",
+          "hoverImageAlt": "미니 밤 단호박 상세"
+        },
+        {
+          "title": "[새벽경매] 백오이(5개)",
+          "imageSrc": "/products/veg-07.jpg",
+          "imageAlt": "백오이",
+          "soldCount": "5,704",
+          "price": "2,800원",
+          "hoverImageSrc": "/products/veg-07-hover.jpg",
+          "hoverImageAlt": "백오이 상세"
+        },
+        {
+          "title": "[새벽경매] 동그리 호박(2개)",
+          "imageSrc": "/products/veg-08.jpg",
+          "imageAlt": "동그리 호박",
+          "soldCount": "4,585",
+          "price": "1,000원",
+          "hoverImageSrc": "/products/veg-08-hover.jpg",
+          "hoverImageAlt": "동그리 호박 상세"
+        },
+        {
+          "title": "[새벽경매] 느타리 버섯(1개)",
+          "imageSrc": "/products/veg-09.jpg",
+          "imageAlt": "느타리 버섯",
+          "soldCount": "3,692",
+          "price": "700원",
+          "hoverImageSrc": "/products/veg-09-hover.jpg",
+          "hoverImageAlt": "느타리 버섯 상세"
+        },
+        {
+          "title": "[새벽경매] 팽이버섯(2봉)",
+          "imageSrc": "/products/veg-10.jpg",
+          "imageAlt": "팽이버섯",
+          "soldCount": "6,129",
+          "price": "1,000원",
+          "hoverImageSrc": "/products/veg-10-hover.jpg",
+          "hoverImageAlt": "팽이버섯 상세"
+        },
+        {
+          "title": "[새벽경매] 양파(1망)",
+          "imageSrc": "/products/veg-11.jpg",
+          "imageAlt": "양파",
+          "soldCount": "3,711",
+          "price": "1,800원",
+          "hoverImageSrc": "/products/veg-11-hover.jpg",
+          "hoverImageAlt": "양파 상세"
+        },
+        {
+          "title": "[새벽경매] 여주 가지(2개)",
+          "imageSrc": "/products/veg-12.jpg",
+          "imageAlt": "여주 가지",
+          "soldCount": "4,039",
+          "price": "1,000원",
+          "hoverImageSrc": "/products/veg-12-hover.jpg",
+          "hoverImageAlt": "여주 가지 상세"
+        },
+        {
+          "title": "[새벽경매] 햇 미니파프리카(1팩)",
+          "imageSrc": "/products/veg-13.jpg",
+          "imageAlt": "햇 미니파프리카",
+          "soldCount": "6,499",
           "price": "3,000원",
-          "imageSrc": "/products/veg-05.jpg"
+          "hoverImageSrc": "/products/veg-13-hover.jpg",
+          "hoverImageAlt": "햇 미니파프리카 상세"
         },
         {
-          "title": "[새벽경매] 햇감자(1kg)",
-          "imageAlt": "손에 든 햇감자",
-          "soldCount": "1,819",
-          "price": "3,300원",
-          "imageSrc": "/products/veg-06.jpg"
+          "title": "[새벽경매] 꽃상추(100g)",
+          "imageSrc": "/products/veg-14.jpg",
+          "imageAlt": "꽃상추",
+          "soldCount": "3,342",
+          "price": "800원"
         },
         {
-          "title": "[새벽경매] 조생 햇양파(1망)",
-          "imageAlt": "망에 담긴 조생 햇양파",
-          "soldCount": "2,547",
-          "price": "2,400원",
-          "imageSrc": "/products/veg-07.jpg"
+          "title": "[새벽경매] 꺳잎(1봉)",
+          "imageSrc": "/products/veg-15.jpg",
+          "imageAlt": "꺳잎",
+          "soldCount": "6,471",
+          "price": "1,000원"
+        },
+        {
+          "title": "[새벽경매] 롱그린 아삭이고추(500g)",
+          "imageSrc": "/products/veg-16.jpg",
+          "imageAlt": "롱그린 아삭이고추",
+          "soldCount": "5,861",
+          "price": "6,500원",
+          "hoverImageSrc": "/products/veg-16-hover.jpg",
+          "hoverImageAlt": "롱그린 아삭이고추 상세"
+        },
+        {
+          "title": "[새벽경매] 햇 청양고추(특)(1kg)",
+          "imageSrc": "/products/veg-17.jpg",
+          "imageAlt": "햇 청양고추",
+          "soldCount": "6,975",
+          "price": "8,900원",
+          "hoverImageSrc": "/products/veg-17-hover.jpg",
+          "hoverImageAlt": "햇 청양고추 상세"
         }
       ]
     },
