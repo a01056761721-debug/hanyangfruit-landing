@@ -599,7 +599,15 @@
     {
       "name": "추석용 선물세트",
       "description": "정성을 담은 추석 선물세트를 소개해드려요",
-      "products": []
+      "products": [
+        {
+          "title": "[선물세트] LA 생갈비(3kg)",
+          "imageSrc": "/products/present-01.jpg",
+          "imageAlt": "LA 생갈비 선물세트",
+          "soldCount": "3,463",
+          "price": "가격 미정"
+        }
+      ]
     }
   ]
 }
