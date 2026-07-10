@@ -34,11 +34,11 @@
         },
         {
           "title": "[새벽경매] 옐로우드림 복숭아(1kg)",
-          "imageSrc": "/products/fruit-04.jpg",
+          "imageSrc": "/products/fruit-04-hover.jpg",
           "imageAlt": "옐로우드림 복숭아",
           "soldCount": "2,785",
           "price": "5,000원",
-          "hoverImageSrc": "/products/fruit-04-hover.jpg",
+          "hoverImageSrc": "/products/fruit-04.jpg",
           "hoverImageAlt": "옐로우드림 복숭아 상세"
         },
         {
