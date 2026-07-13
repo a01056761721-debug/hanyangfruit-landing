@@ -498,16 +498,16 @@
           "imageSrc": "/products/group-06.jpg",
           "imageAlt": "국산 서리태 콩국물",
           "soldCount": "3,505",
-          "price": "9,900원"
+          "price": "9,900원",
+           "hoverImageSrc": "/products/group-07-hover.jpg",
+          "hoverImageAlt": "국산 백태 콩국물 상세"
         },
         {
           "title": "[한정수량] 진도 전복 톳 미역국(1팩)",
           "imageSrc": "/products/group-07.jpg",
           "imageAlt": "진도 전복 톳 미역국",
           "soldCount": "5,573",
-          "price": "3,000원",
-          "hoverImageSrc": "/products/group-07-hover.jpg",
-          "hoverImageAlt": "진도 전복 톳 미역국 상세"
+          "price": "3,000원"       
         },
         {
           "title": "[한정수량] 진도 찹쌀 전복죽(1팩)",
