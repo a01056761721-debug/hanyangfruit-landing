@@ -15,6 +15,24 @@
           "hoverImageAlt": "1등화주 수박 상세"
         },
         {
+          "title": "[새벽경매] 대옥계 백도 말랑이(6수)",
+          "imageSrc": "/products/fruit-22.jpg",
+          "imageAlt": "햇사레 그린황도 말랑이",
+          "soldCount": "4,052",
+          "price": "14,000원",
+          "hoverImageSrc": "/products/fruit-22-hover.jpg",
+          "hoverImageAlt": "햇사레 그린황도 말랑이 상세"
+         },
+        {
+          "title": "[새벽경매] 허니 파인애플(1통)",
+          "imageSrc": "/products/fruit-24.jpg",
+          "imageAlt": "햇사레 그린황도 말랑이",
+          "soldCount": "2,052",
+          "price": "6,900원",
+          "hoverImageSrc": "/products/fruit-24-hover.jpg",
+          "hoverImageAlt": "햇사레 그린황도 말랑이 상세"
+          },
+          {
           "title": "[새벽경매] 1등화주 햇사레 그린황도 말랑이(5수)",
           "imageSrc": "/products/fruit-02.jpg",
           "imageAlt": "햇사레 그린황도 말랑이",
@@ -455,12 +473,21 @@
       "description": "과일처럼 직접 먹어보고 고른 좋은 퀄리티의 공구상품 소개해드려요",
       "products": [
         {
+          "title": "[한정수량] 그릭 요거트(150g)",
+          "imageSrc": "/products/group-19.jpg",
+          "imageAlt": "육창고 목살갈비",
+          "soldCount": "6,354",
+          "price": "16,000원",
+          "hoverImageSrc": "/products/group-19-hover.jpg",
+          "hoverImageAlt": "전주한옥 삼계탕 상세"
+        },
+        {
           "title": "[한정수량] 육창고 목살갈비(700g)(2팩)",
           "imageSrc": "/products/group-01.jpg",
           "imageAlt": "육창고 목살갈비",
           "soldCount": "6,354",
           "price": "16,000원"
-        },
+       },
         {
           "title": "[한정수량] 육창고 LA양념갈비(800g)",
           "imageSrc": "/products/group-02.jpg",
