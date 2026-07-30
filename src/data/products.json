@@ -24,15 +24,6 @@
           "hoverImageAlt": "햇사레 그린황도 말랑이 상세"
          },
         {
-          "title": "[새벽경매] 허니 파인애플(1통)",
-          "imageSrc": "/products/fruit-23.jpg",
-          "imageAlt": "햇사레 그린황도 말랑이",
-          "soldCount": "2,052",
-          "price": "6,900원",
-          "hoverImageSrc": "/products/fruit-23-hover.jpg",
-          "hoverImageAlt": "햇사레 그린황도 말랑이 상세"
-          },
-          {
           "title": "[새벽경매] 1등화주 햇사레 그린황도 말랑이(5수)",
           "imageSrc": "/products/fruit-02.jpg",
           "imageAlt": "햇사레 그린황도 말랑이",
@@ -157,24 +148,6 @@
           "price": "4,500원",
           "hoverImageSrc": "/products/fruit-15-hover.jpg",
           "hoverImageAlt": "국산 블루베리 상세"
-        },
-        {
-          "title": "[새벽경매] 고당도 참외(5개)",
-          "imageSrc": "/products/fruit-16.jpg",
-          "imageAlt": "고당도 참외",
-          "soldCount": "3,224",
-          "price": "4,900원",
-          "hoverImageSrc": "/products/fruit-16-hover.jpg",
-          "hoverImageAlt": "고당도 참외 상세"
-        },
-        {
-          "title": "[새벽경매] 아삭 신고 배(3개)",
-          "imageSrc": "/products/fruit-17.jpg",
-          "imageAlt": "아삭 신고 배",
-          "soldCount": "7,484",
-          "price": "6,900원",
-          "hoverImageSrc": "/products/fruit-17-hover.jpg",
-          "hoverImageAlt": "아삭 신고 배 상세"
         },
         {
           "title": "[새벽경매] 스테밀트 체리(300g)",
@@ -341,7 +314,7 @@
           "price": "800원"
         },
         {
-          "title": "[새벽경매] 꺳잎(1봉)",
+          "title": "[새벽경매] 깻잎(1봉)",
           "imageSrc": "/products/veg-15.jpg",
           "imageAlt": "꺳잎",
           "soldCount": "6,471",
@@ -528,20 +501,6 @@
           "price": "9,900원",
            "hoverImageSrc": "/products/group-07-hover.jpg",
           "hoverImageAlt": "국산 백태 콩국물 상세"
-        },
-        {
-          "title": "[한정수량] 진도 전복 톳 미역국(1팩)",
-          "imageSrc": "/products/group-07.jpg",
-          "imageAlt": "진도 전복 톳 미역국",
-          "soldCount": "5,573",
-          "price": "3,000원"       
-        },
-        {
-          "title": "[한정수량] 진도 찹쌀 전복죽(1팩)",
-          "imageSrc": "/products/group-08.jpg",
-          "imageAlt": "진도 찹쌀 전복죽",
-          "soldCount": "5,577",
-          "price": "3,000원"
         },
         {
           "title": "[한정수량] 청정 알래스카 자연산 순살볼락(400g)",
