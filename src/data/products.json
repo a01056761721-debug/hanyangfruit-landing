@@ -285,15 +285,6 @@
           "price": "1,000원"
         },
         {
-          "title": "[새벽경매] 롱그린 아삭이고추(500g)",
-          "imageSrc": "/products/veg-16.jpg",
-          "imageAlt": "롱그린 아삭이고추",
-          "soldCount": "5,861",
-          "price": "6,500원",
-          "hoverImageSrc": "/products/veg-16-hover.jpg",
-          "hoverImageAlt": "롱그린 아삭이고추 상세"
-        },
-        {
           "title": "[새벽경매] 햇 청양고추(특)(1kg)",
           "imageSrc": "/products/veg-17.jpg",
           "imageAlt": "햇 청양고추",
