@@ -24,15 +24,6 @@
           "hoverImageAlt": "햇사레 그린황도 말랑이 상세"
          },
         {
-          "title": "[새벽경매] 1등화주 햇사레 그린황도 말랑이(5수)",
-          "imageSrc": "/products/fruit-02.jpg",
-          "imageAlt": "햇사레 그린황도 말랑이",
-          "soldCount": "5,052",
-          "price": "18,000원",
-          "hoverImageSrc": "/products/fruit-02-hover.jpg",
-          "hoverImageAlt": "햇사레 그린황도 말랑이 상세"
-        },
-        {
           "title": "[새벽경매] 고당도 햇사레 그린황도 말랑이(7수)",
           "imageSrc": "/products/fruit-03.jpg",
           "imageAlt": "고당도 햇사레 그린황도 말랑이",
@@ -42,31 +33,13 @@
           "hoverImageAlt": "고당도 햇사레 그린황도 말랑이 상세"
         },
         {
-          "title": "[새벽경매] 옐로우드림 복숭아(1kg)",
-          "imageSrc": "/products/fruit-04-hover.jpg",
+          "title": "[새벽경매] 경봉 딱딱이 복숭아(1kg)",
+          "imageSrc": "/products/fruit-25.jpg",
           "imageAlt": "옐로우드림 복숭아",
           "soldCount": "2,785",
-          "price": "5,000원",
-          "hoverImageSrc": "/products/fruit-04.jpg",
+          "price": "14,500원",
+          "hoverImageSrc": "/products/fruit-25-hover.jpg",
           "hoverImageAlt": "옐로우드림 복숭아 상세"
-        },
-        {
-          "title": "[새벽경매] 프리미엄 대극천(1.5kg내외)",
-          "imageSrc": "/products/fruit-05.jpg",
-          "imageAlt": "프리미엄 대극천",
-          "soldCount": "5,866",
-          "price": "19,000원",
-          "hoverImageSrc": "/products/fruit-05-hover.jpg",
-          "hoverImageAlt": "프리미엄 대극천 상세"
-        },
-        {
-          "title": "[새벽경매] 호기도 딱딱이 복숭아(2kg내외)",
-          "imageSrc": "/products/fruit-06.jpg",
-          "imageAlt": "호기도 딱딱이 복숭아",
-          "soldCount": "6,222",
-          "price": "18,000원",
-          "hoverImageSrc": "/products/fruit-06-hover.jpg",
-          "hoverImageAlt": "호기도 딱딱이 복숭아 상세"
         },
         {
           "title": "[새벽경매] 고당도 자두(1kg)",
@@ -87,11 +60,11 @@
           "hoverImageAlt": "고당도 멜론 상세"
         },
         {
-          "title": "[새벽경매] 캠벨포도(특특)(9-10수) 1박스",
+          "title": "[새벽경매] 1등 송산 캠벨포도(1송이)",
           "imageSrc": "/products/fruit-09.jpg",
           "imageAlt": "캠벨포도 1박스",
           "soldCount": "7,322",
-          "price": "35,000원",
+          "price": "5,000원",
           "hoverImageSrc": "/products/fruit-09-hover.jpg",
           "hoverImageAlt": "캠벨포도 1박스 상세"
         },
@@ -105,20 +78,20 @@
           "hoverImageAlt": "BK거봉 상세"
         },
         {
-          "title": "[새벽경매] 고당도 거봉(특특)",
+          "title": "[새벽경매] 고당도 거봉(4수)",
           "imageSrc": "/products/fruit-11.jpg",
           "imageAlt": "고당도 거봉",
           "soldCount": "7,413",
-          "price": "25,000원",
+          "price": "15,500원",
           "hoverImageSrc": "/products/fruit-11-hover.jpg",
           "hoverImageAlt": "고당도 거봉 상세"
         },
         {
-          "title": "[새벽경매] 고당도 사과(3개)",
+          "title": "[새벽경매] 1등화주 사과(10개)",
           "imageSrc": "/products/fruit-12.jpg",
           "imageAlt": "고당도 사과",
           "soldCount": "6,477",
-          "price": "13,500원",
+          "price": "12,900원",
           "hoverImageSrc": "/products/fruit-12-hover.jpg",
           "hoverImageAlt": "고당도 사과 상세"
         },
