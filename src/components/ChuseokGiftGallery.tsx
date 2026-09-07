@@ -20,9 +20,9 @@ export default function ChuseokGiftGallery() {
         </p>
       </div>
 
-      <ul className="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-7 lg:gap-8">
+      <ul className="mx-auto grid max-w-4xl grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-7 lg:max-w-5xl lg:gap-8">
         {giftProducts.map((product, index) => (
-          <li key={product.code} className="min-w-0">
+          <li key={product.code} className="flex min-w-0">
             <ChuseokProductCard product={product} index={index} />
           </li>
         ))}
