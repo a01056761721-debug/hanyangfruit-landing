@@ -32,13 +32,13 @@ const HIGHLIGHTS = [
   },
   {
     emoji: "🎁",
-    title: "정성껏 포장",
-    body: "선물용으로 보기 좋게, 받는 분이 기분 좋아지도록 준비합니다.",
+    title: "직접 선별 후 포장",
+    body: "한양과일이 직접 1차 선별 후, 2차 검수까지 꼼꼼하게 마친 과일만 골라 포장까지 책임지고 준비합니다.",
   },
   {
     emoji: "🌾",
-    title: "직접 고른 품질",
-    body: "새벽 경매에서 직접 고른 상품만 선물세트에 담습니다.",
+    title: "한양과일 책임보증",
+    body: "판매로 끝나는 선물세트가 아닙니다. 받아보신 뒤 맛까지 만족하실 수 있도록, 한양과일이 끝까지 책임지겠습니다.",
   },
 ] as const;
 
@@ -83,9 +83,13 @@ export default function ChuseokLanding() {
             </span>
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-pretty text-sm leading-relaxed text-amber-100/90 sm:text-base">
-            직접 고르고, 직접 검수한 상품만 담았습니다.
+            선물은 보기 좋은 것에서 끝나지 않아야 합니다.
             <br />
-            소중한 분께 한양과일의 마음을 선물해 보세요.
+            받는 순간의 만족은 물론, 드시는 순간의 맛까지 기억에 남도록.
+            <br />
+            한양과일은{" "}
+            <span className="font-bold text-amber-100">&apos;예쁘기만 한 선물세트&apos;</span>가 아닌,{" "}
+            <span className="font-bold text-amber-100">&apos;맛까지 제대로 갖춘&apos;</span> 추석 선물세트를 준비했습니다.
           </p>
           <div className="mt-9 flex justify-center">
             <Link href="#gift-products" className={chuseokPrimaryButtonClass}>
