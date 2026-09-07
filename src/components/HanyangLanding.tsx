@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import ChuseokPromoBanner from "@/components/ChuseokPromoBanner";
 import DeliveryMapArrowsBackdrop from "@/components/DeliveryMapArrowsBackdrop";
 import EmpathyImageSlideshow from "@/components/EmpathyImageSlideshow";
 import FloatingNav, {
@@ -221,6 +222,13 @@ export default function HanyangLanding() {
       <FloatingNav
         items={[
           {
+            id: "chuseok",
+            href: "/chuseok",
+            label: "추석선물",
+            ariaLabel: "추석 선물세트 페이지로 이동",
+            icon: "🎁",
+          },
+          {
             id: "products",
             href: "#products",
             label: "상품보기",
@@ -329,8 +337,12 @@ export default function HanyangLanding() {
         </div>
       </header>
 
+      <SectionShell reveal className="pb-4 pt-8 sm:pb-6 sm:pt-10">
+        <ChuseokPromoBanner />
+      </SectionShell>
+
       {/* 2. 공감 */}
-      <SectionShell reveal className="relative z-10 mt-32 rounded-[1.75rem] bg-gradient-to-b from-red-600 to-red-700 py-14 shadow-lg shadow-red-950/30 sm:mt-40 sm:py-16 lg:mt-48">
+      <SectionShell reveal className="relative z-10 mt-10 rounded-[1.75rem] bg-gradient-to-b from-red-600 to-red-700 py-14 shadow-lg shadow-red-950/30 sm:mt-12 sm:py-16 lg:mt-14">
         <div className="mx-auto max-w-5xl text-center">
           <h2 className="text-xl font-black text-white drop-shadow-sm sm:text-2xl">
             과일 시켜서 먹을 때 이런 적 없으셨나요?

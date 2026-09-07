@@ -1,0 +1,47 @@
+{
+  "brandLabel": "한양과일 기업선물",
+  "qualityTag": "당도 · 식감 · 품위 · 스킨 | 출고 전 재검수",
+  "inquiryUrl": "https://accounts.kakao.com/login/?continue=https%3A%2F%2Fpf.kakao.com%2F_xkxadfn%2Fchat#login",
+  "products": [
+    {
+      "code": "FRUIT 01",
+      "title": "고당도 명품 K-멜론",
+      "specs": "1박스 | 3~4수",
+      "price": "59,000원",
+      "description": "가장 좋은 네트와 품위를 갖춘 고품질 멜론만 엄선합니다.",
+      "imageSrc": "/products/chuseok/chuseok-01-melon.png",
+      "imageAlt": "고당도 명품 K-멜론 선물세트",
+      "theme": "silk"
+    },
+    {
+      "code": "FRUIT 02",
+      "title": "프리미엄 홍로 사과",
+      "specs": "1박스 5KG | 11수 내외",
+      "price": "99,000원",
+      "description": "명절 과일도 맛으로 기억되도록. 당도·식감·품위·스킨까지 꼼꼼히 검수합니다.",
+      "imageSrc": "/products/chuseok/chuseok-02-apple.png",
+      "imageAlt": "프리미엄 홍로 사과 선물세트",
+      "theme": "blossom"
+    },
+    {
+      "code": "FRUIT 03",
+      "title": "명품 신고 배",
+      "specs": "1박스 | 7.5KG",
+      "price": "79,000원",
+      "description": "가락시장 1등 화주의 우수한 원물 중 선물의 품격에 맞는 배만 엄선합니다.",
+      "imageSrc": "/products/chuseok/chuseok-03-pear.png",
+      "imageAlt": "명품 신고 배 선물세트",
+      "theme": "frame"
+    },
+    {
+      "code": "FRUIT 04",
+      "title": "모듬 샤인머스켓",
+      "specs": "1박스 4KG | 4수",
+      "price": "55,000원",
+      "description": "20브릭스 이상 고당도 샤인머스켓만 한 송이씩 꼼꼼하게 선별합니다.",
+      "imageSrc": "/products/chuseok/chuseok-04-grape.png",
+      "imageAlt": "모듬 샤인머스켓 선물세트",
+      "theme": "cloud"
+    }
+  ]
+}
