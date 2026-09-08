@@ -25,7 +25,7 @@ export default function ChuseokGiftGallery() {
         ))}
       </ul>
 
-      <div className="mt-10 flex justify-center sm:mt-12">
+      <div className="mt-10 hidden justify-center sm:mt-12 sm:flex">
         <Link
           href={CHUSEOK_ORDER_URL}
           target="_blank"

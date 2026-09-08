@@ -30,6 +30,7 @@ export default function ChuseokProductCard({ product, index }: ChuseokProductCar
             src={product.imageSrc}
             alt={product.imageAlt}
             fill
+            unoptimized
             className="object-contain object-center"
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 22rem"
             priority={index < 2}

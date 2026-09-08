@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import ChuseokGiftAudience from "@/components/ChuseokGiftAudience";
 import ChuseokGiftGallery from "@/components/ChuseokGiftGallery";
+import ChuseokMobileOrderBar from "@/components/ChuseokMobileOrderBar";
 import ChuseokOrderInfo from "@/components/ChuseokOrderInfo";
 import FloatingNav from "@/components/FloatingNav";
 import {
@@ -48,7 +49,7 @@ const HIGHLIGHTS = [
 
 export default function ChuseokLanding() {
   return (
-    <div className="relative flex min-h-screen flex-col overflow-x-hidden bg-indigo-950">
+    <div className="relative flex min-h-screen flex-col overflow-x-hidden bg-indigo-950 pb-[calc(5rem+env(safe-area-inset-bottom))] sm:pb-0">
       <FloatingNav
         variant="chuseok"
         items={[
@@ -175,6 +176,8 @@ export default function ChuseokLanding() {
           </p>
         </SectionShell>
       </footer>
+
+      <ChuseokMobileOrderBar />
     </div>
   );
 }

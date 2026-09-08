@@ -8,29 +8,29 @@
       "title": "고당도 명품 K-멜론",
       "specs": "1박스 | 3~4수",
       "price": "59,000원",
-      "description": "가장 좋은 네트와 품위를 갖춘 고품질 멜론만 엄선합니다.",
-      "imageSrc": "/products/chuseok/chuseok-01-melon.png",
+      "description": "21브릭스 이상 높은 당도만 검수, 가장 좋은 네트와 품위를 갖춘 고품질 멜론만 엄선해서 보내드립니다.",
+      "imageSrc": "/products/chuseok/chuseok-01-melon-v2.png",
       "imageAlt": "고당도 명품 K-멜론 선물세트",
       "theme": "silk"
     },
     {
       "code": "FRUIT 02",
       "title": "프리미엄 홍로 사과",
-      "specs": "1박스 5KG | 11수 내외",
+      "specs": "1박스 5KG | 13수 내외",
       "price": "99,000원",
-      "description": "명절 과일도 맛으로 기억되도록. 당도·식감·품위·스킨까지 꼼꼼히 검수합니다.",
+      "description": "16브릭스 이상 사과만 선별하겠습니다. 명절 사과, 맛 없다는 인식을 싹 바꿔드리겠습니다.",
       "imageSrc": "/products/chuseok/chuseok-02-apple.png",
       "imageAlt": "프리미엄 홍로 사과 선물세트",
       "theme": "blossom"
     },
     {
       "code": "FRUIT 03",
-      "title": "명품 신고 배",
+      "title": "명품 화산 배",
       "specs": "1박스 | 7.5KG",
-      "price": "79,000원",
-      "description": "가락시장 1등 화주의 우수한 원물 중 선물의 품격에 맞는 배만 엄선합니다.",
+      "price": "69,000원",
+      "description": "기본 12브릭스 이상, 과즙과 아삭함을 갖춘 정말 맛있는 배를 준비했습니다.",
       "imageSrc": "/products/chuseok/chuseok-03-pear.png",
-      "imageAlt": "명품 신고 배 선물세트",
+      "imageAlt": "명품 화산 배 선물세트",
       "theme": "frame"
     },
     {
@@ -38,7 +38,7 @@
       "title": "모듬 샤인머스켓",
       "specs": "1박스 4KG | 4수",
       "price": "55,000원",
-      "description": "20브릭스 이상 고당도 샤인머스켓만 한 송이씩 꼼꼼하게 선별합니다.",
+      "description": "20브릭스 이상 고당도 샤인머스켓만 한 송이씩 꼼꼼하게 선별합니다. 백화점보다 품질 좋은 당도를 보여드리겠습니다.",
       "imageSrc": "/products/chuseok/chuseok-04-grape.png",
       "imageAlt": "모듬 샤인머스켓 선물세트",
       "theme": "cloud"

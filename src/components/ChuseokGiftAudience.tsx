@@ -59,12 +59,18 @@ export default function ChuseokGiftAudience() {
             {PROMISES.map((promise, index) => (
               <li
                 key={promise}
-                className="flex gap-3 text-sm leading-relaxed text-amber-100/90 sm:text-base"
+                className="flex min-w-0 gap-3 text-sm leading-relaxed text-amber-100/90 sm:text-base"
               >
                 <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-amber-300/20 text-xs font-black text-amber-200 sm:h-7 sm:w-7 sm:text-sm">
                   {index + 1}
                 </span>
-                <span className={`pt-0.5 ${index === 0 ? "whitespace-nowrap" : ""}`}>{promise}</span>
+                <span
+                  className={`min-w-0 flex-1 pt-0.5 text-pretty ${
+                    index === 0 ? "sm:whitespace-nowrap" : ""
+                  }`}
+                >
+                  {promise}
+                </span>
               </li>
             ))}
           </ol>
