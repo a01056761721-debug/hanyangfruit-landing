@@ -15,9 +15,6 @@ export default function ChuseokGiftGallery() {
     >
       <div className="mb-8 text-center sm:mb-10">
         <h2 className="text-xl font-black text-white sm:text-2xl">추석 선물세트 라인업</h2>
-        <p className="mx-auto mt-2 max-w-md text-sm text-amber-100/75 sm:text-base">
-          기업·가족 선물에 어울리는 과일 세트를 준비했습니다.
-        </p>
       </div>
 
       <ul className="mx-auto grid max-w-4xl grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-7 lg:max-w-5xl lg:gap-8">
