@@ -3,12 +3,14 @@ import Link from "next/link";
 import ChuseokGiftAudience from "@/components/ChuseokGiftAudience";
 import ChuseokGiftGallery from "@/components/ChuseokGiftGallery";
 import ChuseokOrderInfo from "@/components/ChuseokOrderInfo";
+import FloatingNav from "@/components/FloatingNav";
 import {
   ChuseokNightBackdrop,
   chuseokGhostButtonClass,
   chuseokGlassCardClass,
   chuseokPrimaryButtonClass,
 } from "@/components/ChuseokDecor";
+import { CHUSEOK_ORDER_URL, OPEN_CHAT_URL } from "@/lib/site";
 
 function SectionShell({
   children,
@@ -47,6 +49,41 @@ const HIGHLIGHTS = [
 export default function ChuseokLanding() {
   return (
     <div className="relative flex min-h-screen flex-col overflow-x-hidden bg-indigo-950">
+      <FloatingNav
+        variant="chuseok"
+        items={[
+          {
+            id: "order",
+            href: CHUSEOK_ORDER_URL,
+            label: "주문하기",
+            ariaLabel: "추석 선물세트 주문 페이지로 이동",
+            icon: "🛒",
+            external: true,
+          },
+          {
+            id: "products",
+            href: "#gift-products",
+            label: "상품보기",
+            ariaLabel: "추석 선물세트 상품 섹션으로 이동",
+            icon: "🎁",
+          },
+          {
+            id: "inquiry",
+            href: OPEN_CHAT_URL,
+            label: "문의하기",
+            ariaLabel: "한양과일 카카오 채널로 문의",
+            icon: "💬",
+            external: true,
+          },
+          {
+            id: "main",
+            href: "/",
+            label: "메인페이지",
+            ariaLabel: "한양과일 메인 페이지로 이동",
+            icon: "🏠",
+          },
+        ]}
+      />
       <header className="relative isolate w-full overflow-hidden">
         <ChuseokNightBackdrop moonVariant="hero" />
 

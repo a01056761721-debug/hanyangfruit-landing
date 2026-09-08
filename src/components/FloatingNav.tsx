@@ -14,18 +14,36 @@ type FloatingNavItem = {
 
 type FloatingNavProps = {
   items: FloatingNavItem[];
+  variant?: "default" | "chuseok";
+  wideGapItemIds?: readonly string[];
 };
 
 /** 상품보기·주문방법·배송지역·유튜브 — 모바일 펼침 시 간격 축소, PC는 20px */
-const WIDE_GAP_ITEM_IDS = [
+const DEFAULT_WIDE_GAP_ITEM_IDS = [
   "products",
   "order-method",
   "delivery-areas",
   "youtube",
+  "main",
 ] as const;
 
-function iconLabelGapClass(itemId: string, isExpanded: boolean) {
-  const isWide = WIDE_GAP_ITEM_IDS.includes(itemId as (typeof WIDE_GAP_ITEM_IDS)[number]);
+const BUTTON_VARIANT_CLASS = {
+  default:
+    "bg-red-600 text-white shadow-xl shadow-red-900/25 ring-2 ring-white hover:scale-105 hover:bg-red-700 focus-visible:ring-4 focus-visible:ring-red-200 active:scale-95 active:bg-red-800",
+  chuseok:
+    "border border-amber-200/30 bg-gradient-to-b from-amber-200 to-amber-400 text-red-950 shadow-lg shadow-amber-900/30 ring-2 ring-amber-100/50 hover:scale-105 hover:brightness-110 focus-visible:ring-4 focus-visible:ring-amber-200 active:scale-95 active:brightness-95",
+} as const;
+
+function iconLabelGapClass(
+  itemId: string,
+  isExpanded: boolean,
+  wideGapItemIds: readonly string[],
+  uniformGap: boolean,
+) {
+  if (uniformGap) {
+    return isExpanded ? "w-full gap-1" : "gap-0 sm:gap-1";
+  }
+  const isWide = wideGapItemIds.includes(itemId);
   if (isWide) {
     // 모바일 펼침: gap-1 / PC(sm+): 항상 gap-5
     return isExpanded ? "w-full gap-1 sm:gap-5" : "gap-0 sm:gap-5";
@@ -35,7 +53,7 @@ function iconLabelGapClass(itemId: string, isExpanded: boolean) {
 
 /** 아이콘/이모지가 차지하는 칸 — 모든 버튼 동일 크기 */
 const ICON_SLOT_CLASS =
-  "flex h-4 w-4 shrink-0 items-center justify-center sm:h-5 sm:w-5 [&_svg]:h-full [&_svg]:w-full";
+  "flex h-4 w-4 shrink-0 items-center justify-center text-sm leading-none sm:h-5 sm:w-5 sm:text-base [&_svg]:h-full [&_svg]:w-full";
 
 /**
  * 우측 중앙에 고정되는 빠른 이동 네비.
@@ -44,7 +62,11 @@ const ICON_SLOT_CLASS =
  * - PC(sm 이상): 아이콘+글을 붙인 뒤 버튼 안에서 가운데 정렬.
  *   상품보기/주문방법/배송지역/유튜브는 모바일 gap-1, PC gap-5. 인스타그램은 gap-1.
  */
-export default function FloatingNav({ items }: FloatingNavProps) {
+export default function FloatingNav({
+  items,
+  variant = "default",
+  wideGapItemIds = DEFAULT_WIDE_GAP_ITEM_IDS,
+}: FloatingNavProps) {
   const [expandedId, setExpandedId] = useState<string | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
 
@@ -77,7 +99,8 @@ export default function FloatingNav({ items }: FloatingNavProps) {
     >
       {items.map((item) => {
         const isExpanded = expandedId === item.id;
-        const gapClass = iconLabelGapClass(item.id, isExpanded);
+        const uniformGap = variant === "chuseok";
+        const gapClass = iconLabelGapClass(item.id, isExpanded, wideGapItemIds, uniformGap);
         return (
           <Link
             key={item.id}
@@ -87,7 +110,7 @@ export default function FloatingNav({ items }: FloatingNavProps) {
             aria-label={item.ariaLabel}
             aria-expanded={isExpanded || undefined}
             onClick={handleClick(item.id)}
-            className={`inline-flex items-center justify-center overflow-hidden rounded-full bg-red-600 text-xs font-black text-white shadow-xl shadow-red-900/25 ring-2 ring-white transition-all duration-200 hover:scale-105 hover:bg-red-700 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-red-200 active:scale-95 active:bg-red-800 sm:h-11 sm:w-36 sm:px-0 sm:text-sm ${
+            className={`inline-flex items-center justify-center overflow-hidden rounded-full text-xs font-black transition-all duration-200 focus-visible:outline-none sm:h-11 sm:w-36 sm:px-0 sm:text-sm ${BUTTON_VARIANT_CLASS[variant]} ${
               isExpanded ? "h-9 w-28 px-3" : "h-9 w-9 px-0"
             } [&_svg]:h-4 [&_svg]:w-4 sm:[&_svg]:!h-5 sm:[&_svg]:!w-5`}
           >
