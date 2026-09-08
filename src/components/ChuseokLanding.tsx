@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
+import ChuseokGiftAudience from "@/components/ChuseokGiftAudience";
 import ChuseokGiftGallery from "@/components/ChuseokGiftGallery";
+import ChuseokOrderInfo from "@/components/ChuseokOrderInfo";
 import {
   ChuseokNightBackdrop,
   chuseokGhostButtonClass,
@@ -112,6 +114,10 @@ export default function ChuseokLanding() {
           ))}
         </div>
       </SectionShell>
+
+      <ChuseokGiftAudience />
+
+      <ChuseokOrderInfo />
 
       <ChuseokGiftGallery />
 
