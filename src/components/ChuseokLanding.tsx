@@ -162,10 +162,7 @@ export default function ChuseokLanding() {
       <footer className="relative mt-auto overflow-hidden py-12 sm:py-14">
         <ChuseokNightBackdrop moonVariant="footer" showMoon />
         <SectionShell className="text-center">
-          <p className="text-sm font-bold text-amber-200/80">한가위를 함께해요</p>
-          <h2 className="mt-2 text-lg font-black text-white sm:text-xl">
-            한양과일 추석 선물세트
-          </h2>
+          <p className="text-sm font-bold text-amber-200/80 sm:text-base">풍성한 한가위 되세요</p>
           <div className="mt-6 flex justify-center">
             <Link href="/" className={chuseokGhostButtonClass}>
               메인 페이지
