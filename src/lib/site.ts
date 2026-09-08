@@ -6,7 +6,7 @@ export const OPEN_CHAT_URL =
 
 /** 추석 선물세트 주문 페이지 */
 export const CHUSEOK_ORDER_URL =
-  "https://xn--z92bu1i0sh.kr/Order?mode=51001=N0efa6a944f754e38a140683eeb2c66ec";
+  "https://xn--z92bu1i0sh.kr/Order?mode=51001=N36a3c51c7c784aea846866524cbf49f9";
 
 /**
  * 히어로 배경 영상 (public 기준 경로).
