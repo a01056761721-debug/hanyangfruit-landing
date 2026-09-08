@@ -1,7 +1,7 @@
 import Link from "next/link";
 import ChuseokProductCard, { type ChuseokGiftProduct } from "@/components/ChuseokProductCard";
 import { chuseokPrimaryButtonClass } from "@/components/ChuseokDecor";
-import { OPEN_CHAT_URL } from "@/lib/site";
+import { CHUSEOK_ORDER_URL } from "@/lib/site";
 import chuseokGiftsData from "@/data/chuseok-gifts.json";
 
 export default function ChuseokGiftGallery() {
@@ -27,7 +27,7 @@ export default function ChuseokGiftGallery() {
 
       <div className="mt-10 flex justify-center sm:mt-12">
         <Link
-          href={OPEN_CHAT_URL}
+          href={CHUSEOK_ORDER_URL}
           target="_blank"
           rel="noopener noreferrer"
           className={chuseokPrimaryButtonClass}

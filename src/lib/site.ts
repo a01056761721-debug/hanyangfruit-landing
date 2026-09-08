@@ -4,6 +4,10 @@ import siteConfig from "@/data/site.json";
 export const OPEN_CHAT_URL =
   process.env.NEXT_PUBLIC_OPEN_CHAT_URL ?? "https://pf.kakao.com/_xkxadfn/chat";
 
+/** 추석 선물세트 주문 페이지 */
+export const CHUSEOK_ORDER_URL =
+  "https://xn--z92bu1i0sh.kr/Order?mode=51001=N0efa6a944f754e38a140683eeb2c66ec";
+
 /**
  * 히어로 배경 영상 (public 기준 경로).
  * 운영자가 `src/data/site.json`의 `media.heroVideo`에서 경로를 바꿀 수 있습니다.
