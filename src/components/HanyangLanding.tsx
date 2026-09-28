@@ -12,7 +12,12 @@ import OrderStepsCarousel from "@/components/OrderStepsCarousel";
 import ProductShowcase from "@/components/ProductShowcase";
 import ReviewPhoneCarousel from "@/components/ReviewPhoneCarousel";
 import ScrollRevealController from "@/components/ScrollRevealController";
-import { DIFFERENCE_VIDEO, FOUNDER_IMAGE, OPEN_CHAT_URL } from "@/lib/site";
+import {
+  DIFFERENCE_VIDEO,
+  FOUNDER_IMAGE,
+  OPEN_CHAT_URL,
+  isChuseokCampaignEnabled,
+} from "@/lib/site";
 
 function CtaButton({
   children,
@@ -216,11 +221,9 @@ const EMPATHY_PAIN_POINTS: readonly {
 ];
 
 export default function HanyangLanding() {
-  return (
-    <div className="relative isolate flex min-h-screen flex-col overflow-x-hidden bg-white">
-      <ScrollRevealController />
-      <FloatingNav
-        items={[
+  const floatingNavItems = [
+    ...(isChuseokCampaignEnabled
+      ? [
           {
             id: "chuseok",
             href: "/chuseok",
@@ -228,45 +231,51 @@ export default function HanyangLanding() {
             ariaLabel: "추석 선물세트 페이지로 이동",
             icon: "🎁",
           },
-          {
-            id: "products",
-            href: "#products",
-            label: "상품보기",
-            ariaLabel: "상품소개 섹션으로 이동",
-            icon: "🧺",
-          },
-          {
-            id: "order-method",
-            href: "#order-method",
-            label: "주문방법",
-            ariaLabel: "주문방법 섹션으로 이동",
-            icon: "📝",
-          },
-          {
-            id: "delivery-areas",
-            href: "#delivery-areas",
-            label: "배송지역",
-            ariaLabel: "배송지역 섹션으로 이동",
-            icon: "🚚",
-          },
-          {
-            id: "instagram",
-            href: INSTAGRAM_URL,
-            label: "Instagram",
-            ariaLabel: "한양과일 인스타그램으로 이동",
-            icon: <FloatingInstagramIcon />,
-            external: true,
-          },
-          {
-            id: "youtube",
-            href: YOUTUBE_URL,
-            label: "YouTube",
-            ariaLabel: "한양과일 유튜브 채널로 이동",
-            icon: <FloatingYouTubeIcon />,
-            external: true,
-          },
-        ]}
-      />
+        ]
+      : []),
+    {
+      id: "products",
+      href: "#products",
+      label: "상품보기",
+      ariaLabel: "상품소개 섹션으로 이동",
+      icon: "🧺",
+    },
+    {
+      id: "order-method",
+      href: "#order-method",
+      label: "주문방법",
+      ariaLabel: "주문방법 섹션으로 이동",
+      icon: "📝",
+    },
+    {
+      id: "delivery-areas",
+      href: "#delivery-areas",
+      label: "배송지역",
+      ariaLabel: "배송지역 섹션으로 이동",
+      icon: "🚚",
+    },
+    {
+      id: "instagram",
+      href: INSTAGRAM_URL,
+      label: "Instagram",
+      ariaLabel: "한양과일 인스타그램으로 이동",
+      icon: <FloatingInstagramIcon />,
+      external: true,
+    },
+    {
+      id: "youtube",
+      href: YOUTUBE_URL,
+      label: "YouTube",
+      ariaLabel: "한양과일 유튜브 채널로 이동",
+      icon: <FloatingYouTubeIcon />,
+      external: true,
+    },
+  ];
+
+  return (
+    <div className="relative isolate flex min-h-screen flex-col overflow-x-hidden bg-white">
+      <ScrollRevealController />
+      <FloatingNav items={floatingNavItems} />
       <div className="relative z-10 flex flex-col flex-1 bg-white">
       {/* 로고 + 히어로 — 전면 배경 영상 + 어두운 오버레이(레퍼런스형) */}
       <header className="relative isolate w-full overflow-hidden">
@@ -337,9 +346,11 @@ export default function HanyangLanding() {
         </div>
       </header>
 
-      <SectionShell reveal className="pb-4 pt-8 sm:pb-6 sm:pt-10">
-        <ChuseokPromoBanner />
-      </SectionShell>
+      {isChuseokCampaignEnabled ? (
+        <SectionShell reveal className="pb-4 pt-8 sm:pb-6 sm:pt-10">
+          <ChuseokPromoBanner />
+        </SectionShell>
+      ) : null}
 
       {/* 2. 공감 */}
       <SectionShell reveal className="relative z-10 mt-10 rounded-[1.75rem] bg-gradient-to-b from-red-600 to-red-700 py-14 shadow-lg shadow-red-950/30 sm:mt-12 sm:py-16 lg:mt-14">

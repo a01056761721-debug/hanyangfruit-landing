@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
+import { redirect } from "next/navigation";
 import ChuseokLanding from "@/components/ChuseokLanding";
+import { isChuseokCampaignEnabled } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "추석 선물세트 | 한양과일",
@@ -14,5 +16,9 @@ export const metadata: Metadata = {
 };
 
 export default function ChuseokPage() {
+  if (!isChuseokCampaignEnabled) {
+    redirect("/");
+  }
+
   return <ChuseokLanding />;
 }

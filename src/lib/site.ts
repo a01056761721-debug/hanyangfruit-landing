@@ -1,5 +1,9 @@
 import siteConfig from "@/data/site.json";
 
+/** 추석 선물세트 캠페인(메인 배너, /chuseok). `src/data/site.json` → `campaigns.chuseok.enabled` */
+export const isChuseokCampaignEnabled =
+  siteConfig.campaigns?.chuseok?.enabled ?? false;
+
 /** 카카오 채널 채팅 등 기본 링크. `.env`의 `NEXT_PUBLIC_OPEN_CHAT_URL`로 덮어쓸 수 있어요. */
 export const OPEN_CHAT_URL =
   process.env.NEXT_PUBLIC_OPEN_CHAT_URL ?? "https://pf.kakao.com/_xkxadfn/chat";
