@@ -3,7 +3,7 @@
   "campaigns": {
     "chuseok": {
       "enabled": true,
-      "note": "메인 배너·플로팅 '공구선주문'·/chuseok 노출 ON. 상품·문구는 src/data/group-buy-preorder.json 에서 수정. (추석 선물세트는 chuseok-gifts.json 보관)"
+      "note": "메인 배너·플로팅 '공구선주문'·/preorder 노출 ON. 상품·문구는 src/data/group-buy-preorder.json 에서 수정. (추석 선물세트는 chuseok-gifts.json 보관)"
     }
   },
   "media": {

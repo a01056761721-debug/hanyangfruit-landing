@@ -1,6 +1,6 @@
 import siteConfig from "@/data/site.json";
 
-/** 추석 선물세트 캠페인(메인 배너, /chuseok). `src/data/site.json` → `campaigns.chuseok.enabled` */
+/** 공구 선주문 캠페인(메인 배너, /preorder). `src/data/site.json` → `campaigns.chuseok.enabled` */
 export const isChuseokCampaignEnabled =
   siteConfig.campaigns?.chuseok?.enabled ?? false;
 

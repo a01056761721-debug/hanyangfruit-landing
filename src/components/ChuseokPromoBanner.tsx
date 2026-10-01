@@ -7,7 +7,7 @@ export default function ChuseokPromoBanner() {
 
   return (
     <Link
-      href="/chuseok"
+      href="/preorder"
       className="group relative block min-h-[11.5rem] overflow-hidden rounded-[1.75rem] shadow-xl shadow-red-900/25 ring-2 ring-white/30 transition hover:scale-[1.01] hover:shadow-2xl hover:ring-white/50 sm:min-h-[12.5rem] lg:min-h-[14rem]"
     >
       <GroupBuyBackdrop variant="banner" />

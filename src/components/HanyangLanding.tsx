@@ -226,7 +226,7 @@ export default function HanyangLanding() {
       ? [
           {
             id: "chuseok",
-            href: "/chuseok",
+            href: "/preorder",
             label: "공구선주문",
             ariaLabel: "공구 선주문 페이지로 이동",
             icon: "📦",
