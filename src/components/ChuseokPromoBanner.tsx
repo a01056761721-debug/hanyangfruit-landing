@@ -18,7 +18,7 @@ export default function ChuseokPromoBanner() {
             {groupBuyData.tagline}
           </p>
           <p className="mt-2 text-balance text-xl font-black leading-relaxed text-white sm:text-2xl lg:text-[1.65rem]">
-            한우 · 장어 선주문
+            {groupBuyData.pageTitle}
             <br />
             <span className="text-yellow-300">{schedule.orderDeadline} 마감</span>
           </p>
