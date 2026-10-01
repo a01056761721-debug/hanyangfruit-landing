@@ -7,7 +7,6 @@ import FloatingNav from "@/components/FloatingNav";
 import {
   GroupBuyBackdrop,
   groupBuyGhostButtonClass,
-  groupBuyOutlineButtonClass,
   groupBuyPrimaryButtonClass,
 } from "@/components/GroupBuyDecor";
 import { CHUSEOK_ORDER_URL, OPEN_CHAT_URL } from "@/lib/site";
@@ -34,11 +33,12 @@ export default function ChuseokLanding() {
   return (
     <div className="relative flex min-h-screen flex-col overflow-x-hidden bg-neutral-50 pb-[calc(5rem+env(safe-area-inset-bottom))] sm:pb-0">
       <FloatingNav
+        variant="chuseok"
         items={[
           {
             id: "order",
             href: CHUSEOK_ORDER_URL,
-            label: "선주문",
+            label: "주문하기",
             ariaLabel: "공구 선주문 주문 페이지로 이동",
             icon: "🛒",
             external: true,
@@ -125,7 +125,7 @@ export default function ChuseokLanding() {
       <footer className="relative mt-auto border-t border-red-100 bg-white py-12 sm:py-14">
         <SectionShell className="text-center">
           <p className="text-sm font-bold text-red-800 sm:text-base">
-            선주문·입고 문의는 카카오 채널로 편하게 남겨 주세요
+            문의는 카카오 채널로 편하게 남겨 주세요
           </p>
           <div className="mt-6 flex flex-wrap justify-center gap-3">
             <Link
@@ -135,9 +135,6 @@ export default function ChuseokLanding() {
               className={groupBuyPrimaryButtonClass}
             >
               오픈채팅 문의
-            </Link>
-            <Link href="/" className={groupBuyOutlineButtonClass}>
-              메인 페이지
             </Link>
           </div>
           <p className="mt-8 text-xs text-neutral-500" suppressHydrationWarning>

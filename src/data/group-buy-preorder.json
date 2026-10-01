@@ -13,11 +13,11 @@
       "photoNote": "실제 작업 사진입니다.",
       "title": "1+ 암소 한우 채끝",
       "description": "소 한 마리에서 나오는 양이 많지 않아 한정 수량으로 준비합니다.",
-      "imageSrc": "/products/preorder/chaekkeut-01.jpg",
+      "imageSrc": "/products/preorder/chaekkeut-03.jpg",
       "imageSrcs": [
+        "/products/preorder/chaekkeut-03.jpg",
         "/products/preorder/chaekkeut-01.jpg",
-        "/products/preorder/chaekkeut-02.jpg",
-        "/products/preorder/chaekkeut-03.jpg"
+        "/products/preorder/chaekkeut-02.jpg"
       ],
       "imageAlt": "1+ 암소 한우 채끝 선주문",
       "badge": "한정수량",

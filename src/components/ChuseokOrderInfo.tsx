@@ -45,6 +45,10 @@ export default function ChuseokOrderInfo() {
           <div className={`${groupBuyMutedCardClass} border-2 border-amber-400 bg-amber-50`}>
             <dt className="text-sm font-black text-red-800 sm:text-base">구매 수량 제한</dt>
             <dd className="mt-2 space-y-2 text-sm leading-relaxed text-neutral-800 sm:text-base">
+              <p>
+                채끝 / 안심은 소 한 마리에서 많이 나오는 부위가 아니다 보니 준비된 수량이 많지
+                않습니다.
+              </p>
               <ul className="space-y-1.5">
                 <li>
                   <strong>채끝</strong> — 1인 최대 4팩 (한정수량)
