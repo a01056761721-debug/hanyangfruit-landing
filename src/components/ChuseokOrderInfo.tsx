@@ -1,79 +1,62 @@
-import { chuseokGlassCardClass } from "@/components/ChuseokDecor";
+import { groupBuyCardClass, groupBuyMutedCardClass } from "@/components/GroupBuyDecor";
+import groupBuyData from "@/data/group-buy-preorder.json";
 
 export default function ChuseokOrderInfo() {
+  const { schedule } = groupBuyData;
+
   return (
     <section
       id="order-info"
-      className="relative z-10 mx-auto w-full max-w-5xl scroll-mt-6 px-4 pt-6 sm:px-6 sm:pt-8"
+      className="relative z-10 mx-auto w-full max-w-5xl scroll-mt-6 px-4 pt-8 sm:px-6 sm:pt-10"
     >
-      <article className={`${chuseokGlassCardClass} mx-auto max-w-3xl`}>
-        <h2 className="text-center text-lg font-black text-white sm:text-xl">
-          추석 선물세트 주문 안내
+      <article className={`${groupBuyCardClass} mx-auto max-w-3xl`}>
+        <h2 className="text-center text-lg font-black text-red-950 sm:text-xl">
+          선주문 · 수령 안내
         </h2>
 
         <dl className="mt-6 space-y-5 sm:mt-7">
-          <div className="rounded-2xl border border-amber-400/20 bg-amber-950/20 px-4 py-4 sm:px-5 sm:py-5">
-            <dt className="text-sm font-black text-amber-200 sm:text-base">주문 기간</dt>
-            <dd className="mt-1.5 text-sm leading-relaxed text-amber-100/90 sm:text-base">
-              9월 8일(화) ~ 9월 16일(수)
+          <div className={`${groupBuyMutedCardClass} border-2 border-red-300 bg-red-50`}>
+            <dt className="text-sm font-black text-red-800 sm:text-base">선주문 기간</dt>
+            <dd className="mt-1.5 text-base font-black text-red-700 sm:text-lg">
+              {schedule.orderPeriod}
             </dd>
           </div>
 
-          <div className="rounded-2xl border border-amber-400/20 bg-amber-950/20 px-4 py-4 sm:px-5 sm:py-5">
-            <dt className="text-sm font-black text-amber-200 sm:text-base">
-              🚨 주문서 작성 방법
-            </dt>
-            <dd className="mt-3 space-y-4 text-sm leading-relaxed text-amber-100/90 sm:text-base">
-              <p>
-                추석 선물세트 택배 주문 시
-                <br />
-                주문서에 아래 정보를 정확하게 작성해주세요.
+          <div className={`${groupBuyMutedCardClass} border-2 border-red-600 bg-red-600 text-white`}>
+            <dt className="text-sm font-black text-yellow-200 sm:text-base">일괄 수령일</dt>
+            <dd className="mt-2 space-y-2 text-sm leading-relaxed sm:text-base">
+              <p className="text-lg font-black text-white sm:text-xl">
+                선주문 상품은 전부 {schedule.pickupDate} 일괄 수령입니다.
               </p>
-
-              <div className="space-y-3">
-                <div className="rounded-xl border border-amber-400/15 bg-amber-400/5 px-3.5 py-3.5 sm:px-4 sm:py-4">
-                  <p className="font-black text-amber-100">① 기본 주소 칸에</p>
-                  <p className="mt-1.5">보내시는 분의 정보(성함,주소,번호)를 입력해주세요.</p>
-                </div>
-
-                <div className="rounded-xl border border-amber-400/15 bg-amber-400/5 px-3.5 py-3.5 sm:px-4 sm:py-4">
-                  <p className="font-black text-amber-100">② 요청사항 칸에</p>
-                  <p className="mt-1.5">택배 받으실 분의 정보(성함,주소,번호)를 입력해주세요.</p>
-                </div>
-              </div>
-
-              <div className="rounded-xl border border-amber-300/30 bg-amber-300/10 px-3.5 py-3.5 sm:px-4 sm:py-4">
-                <p className="font-black text-amber-100">📌 꼭 기억해주세요!</p>
-                <p className="mt-2">
-                  기본 주소 = 보내는 분 정보
-                  <br />
-                  요청사항 = 받는 분 정보
-                </p>
-              </div>
-
-              <p>
-                ⚠️ 받으시는 분의 성함 / 주소 / 전화번호가 누락되거나 잘못 입력될 경우 배송에 문제가
-                생길 수 있습니다.
-              </p>
-              <p>
-                추석 기간에는 택배 주문량이 많은 만큼
-                <br />
-                주문 완료 전 입력하신 정보를 한 번 더 꼭 확인 부탁드립니다. 🙏
+              <p className="text-red-100">
+                주문 후 바로 배송되지 않으며, 수령일을 따로 지정하기 어렵습니다. 양해 부탁드립니다.
               </p>
             </dd>
           </div>
 
-          <div className="rounded-2xl border border-amber-400/20 bg-amber-950/20 px-4 py-4 sm:px-5 sm:py-5">
-            <dt className="text-sm font-black text-amber-200 sm:text-base">택배 발송</dt>
-            <dd className="mt-1.5 space-y-2 text-sm leading-relaxed text-amber-100/90 sm:text-base">
-              <p>9월 15일부터 순차 발송됩니다.</p>
-              <p>
-                좋은 상품이 입고되는 즉시 발송하는 방식으로 진행되어 배송일 지정은 어렵습니다.
-              </p>
-              <p>
-                품절 시에는 다시 좋은 상품을 선별해 준비하며, 예약해주신 선물세트는 추석 전까지 꼭
-                받아보실 수 있도록 책임지고 발송하겠습니다.
-              </p>
+          <div className={groupBuyMutedCardClass}>
+            <dt className="text-sm font-black text-red-800 sm:text-base">합배송 안내</dt>
+            <dd className="mt-1.5 text-sm leading-relaxed text-neutral-700 sm:text-base">
+              {schedule.pickupDate} 당일 판매하는 과일·야채를 추가 주문하시면 선주문 상품과 함께
+              배송받으실 수 있습니다.
+            </dd>
+          </div>
+
+          <div className={`${groupBuyMutedCardClass} border-2 border-amber-400 bg-amber-50`}>
+            <dt className="text-sm font-black text-red-800 sm:text-base">구매 수량 제한</dt>
+            <dd className="mt-2 space-y-2 text-sm leading-relaxed text-neutral-800 sm:text-base">
+              <ul className="space-y-1.5">
+                <li>
+                  <strong>채끝</strong> — 1인 최대 4팩 (한정수량)
+                </li>
+                <li>
+                  <strong>안심</strong> — 1인 최대 2팩 (한정수량)
+                </li>
+                <li>
+                  <strong>장어</strong> — 수량 제한 없음
+                </li>
+              </ul>
+              <p className="pt-1 font-bold text-red-900">주문 시 수량 제한을 꼭 확인해 주세요.</p>
             </dd>
           </div>
         </dl>

@@ -227,9 +227,9 @@ export default function HanyangLanding() {
           {
             id: "chuseok",
             href: "/chuseok",
-            label: "추석선물",
-            ariaLabel: "추석 선물세트 페이지로 이동",
-            icon: "🎁",
+            label: "공구선주문",
+            ariaLabel: "공구 선주문 페이지로 이동",
+            icon: "📦",
           },
         ]
       : []),

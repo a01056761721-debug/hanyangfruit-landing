@@ -4,13 +4,13 @@ import ChuseokLanding from "@/components/ChuseokLanding";
 import { isChuseokCampaignEnabled } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "추석 선물세트 | 한양과일",
+  title: "한우 채끝 · 안심 · 자포니카 장어 선주문 | 한양과일",
   description:
-    "2026 추석 한정, 한양과일 추석 선물세트. 새벽 경매에서 직접 고른 백화점급 상품을 정성껏 담았습니다.",
+    "1+ 암소 한우 채끝·안심, 프리미엄 자포니카 장어 선주문. 10월 8일(목) 일괄 수령.",
   openGraph: {
-    title: "추석 선물세트 | 한양과일",
+    title: "한우 채끝 · 안심 · 자포니카 장어 선주문 | 한양과일",
     description:
-      "2026 추석 한정, 한양과일 추석 선물세트. 새벽 경매에서 직접 고른 백화점급 상품을 정성껏 담았습니다.",
+      "1+ 암소 한우 채끝·안심, 프리미엄 자포니카 장어 선주문. 10월 8일(목) 일괄 수령.",
     url: "/chuseok",
   },
 };
