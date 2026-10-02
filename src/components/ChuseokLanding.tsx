@@ -102,7 +102,7 @@ export default function ChuseokLanding() {
           </p>
           <div className="mt-9 flex flex-wrap justify-center gap-3">
             <Link href="#gift-products" className={groupBuyPrimaryButtonClass}>
-              상품 보기 ↓
+              상품 보기
             </Link>
             <Link
               href={OPEN_CHAT_URL}
