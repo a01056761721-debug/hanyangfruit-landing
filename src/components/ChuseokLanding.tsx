@@ -5,7 +5,7 @@ import ChuseokMobileOrderBar from "@/components/ChuseokMobileOrderBar";
 import ChuseokOrderInfo from "@/components/ChuseokOrderInfo";
 import FloatingNav from "@/components/FloatingNav";
 import {
-  GroupBuyBackdrop,
+  AutumnHeroBackdrop,
   groupBuyGhostButtonClass,
   groupBuyPrimaryButtonClass,
 } from "@/components/GroupBuyDecor";
@@ -31,7 +31,7 @@ function SectionShell({
 export default function ChuseokLanding() {
   const { schedule } = groupBuyData;
   return (
-    <div className="relative flex min-h-screen flex-col overflow-x-hidden bg-neutral-50 pb-[calc(5rem+env(safe-area-inset-bottom))] sm:pb-0">
+    <div className="relative flex min-h-screen flex-col overflow-x-hidden bg-[#f6f1e7] pb-[calc(5rem+env(safe-area-inset-bottom))] sm:pb-0">
       <FloatingNav
         variant="chuseok"
         items={[
@@ -69,9 +69,9 @@ export default function ChuseokLanding() {
       />
 
       <header className="relative isolate w-full overflow-hidden">
-        <GroupBuyBackdrop variant="hero" />
+        <AutumnHeroBackdrop />
 
-        <SectionShell className="flex items-center justify-between gap-3 border-b border-white/20 py-3 sm:py-4">
+        <SectionShell className="relative z-10 flex items-center justify-between gap-3 border-b border-white/20 py-3 sm:py-4">
           <Link href="/" className="shrink-0 rounded-lg bg-white px-2 py-1 shadow-md">
             <Image
               src="/logo-hanyang-fruit.png"
@@ -87,7 +87,7 @@ export default function ChuseokLanding() {
           </Link>
         </SectionShell>
 
-        <SectionShell className="py-14 text-center sm:py-20 lg:py-24">
+        <SectionShell className="relative z-10 pb-6 pt-10 text-center sm:pb-10 sm:pt-14 lg:pt-16">
           <span className="inline-flex items-center rounded-full border border-white/40 bg-white/15 px-4 py-1.5 text-xs font-black tracking-wide text-white sm:text-sm">
             {groupBuyData.tagline}
           </span>
@@ -115,6 +115,28 @@ export default function ChuseokLanding() {
           </div>
         </SectionShell>
 
+        <div className="pointer-events-none absolute bottom-1 left-14 z-[1] w-[min(42vw,9.5rem)] sm:left-28 sm:w-64 sm:translate-y-1 lg:left-48 lg:w-72">
+          <Image
+            src="/preorder/hero-family.png"
+            alt=""
+            width={1023}
+            height={537}
+            className="h-auto w-full"
+            priority
+          />
+        </div>
+
+        <div className="pointer-events-none absolute bottom-1 right-14 z-[1] w-[min(42vw,9.5rem)] sm:right-28 sm:w-64 sm:translate-y-1 lg:right-48 lg:w-72">
+          <Image
+            src="/preorder/hero-delivery.png"
+            alt=""
+            width={973}
+            height={561}
+            className="h-auto w-full"
+            priority
+          />
+        </div>
+
         <div className="pointer-events-none absolute inset-x-0 bottom-0 z-10 h-1 bg-gradient-to-r from-transparent via-yellow-300/70 to-transparent" />
       </header>
 
@@ -122,7 +144,7 @@ export default function ChuseokLanding() {
 
       <ChuseokGiftGallery />
 
-      <footer className="relative mt-auto border-t border-red-100 bg-white py-12 sm:py-14">
+      <footer className="relative mt-auto border-t border-amber-200/80 bg-[#f6f1e7] py-12 sm:py-14">
         <SectionShell className="text-center">
           <p className="text-sm font-bold text-red-800 sm:text-base">
             문의는 카카오 채널로 편하게 남겨 주세요

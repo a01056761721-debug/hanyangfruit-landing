@@ -38,20 +38,22 @@ export function ChuseokNightBackdrop({
 }: ChuseokNightBackdropProps) {
   const moonClass =
     moonVariant === "hero"
-      ? "pointer-events-none absolute -right-8 top-8 h-40 w-40 rounded-full bg-gradient-to-br from-amber-100 via-amber-300 to-amber-500 shadow-[0_0_80px_rgba(251,191,36,0.5)] sm:right-8 sm:top-12 sm:h-52 sm:w-52 lg:h-60 lg:w-60"
+      ? "pointer-events-none absolute -left-6 top-16 h-28 w-28 rounded-full bg-gradient-to-br from-amber-100 via-amber-300 to-amber-500 shadow-[0_0_70px_rgba(251,191,36,0.45)] sm:left-6 sm:top-20 sm:h-36 sm:w-36 lg:left-10 lg:h-44 lg:w-44"
       : moonVariant === "footer"
         ? "pointer-events-none absolute -left-10 bottom-0 h-28 w-28 rounded-full bg-gradient-to-br from-amber-200/80 via-amber-400/60 to-amber-500/40 shadow-[0_0_40px_rgba(251,191,36,0.3)] sm:h-36 sm:w-36"
         : "pointer-events-none absolute left-3 top-1/2 z-0 h-32 w-32 -translate-y-1/2 rounded-full bg-gradient-to-br from-amber-100 via-amber-300 to-amber-500 opacity-95 shadow-[0_0_60px_rgba(251,191,36,0.55)] sm:left-5 sm:h-40 sm:w-40 lg:h-44 lg:w-44";
 
   const moonGlowClass =
-    moonVariant === "banner"
-      ? "absolute inset-0 bg-[radial-gradient(ellipse_at_18%_20%,rgba(251,191,36,0.35),transparent_55%)]"
-      : "absolute inset-0 bg-[radial-gradient(ellipse_at_80%_15%,rgba(251,191,36,0.32),transparent_55%)]";
+    moonVariant === "hero"
+      ? "absolute inset-0 bg-[radial-gradient(ellipse_at_14%_32%,rgba(251,191,36,0.4),transparent_52%)]"
+      : moonVariant === "banner"
+        ? "absolute inset-0 bg-[radial-gradient(ellipse_at_18%_20%,rgba(251,191,36,0.35),transparent_55%)]"
+        : "absolute inset-0 bg-[radial-gradient(ellipse_at_80%_15%,rgba(251,191,36,0.32),transparent_55%)]";
 
   return (
     <div aria-hidden className={`pointer-events-none absolute inset-0 overflow-hidden ${className}`}>
       <div className="absolute inset-0 bg-gradient-to-br from-indigo-950 via-[#4a1020] to-amber-950" />
-      <div className={moonGlowClass} />
+      {showMoon ? <div className={moonGlowClass} /> : null}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_12%_88%,rgba(220,38,38,0.22),transparent_50%)]" />
       <div
         className="absolute inset-0 opacity-[0.06]"
